@@ -1,0 +1,1241 @@
+*, France
+*, Germany
+02130, Finland
+04103, Leipzig, Germany
+07719, Nj, USA
+07743, Germany
+1071, Anyangcheon-Ro, Yangcheon-Gu, Seoul, South Korea
+1234, Israel
+74081, Germany
+98693, Germany
+A, Tx, USA
+Aachen, Germany
+Aarhus, Denmark
+Aberdeen Proving Ground, Md, USA
+Abu Dhabi, United Arab Emirates
+Acton, Ma, USA
+Adelaide, Australia
+Adelaide, Sa, Australia
+Aichi, Japan
+Aichi-Ken, Japan
+Aix-En-Provence, France
+Albuquerque, Nm, USA
+Alessandria, Italy
+Alexandria, Va, USA
+Allen, Mi, USA
+Allston, Ma, USA
+Alma, Quebec, Canada
+Altrincham, United Kingdom
+Ambilly, France
+Amherst, Ma, USA
+Amiens
+Amiens, France
+Amstelveen, Netherlands
+Amsterdam, Netherlands
+Amsterdam, Nh, Netherlands
+Ann Arbor, Mi, USA
+Annandale, Australia
+Annerley, Australia
+Ansan, South Korea
+Ansan-Si, Gyeonggi-Do, South Korea
+Ansan-Si, South Korea
+Anseong-Si, South Korea
+Anthony, Nm, USA
+Antony, France
+Antwerp, Belgium
+Anyang, South Korea
+Anyang-Si, Gyeonggi-Do, South Korea
+Anyang-Si, South Korea
+Apple Valley, Mn, USA
+Arcadia, Ca, USA
+Arlington, Ma, USA
+Arlington, Va, USA
+Armidale, Australia
+Arnhem, Netherlands
+Arvada, Co, USA
+Ashwood, Vic, Australia
+Asker, Norway
+Astoria, USA
+Athens, Ga, USA
+Athens, Oh, USA
+Atlanta, Ga, USA
+Atlanta, USA
+Auburn University, Al, USA
+Auburn, Al, USA
+Auburndale, Ma, USA
+Auckland City, New Zealand
+Auckland, New Zealand
+Augsburg, Germany
+Aurora, Co, USA
+Aurora, Il, USA
+Austell, Ga, USA
+Austin, Tx, USA
+Badalona, Spain
+Bahama, Nc, USA
+Ballwin, Mo, USA
+Baltimore, Md, USA
+Bangalore, India
+Bangalore,Karnataka, India
+Bangkok, Thailand
+Barakaldo, Spain
+Barcelona, Ct, Spain
+Barcelona, Sc, Spain
+Barcelona, Spain
+Bari, Italy
+Barking, United Kingdom
+Baronissi, Italy
+Basel, Switzerland
+Bath, United Kingdom
+Bayonne, Nj, USA
+Beaconsfield, Quebec, Canada
+Bear, De, USA
+Bedford, Canada
+Beeliar, Australia
+Beer Sheva, Israel
+Beeston, United Kingdom
+Beijing City, China
+Beijing, Ab, China
+Beijing, Al, China
+Beijing, Ca, China
+Beijing, USA
+Beijing,China, USA
+Bejing, China
+Bejing, China, China
+Belconnen, Australia
+Belgrade, Serbia And Montenegro
+Belleville, Wi, USA
+Belmont, Ma, USA
+Belmont, USA
+Belo Horizonte, Brazil
+Bend, Or, USA
+Bengaluru, India
+Bentonville, Ar, USA
+Bergen, Norway
+Berkeley, Ca, USA
+Berlin, Germany
+Bern 60, Switzerland
+Bern, Switzerland
+Berowra, Australia
+Bethel Park, Pa, USA
+Bethesda, Md, USA
+Bethesda, Va, USA
+Bethlehem, Pa, USA
+Biberach An Der Riss, Germany
+Birchgrove, Australia
+Birmingham, Al, USA
+Birmingham, USA
+Birmingham, United Kingdom
+Birtinya, Australia
+Birtinya, Queensland, Australia
+Blacksburg, Va, USA
+Bloomfield Hills, Mi, USA
+Bloomfield, Nj, USA
+Bloomington, In, USA
+Blythewood, Sc, USA
+Bochum, Germany
+Bonn, Germany
+Bordeaux Cedex, France
+Bordeaux, France
+Bordeaux, USA
+Bosisio Parini (Lc), Italy
+Bosisio Parini, Italy
+Boston, Ma, Ma, USA
+Boston, Ma, USA
+Boulder, Co, USA
+Bowen Hills, Australia
+Boxmeer, Netherlands
+Boys Town, Ne, USA
+Braga, Portugal
+Brampton, On, Canada
+Branford, Ct, USA
+Brescia, Italy
+Brighton, Ma, USA
+Brighton, Singapore
+Brighton, USA
+Brighton, United Kingdom
+Brisbane City, Australia
+Brisbane, Australia
+Brisbane, Qld, Australia
+Brisbane, Queensland, Australia
+Bristol, United Kingdom
+Brno, Czech Republic
+Broadmeadow, Australia
+Bron, France
+Bronx, Ny, USA
+Brookfield, Ca, USA
+Brookline, Ma, USA
+Brooklyn, Australia
+Brooklyn, Ny, USA
+Brossard, Quebec, Canada
+Brownsville, Tx, USA
+Brunswick, Australia
+Brunswick, Vic, Australia
+Brussels, Belgium
+Bruxelles, Belgium
+Buc, France
+Bucheon, South Korea
+Bucheon-Si, South Korea
+Buffalo, Ny, USA
+Bundang-Gu, South Korea
+Bunkyo-Ku, Japan
+Burbank, Ca, USA
+Burbank, USA
+Bures Sur Yvette, France
+Burlington, Vt, USA
+Burnaby, Bc, Canada
+Burwood, Australia
+Burwood, Victoria, Australia
+Busan, South Korea
+Bushenge, Rwanda
+Butare, Rwanda
+Caen, France
+Cairo, Egypt
+Caledon, On, Canada
+Calgary, Ab, Canada
+Calgary, Canada
+Callaghan, Australia
+Cambridge, Cambridgeshire, United Kingdom
+Cambridge, Ma, USA
+Cambridge, USA
+Cambridge, United Kingdom
+Camerino (Mc), Italy
+Campbellsville, Ky, USA
+Camperdown, Australia
+Camperdown, Nsw, Australia
+Campinas, Brazil
+Campinas/Sp, Brazil
+Campus Box 8225, Mo, USA
+Canada, On, Canada
+Canberra, Australia
+Canterbury, Australia
+Canton, Mi, USA
+Canton, Oh, USA
+Cape Paterson, Australia
+Cape Town, South Africa
+Cardiff, United Kingdom
+Carignan, Quebec, Canada
+Carina, Australia
+Carlton, Australia
+Carlton, Victoria, Australia
+Carmarthenshire, United Kingdom
+Carnegie, Australia
+Carouge, Switzerland
+Castelló, Spain
+Castellón De La Plana, Spain
+Catonsville, Md, USA
+Cedar Park, Tx, USA
+Chambly, Quebec, Canada
+Champaign, Il, USA
+Chandler, Az, USA
+Changchun, China
+Changhua County, Taiwan
+Changsha, China
+Changwon, South Korea
+Chapel Hill, Australia
+Chapel Hill, Nc, USA
+Charleston, Sc, USA
+Charlestown, Australia
+Charlestown, Ma, USA
+Charlottesville, Va, USA
+Chatswood, Australia
+Chelmsford, United Kingdom
+Chengdu City, China
+Chengdu, China
+Chengdu, Sichuan, China
+Chengdu, USA
+Chennai, India
+Cheonan, South Korea
+Cheonan-Si, South Korea
+Cheongju, South Korea
+Chepstow, United Kingdom
+Cheshire, Ct, USA
+Chester, United Kingdom
+Cheswick, Pa, USA
+Chiayi, Taiwan
+Chiba, Japan
+Chicago, Il, USA
+Chicago, USA
+Chieti, Italy
+China, China
+Chofu, Japan
+Chongqing, China
+Christchurch, New Zealand
+Chuncheon, South Korea
+Chungcheongnam-Do, South Korea
+Cincinnati Ohio, Oh, USA
+Cincinnati, Oh, USA
+Clarksburg, Md, USA
+Clayton, Australia
+Clayton, Vic, Australia
+Cleveland, Oh, USA
+Clinton, Pa, USA
+Coimbra, Portugal
+Colchester, United Kingdom
+Coldwater, On, Canada
+Cologne, Germany
+Columbia, Md, USA
+Columbia, Ny, USA
+Columbia, Sc, Sc, USA
+Columbia, Sc, USA
+Columbus, Oh, USA
+Concepción, Chile
+Copenhagen, Denmark
+Coral Gables, Fl, USA
+Coral Springs, Fl, USA
+Coralville, Ia, USA
+Corrimal, Australia
+Costa Mesa, Ca, USA
+Coventry, United Kingdom
+Cranbury, Nj, USA
+Crispano, Italy
+Créteil, France
+Culver City, Ca, USA
+Dae-Gu, South Korea
+Daegu, South Korea
+Daejeon Metropolitan City, South Korea
+Daejeon, South Korea
+Daejeon, USA
+Daejeon-Si, South Korea
+Daejon, South Korea
+Dagenham, United Kingdom
+Dalian, China
+Dallas, Tx, USA
+Dandenong, Australia
+Darlington, Australia
+Dartmouth, Canada
+Davis, Ca, USA
+Deagu, South Korea
+Decatur, Ga, USA
+Den Haag, Netherlands
+Denmark Hill, United Kingdom
+Denver, Co, USA
+Deogyang-Gu, Goyang-Si, South Korea
+Detroit, Mi, USA
+Distrito Federal, Mexico
+Dollard-Des-Ormeaux, Quebec, Canada
+Dollard-Des-Ormeaux, Québec, Canada
+Dong-Gu, South Korea
+Donostia-San Sebastián, Spain
+Dortmund, Germany
+Dresden, Germany
+Dublin, Id, Ireland
+Dublin, Ireland
+Duluth, Ga, USA
+Dundee, United Kingdom
+Dunedin, New Zealand
+Dunedin, Otago, New Zealand
+Dunwoody, Ga, USA
+Durham, Nc, USA
+Durham, United Kingdom
+Dutton Park, Australia
+Dübendorf, Switzerland
+Düsseldorf, Germany
+Düsseldorf, North Rhine-Westphalia, Germany
+East Hanover, Nj, USA
+East Haven, Ct, USA
+East Lansing, Mi, USA
+Ecublens, Switzerland
+Edinburgh, United Kingdom
+Edmonton, Ab, Canada
+Egham, United Kingdom
+Eindhoven, Netherlands
+El Paso, Tx, USA
+Elanora, Qld, Australia
+Elst
+Elst, Gelderland, Netherlands
+Elst, Netherlands
+Ely, United Kingdom
+Emerald Hills, Ca, USA
+Emeryville, Ca, USA
+Erlangen, Germany
+Erskineville, Nsw, Australia
+Espoo, Finland
+Essen, Germany
+Essendon, Australia
+Essendon, Vic, Australia
+Esterel, Quebec, Canada
+Etobicoke, On, Canada
+Eugene, Or, USA
+Evanston, Il, USA
+Exeter, United Kingdom
+Fairfax, Va, USA
+Farmington Hills, Mi, USA
+Fenwick, On, Canada
+Fitchburg, Wi, USA
+Fitzroy North, Australia
+Fitzroy, Australia
+Forest Hills, Ny, USA
+Fort Mcmurray, Ab, Canada
+Fort Worth, Tx, USA
+Frankfurt Am Main, Germany
+Frankfurt, Germany
+Freemont, Ca, USA
+Freiburg Im Breisgau, Germany
+Freiburg, Germany
+Fribourg, Switzerland
+Fujisawa, Japan
+Fukui, Japan
+Fukuoka, Japan
+Fukushima, Japan
+Fuzhou, China
+Gainesville, Fl, USA
+Galapagar, Spain
+Galway, Ireland
+Gangnam, South Korea
+Gangnam-Gu, Seoul, South Korea
+Gangnamgu, South Korea
+Garner, Nc, USA
+Geneva, USA
+Genova, Italy
+Genève, Switzerland
+Georgetown, Ma, USA
+Germantown, Md, USA
+Geumjeong-Gu, South Korea
+Ghent, Belgium
+Gieres, France
+Giessen, Germany
+Gif Sur Yvette Cédex, France
+Gif-Sur-Yvette, France
+Gilching, Germany
+Gisborne, New Zealand
+Gits, Belgium
+Gland, Switzerland
+Glasgow, United Kingdom
+Glen Allen, Va, USA
+Glen Head, Ny, USA
+Glen Oaks, Ny, USA
+Glen Rock, Nj, USA
+Glen Waverley, Australia
+Glostrup, Denmark
+Gloucester, Ma, USA
+Goettingen, Germany
+Goettingen, Niedersachsen, Germany
+Gold Coast, Australia
+Goleta, Ca, Ca, USA
+Goleta, Ca, USA
+Gongju-Si, South Korea
+Goyang, South Korea
+Goyang-Si, South Korea
+Goyangsi, South Korea
+Graz, Austria
+Green Cove Springs, Fl, USA
+Greenbelt, Md, USA
+Greifswald, Germany
+Grenoble, France
+Groningen, Netherlands
+Gräfelfing, Germany
+Guangdong, China
+Guangzhou, China
+Guangzhou, Guangdong, China
+Guelph, On, Canada
+Guildford, USA
+Guildford, United Kingdom
+Guilford, Ct, USA
+Guilin, China
+Gumi, South Korea
+Gunma, Japan
+Gunsan, South Korea
+Gunsan-Si, South Korea
+Gurgaon, India
+Guri, South Korea
+Gurugram, Haryana, India
+Gurugram, India
+Gwacheon-Si, South Korea
+Gwanak-Gu, Seoul, South Korea
+Gwanak-Gu, South Korea
+Gwanak-gu, South Korea
+Gwangju, South Korea
+Gyeonggi, South Korea
+Gyeonggi-Do, South Korea
+Göteborg, Sweden
+Habana, Cuba
+Hadfield, Australia
+Haidian District, China
+Haifa, Israel
+Haikou, China
+Hakadal, Norway
+Halifax, Canada
+Halifax, Ns, Canada
+Halle, Belgium
+Hamamatsu, Japan
+Hamamatsu, Shizuoka, Japan
+Hamburg, Germany
+Hamden, Ct, USA
+Hamilton, Australia
+Hamilton, On, Canada
+Hangzhou, Zhejiang, China
+Hanover, Nh, USA
+Hanover,Nh, Nh, USA
+Harbin, China
+Hartsdale, Ny, USA
+Hasselt, Belgium
+Haworth, Nj, USA
+Hawthorn, Australia
+Hawthorn, Vic, Australia
+Headington, Oxford, United Kingdom
+Hefei City, China
+Hefei, China
+Heidelberg West, Australia
+Heidelberg, Australia
+Heidelberg, Germany
+Heidelberg, USA
+Heidelberg, Victoria, Australia
+Heilbronn, Germany
+Heinsberg, Germany
+Helsinki, Finland
+Henderson, Nv, USA
+Hershey, Pa, USA
+Herston Qld, Australia
+Herston, Australia
+Hinsdale, Il, USA
+Hiroshima, Japan
+Hksar, Hong Kong
+Hokkaido, Japan
+Hong Kong
+Hong Kong Sar, Hong Kong
+Hong Kong, Hong Kong
+Hongkong, China
+Hongkong, China, China
+Honolulu, Hi, USA
+Hopsten, Germany
+Houston, Tx, USA
+Hove, United Kingdom
+Hsinchu City, Taiwan
+Hsinchu County, Taiwan
+Hsinchu, Taiwan
+Hsinchu, Tpe, Taiwan
+Huddinge, Sweden
+Hvidovre, Denmark
+Hürth, Germany
+Ilmenau, Germany
+Incheon, South Korea
+Incheon, USA
+Indianapolis, In, USA
+Inning A. Ammersee, Germany
+Innsbruck, Austria
+Inuyama, Japan
+Iowa City, Ia, USA
+Irun, Spain
+Irvine, Ca, USA
+Isfahan, Iran
+Italy, Italy
+Ithaca, Ny, USA
+Jena, Germany
+Jeonbuk-Do, South Korea
+Jeonju, South Korea
+Jeonju-Si, Jeonbuk-Do, South Korea
+Jeonju-Si, South Korea
+Jericho, Ny, USA
+Jersey City, Nj, USA
+Jerusalem, Israel
+Jhongli City, Taiwan
+Jinan, Shandong, China
+Jingzhou, China
+Jinhua, China
+Johns Creek, Ga, USA
+Jongno-Gu, South Korea
+Juriquilla, Querétaro, Mexico
+Jülich, Germany
+Jülich, Nrw, Germany
+Kami City, Japan
+Kami, Japan
+Kami, Kochi, Japan
+Kami-Shi, Kochi-Ken, Japan
+Kampala, Uganda
+Kanagawa, Japan
+Kanazawa, Japan
+Kansas City, Ks, USA
+Kaohsiung City, Taiwan
+Kaohsiung, Taiwan
+Karachi, Pakistan
+Karnataka, India
+Katy, Tx, USA
+Kawagoe-Shi, Japan
+Kawasaki, Japan
+Kazo, Saitama, Japan
+Kearney, Ne, USA
+Kelvin Grove, Australia
+Kelvin Grove, Brisbane, Australia
+Kenmore, Queensland, Australia
+Kensington, Md, USA
+Key Biscayne, Fl, USA
+Kfar Sava, Israel
+Kgs. Lyngby, Denmark
+Kibuye, Rwanda
+Kiel, Germany
+Kigali, Rwanda
+Kingston, Canada
+Kingston, On, Canada
+Kingston, USA
+Klang, Malaysia
+Klecany, Czech Republic
+Kobe, Japan
+Koblenz, Germany
+Kochi, Japan
+Kolkata, India
+Korolev, Russian Federation
+Kota Bharu, Malaysia
+Kowloon City, Hong Kong
+Kowloon Tong, Hong Kong
+Kowloon, Hong Kong
+Kraków, Poland
+Kristianstad, Sweden
+Kunsan, South Korea
+Kuopio, Finland
+Kyotanabe, Kyoto, Japan
+Kyotanabe-Shi, Kyoto, Japan
+Kyoto, Japan
+Kyoto, Kyoto, Japan
+København V, Denmark
+La Jolla, Ca, USA
+La Mesa, Ca, USA
+La Prairie, Quebec, Canada
+Lachine, Canada
+Lachine, Quebec, Canada
+Ladera Ranch, Ca, USA
+Lagos, Nigeria
+Lalitpur, Nepal
+Las Vegas, Nv, USA
+Las Vegas, Oh, USA
+Lasalle, On, Canada
+Lasalle, Quebec, Canada
+Lathlain, Australia
+Lausanne 26, Switzerland
+Lausanne, Ca, Switzerland
+Lausanne, Switzerland
+Laval, Quebec, Canada
+Le Chesnay-Rocquencourt, France
+Leeds, United Kingdom
+Lehi, Ut, USA
+Leicester, United Kingdom
+Leiden, Netherlands
+Leipzig - Zentrum-Ost, Germany
+Leipzig, Germany
+Lethbridge, Ab, Canada
+Leuven, Belgium
+Lexington, Ky, USA
+Lexington, Ma, USA
+Liaoning, China
+Liberty Hill, Tx, USA
+Lille, France
+Lincoln, Ne, USA
+Lindenhurst, Ny, USA
+Linkoping, Sweden
+Linz, Austria
+Lisbon, Portugal
+Little Rock, Ar, USA
+Liverpool, United Kingdom
+Liège, Belgium
+London Ontario, Canada
+London, Canada
+London, Fl, USA
+London, On, Canada
+London, On, United Kingdom
+London, USA
+London, United Kingdom
+Londres, United Kingdom
+Longueuil, Quebec, Canada
+Los Angeles Ca, Ca, USA
+Los Angeles County, Ca, USA
+Los Angeles, Ca, USA
+Los Angeles, USA
+Louisville, Co, USA
+Louvain La Neuve, Belgium
+Lublin, Poland
+Lucca, Italy
+Lucknow, India
+Lund, Sweden
+Luzern, Switzerland
+Lynbrook, Australia
+Lynchburg, Va, USA
+Lyon, France
+Lørenskog, Norway
+Lübeck, Germany
+M.b.din, Pakistan
+Maastricht, Netherlands
+Macau, China
+Macau, Macao
+Machida, Japan
+Madison Heights, Mi, USA
+Madison, Wi, USA
+Madrid, Spain
+Maebashi, Gunma, Japan
+Magdeburg, Germany
+Magdeburg, Saxony-Anhalt, Germany
+Mainz, Germany
+Malden, Ma, USA
+Malmö, Sweden
+Manchester, United Kingdom
+Manhasset, Ny, USA
+Manlius, Ny, USA
+Mannheim, Germany
+Marburg, Germany
+Mardi, Australia
+Marina Del Rey, Ca, USA
+Marseille Cedex 01, France
+Marseille, France
+Maspeth, Ny, USA
+Massagno, Switzerland
+Massy, France
+Mazor, Israel
+Mckees Rocks, Pa, USA
+Md, USA
+Medford, Ma, USA
+Meguro, Tokyo, Japan
+Melbourne, Australia
+Melbourne, Singapore
+Melbourne, Victoria, Australia
+Memphis, Tn, USA
+Meriden, Nh, USA
+Merseyside, United Kingdom
+Messina, Italy
+Metuchen, Nj, USA
+Mexico City, Mexico
+Miami Gardens, USA
+Miami, Fl, USA
+Mill Valley, Ca, USA
+Milton, On, Canada
+Milwaukee, USA
+Milwaukee, Wi, USA
+Minneapolis, Mn, USA
+Mission Hills, Ca, USA
+Mississauga, On, Canada
+Missoula, Mt, USA
+Mobile, Al, USA
+Modena, Italy
+Modiin, Israel
+Moggill, Australia
+Mont-Saint-Hilaire, Quebec, Canada
+Monterrey, Mexico
+Montevideo, Uruguay
+Montpellier, France
+Montreal, Canada
+Montreal, Qc., Canada
+Montreal, Québec, Canada
+Montreal, USA
+Montrouge, France
+Montréal, Canada
+Montréal, Quebec, Canada
+Montvale, Nj, USA
+Morges, Switzerland
+Morrisville, Pa, USA
+Moscow, Russian Federation
+Mount Waverley, Co, Australia
+Mountain Creek, Australia
+Mountain View, Ca, USA
+Msida, Malta
+Mulgrave, Australia
+Mumbai, India
+Munich, Germany
+Munich, USA
+Muscoline, Italy
+München - Sendling, Germany
+München, Germany
+Münster, Germany
+Na, Canada
+Nagakute, Japan
+Nagoya, Aichi, Japan
+Nagoya, Japan
+Najran, Saudi Arabia
+Nanjing, China
+Nanjing, USA
+Nantes, France
+Naples, Italy
+Nara-Shi, Japan
+Nashville, Tn, USA
+Nashville, USA
+Natick, Ma, USA
+Nedlands, Australia
+Needham, Ma, USA
+Nelson, New Zealand
+Nemi, Italy
+Neubiberg, Germany
+Neuherberg, Germany
+Neuss, Germany
+New Carrollton, Md, USA
+New Delhi, India
+New Haven, Ct, USA
+New Lambton Heights, Australia
+New Lambton, Australia
+New Lambton, Nsw, Australia
+New Orleans, La, USA
+New Taipei City, Tpe, Taiwan
+New Taipei, Taiwan
+New Taipei, Tpe, Taiwan
+New Territories, Hong Kong
+New York City, Ny, USA
+New York City, USA
+New York, Ny, USA
+New York, USA
+New Zealand, New Zealand
+Newark, De, USA
+Newark, Nj, USA
+Newcastle Upon Tyne, United Kingdom
+Newcastle, Australia
+Newcastle, United Kingdom
+Nice, France
+Niigata, Japan
+Nijmegen, Netherlands
+Niskayuna, Ny, USA
+Noble Park, Australia
+Norman, Ok, USA
+North Bethesda, Md, USA
+North Chicago, Il, USA
+North Maleny, Australia
+North Melbourne, Australia
+North Queensferry, United Kingdom
+North York, On, Canada
+Northcote Point, New Zealand
+Northridge, Ca, USA
+Norway, Norway
+Norwich, United Kingdom
+Notting Hill, Australia
+Nottingham, United Kingdom
+Nottwil, Switzerland
+Nouzilly, France
+Nova Scotia, Canada
+Novosibirsk, Russian Federation
+Nsw, Australia
+Nuthetal, Germany
+Nyc, Ny, USA
+Nîmes, France
+Oak Park, Mi, USA
+Oakland, Ca, USA
+Oakville, On, Canada
+Okayama City, Japan
+Okayama, Japan
+Okazaki, Aichi, Japan
+Okazaki, Japan
+Okazaki-Shi, Aichi, Japan
+Okazaki-Shi, Japan
+Oklahoma City, Ok, USA
+Oldenburg, Germany
+Olomouc, Czech Republic
+Omaha, Ne, USA
+Onex, Switzerland
+Opelika, Al, USA
+Orange, Ca, USA
+Orangeburg, Ny, USA
+Ormond Beach, Fl, USA
+Orsay, France
+Osaka, Japan
+Oshawa, On, Canada
+Oslo, Norway
+Osnabrueck, Germany
+Osterwieck, Germany
+Ottawa, On, Canada
+Oulu, Finland
+Oxford, USA
+Oxford, United Kingdom
+Padova, USA
+Padua, Italy
+Paladina, Italy
+Palaiseau, France
+Palermo, Italy
+Palermo, Italy, Italy
+Palisades Park, Nj, USA
+Palo Alto, Ca, USA
+Paris, France
+Paris, USA
+Parkville, Australia
+Parkville, Vic, Australia
+Parkville, Victoria, Australia
+Pasadena, Ca, USA
+Pavia, Italy
+Pearland, Tx, USA
+Pembroke Pines, Fl, USA
+Perth, Australia
+Pescara, Italy
+Petersham, Australia
+Pfaffenhofen An Der Ilm, Germany
+Philadelphia, Pa, USA
+Philadelphia, USA
+Phoenix, Az, USA
+Pisa, Italy
+Piscataway, Nj, USA
+Pittsburgh, Pa, USA
+Pittsford, Ny, USA
+Pleasanton, Ca, USA
+Plymouth, Mn, USA
+Pohang,  Gyeongbuk, South Korea
+Pohang, South Korea
+Pohang-Si, South Korea
+Pohangsi, South Korea
+Pomigliano D'arco, Italy
+Poole, United Kingdom
+Port Kembla, Australia
+Portland, Or, USA
+Potomac, Md, USA
+Pottstown, Pa, USA
+Prague, Czech Republic
+Praha, Czech Republic
+Prayagraj, India
+Preston, Australia
+Prevost, Quebec, Canada
+Prilly, Switzerland
+Princeton Junction, Nj, USA
+Princeton, Nj, USA
+Prospect Park, Pa, USA
+Providence, Ri, USA
+Provo, Ut, USA
+Puchheim, Germany
+Quakers Hill, Australia
+Qubec, Ab, Canada
+Queensland, Australia
+Querétaro, Mexico
+Québec, Canada
+Québec, Quebec, Canada
+Raleigh, Nc, USA
+Ramat-Gan, Israel
+Rampurhat, Birbhum, India
+Rancho Murieta, Ca, USA
+Randwick, Australia
+Randwick, Nsw, Australia
+Ratingen, Germany
+Rawalpindi, Pakistan
+Reading, Ma, USA
+Reading, United Kingdom
+Redmond, Wa, USA
+Redwood City, Ca, USA
+Rehovot, Israel
+Rennes, France
+Repentigny, Canada
+Reston, Va, USA
+Ribeirão Preto, Brazil
+Richardson, Tx, USA
+Richmond, Va, USA
+Risskov, Denmark
+Riverside, Ca, USA
+Riyadh, Saudi Arabia
+Roanoke, Va, USA
+Rochester, Ny, USA
+Rockville, Md, USA
+Rome, Italy
+Roquefort Les Pins, France
+Roseville, Mn, USA
+Rotterdam, Netherlands
+Rovereto (Trento), Italy
+Rovereto, Italy
+Rozelle, Australia
+Ruhengeri, Rwanda
+Sacramento, Ca, USA
+Saga, Japan
+Sagamihara, Japan
+Saint John, Nb, Canada
+Saint Josse Ten Noode, Belgium
+Saint Louis, Mo, USA
+Saint Louis, USA
+Saint Paul, Mn, USA
+Saint-Bruno, Quebec, Canada
+Saint-Félix-De-Valois, Quebec, Canada
+Saint-Hubert, Quebec, Canada
+Saint-Leonard, Quebec, Canada
+Sainte-Brigide D'iberville, Quebec, Canada
+Sainte-Catherine, Quebec, Canada
+Saitama City, Japan
+Saitama, Japan
+Salt Lake City, Ut, USA
+Salvador, Brazil
+Salzburg, Austria
+San Antonio, Tx, USA
+San Carlos, Ca, USA
+San Diego, Ca, USA
+San Diego, USA
+San Francisco, Ca, USA
+San Francisco, USA
+San Luis Obispo, Ca, USA
+San Miguel De Allende, Mexico
+San Pedro, Ca, USA
+San Sebastian-Donostia, Spain
+Sandy, Ut, USA
+Santa Barbara, Ca, USA
+Santa Monica, Ca, USA
+Santiago, Chile
+Santiago, Chile, Chile
+Santiago, Región Metropolitana, Chile
+Santiago, USA
+Santo André, Brazil
+Sapporo, Hokkaido, Japan
+Sapporo, Japan
+Saratoga, Ca, USA
+Sart Tilman, Belgium
+Sart Tilman, Liège, Belgium
+Saskatoon, Sk, Canada
+Sassafras (Vic), Australia
+Sassari, Italy
+Sassi, Italy
+Schiedlberg, Austria
+Schwerzenbach, Switzerland
+Scottsdale, Az, USA
+Seattle, Wa, USA
+Seika-Cho, Soraku-Gun, Japan
+Sejong, South Korea
+Sejong-Si, South Korea
+Sendai, Japan
+Sendai, Miyagi, Japan
+Seongdong-Gu, South Korea
+Seongnam, Gyeonggi-Do, South Korea
+Seongnam, South Korea
+Seoul City, South Korea
+Seoul South Korea
+Seoul, Australia
+Seoul, France
+Seoul, Ma, South Korea
+Seoul, South Korea
+Seoul, USA
+Sepang, Malaysia
+Serdang, Malaysia
+Sesto San Giovanni, Mi, Italy
+Setagaya, Japan
+Seul, South Korea
+Seville, Spain
+Shanghai City, China
+Shanghai, USA
+Sharpsburg, Pa, USA
+Shatin, Hong Kong
+Sheffield, United Kingdom
+Shenghai, China
+Shenyang, China
+Shenzhen, China
+Shenzhen, Hong Kong
+Sherbrooke, Canada
+Sherbrooke, Quebec, Canada
+Sherman Oaks, Ca, USA
+Shibuya, Tokyo, Japan
+Shimotsuke, Japan
+Shimotsuke,Tochigi, Japan
+Shinjuku, Tokyo, Japan
+Shinjuku-Ku, Japan
+Shivamogga, India
+Siheung, South Korea
+Siheung-Si, South Korea
+Singapore, Singapore
+Singapore, USA
+Sinnamon Park, Australia
+Sion, Switzerland
+Solihull, United Kingdom
+Solna, Sweden
+Somerset, Nj, USA
+Sommerville, Ma, USA
+Sonipat, India
+Soraku-Gun, Kyoto, Japan
+South Brisbane, Australia
+South Burlington, Vt, USA
+South Korea
+South Yarra, Australia
+Southbank, Australia
+Southport, Australia
+Southport, Qld, Australia
+Sp, Brazil
+Spring Hill, Australia
+Spring Hill, Tn, USA
+Spring House, Pa, USA
+Springfield, Australia
+Springwood, Australia
+St Andrews, United Kingdom
+St Jacobs, On, Canada
+St Lucia, Qld, Australia
+St Lucia, Queensland, Australia
+St Paul, Mn, USA
+St. Catharines, On, Canada
+St. Louis, Mo, USA
+St. Lucia, Australia
+St. Pölten, Austria
+Stanford, Ca, USA
+Stans, Switzerland
+State College, Pa, USA
+Sterling Heights, Mi, USA
+Stockholm, Sweden
+Stockport, United Kingdom
+Stony Brook, Ny, USA
+Strasbourg, France
+Strasbourg, Germany
+Subiaco, Australia
+Suginami Ward, Japan
+Suita City, Japan
+Suita, Japan
+Suita, Osaka, Japan
+Sujeong-gu, South Korea
+Sulzbach, Germany
+Sun City, Az, USA
+Sunnybank Hills, Tn, Australia
+Sunshine Coast, Australia
+Surrey, Bc, Canada
+Surrey, United Kingdom
+Suwon Si, South Korea
+Suwon, South Korea
+Suwon-Si, Gyeonggi-Do, South Korea
+Suwon-Si, South Korea
+Suwon-Si, USA
+Suzhou, Jiangsu Province, China
+Swarthmore, Pa, USA
+Sydney Olympic Park, Australia
+Sydney, Australia
+Sydney, Nsw, Australia
+Szeged, Hungary
+São Paulo, Sp, Brazil
+Søborg, Denmark
+Taichung, Taiwan
+Tainan City, Taiwan
+Tainan, Taiwan
+Taipei City, Taiwan
+Taipei City, Tpe, Taiwan
+Taipei, Singapore
+Taipei, Taiwan
+Taipei, Taiwan, Taiwan
+Taipei, Tpe, Taiwan
+Taipei, USA
+Taiwan, Taiwan
+Taiyuan, China
+Tallahassee, Fl, USA
+Tampa, USA
+Tampere, Finland
+Taoyuan City, Taiwan
+Taoyuan, Taiwan
+Taringa, Australia
+Tatebayashi, Gunma-Prefecture, Japan
+Taxco De Alarcon, Mexico
+Te Hapara, Gisborne, New Zealand
+Tehran, Iran
+Tel Mond, Israel
+Tel-Aviv, Israel
+Tenerife, Australia
+The Bronx, Ny, USA
+The University Of Sydney, Nsw, Australia
+Thornbury, Australia
+Thuwal, Saudi Arabia
+Thônex, Switzerland
+Tianjin (天津), China
+Tianjin University, China
+Tianjin, China
+Tilburg, Netherlands
+Tipton, United Kingdom
+Tochigi, Japan
+Tokorozawa, Japan
+Tokyo, Japan
+Toledo, Oh, USA
+Toon, Japan
+Toowong, Australia
+Toronto, Canada
+Toronto, On, Canada
+Toronto, On, USA
+Toronto, USA
+Toulouse, France
+Toyama, Japan
+Toyohashi, Japan
+Trento, Italy
+Trois-Rivières, Quebec, Canada
+Trondheim, Norway
+Troy, Mi, USA
+Tsukuba, Japan
+Tuebingen, Germany
+Tulsa, Ok, USA
+Turin, Italy
+Turku, Finland
+Tweed Heads, Australia
+Ulsan, South Korea
+Ultimo, Australia
+Umeå, Sweden
+University City, Mo, USA
+University Park, Pa, USA
+Unsw Sydney, Nsw, Australia
+Upper Arlington, Oh, USA
+Upper Darby, Pa, USA
+Uppsala, Sweden
+Urbana, Il, USA
+Utrecht, Netherlands
+Valencia, Ca, USA
+Valencia, Spain
+Valladolid, Spain
+Valparaíso, Chile
+Vancouver, Bc, Bc, Canada
+Vancouver, Bc, Canada
+Vancouver, Canada
+Vancouver, Wa, USA
+Venice, Ca, USA
+Verdun, Qc, Canada
+Verdun, Quebec, Canada
+Verneuil En Halatte, France
+Verona, Wi, USA
+Vic, Australia
+Victoria, Australia
+Vienna, Austria
+Vienna, Ca, Austria
+Villanova, Pa, USA
+Villar San Costanzo, Italy
+Villeneuve-D'ascq, France
+Vitacura, Chile
+Vitznau, Switzerland
+Viña Del Mar, Chile
+Wako, Japan
+Wako, Saitama, Japan
+Warszawa, Poland
+Warszawa, USA
+Washington, Dc, USA
+Waterloo, Australia
+Waukesha, Wi, USA
+Wayzata, Mn, USA
+Wenzhou, China
+West End, Australia
+West Hartford, Ct, USA
+West Lafayette, In, USA
+West Lebanon, Nh, USA
+West Orange, Nj, USA
+Westbourne Park, Sa, Australia
+Westerville, Oh, USA
+Westmead, Australia
+Westmead, Nsw, Australia
+Westmount, Quebec, Canada
+Wexford, Pa, USA
+White Plains, Ny, USA
+White River Junction, Vt, USA
+Wien, Austria
+Williamstown, Australia
+Windang, Australia
+Winnipeg, Mb, Canada
+Winston-Salem, Nc, USA
+Winterthur, Switzerland
+Wisconsin, Wi, USA
+Wollongong, Australia
+Wonju, South Korea
+Woodbridge, Nj, USA
+Woodbridge, On, Canada
+Woodside, Ca, USA
+Woolloongabba, Australia
+Worcester, Ma, USA
+Wuhan, China
+Wynnum, Australia
+Wörthsee, Germany
+Würzburg, Germany
+X, USA
+Xalapa, Veracruz, Mexico
+Xi'an, China
+Xinxiang, China
+Yangsan, South Korea
+Yangsan-Si, Gyeongsangnam-Do, South Korea
+Yeongdeungpo-Gu, South Korea
+Yeosu, South Korea
+Yeosu-Si, South Korea
+Yilan County, Taiwan
+Yokohama City, Japan
+Yokohama, Japan
+Yongin, South Korea
+Yongin-Si, South Korea
+Yonginsi, South Korea
+York, United Kingdom
+Yorktown Heights, Ny, USA
+Yoshida-Gun,Fukui, Japan
+Yunlin County, Taiwan
+Zhejiang, China
+Zhubei City, Taiwan
+Zürich, Switzerland
+Örebro, Sweden
+Üsküdar, Turkey
+Üsküdar/İstanbul, Turkey
+İstanbul, Turkey
+九肚山, Hong Kong
+杭州, China
+공주시, South Korea
+세종특별자치시, USA
+용인시, South Korea
+충청남도, South Korea
