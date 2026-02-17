@@ -26,6 +26,7 @@ The analysis is performed through a series of R scripts located in the `R/` dire
     -   `06_multicentric_footprint.R`: Calculates the carbon footprint for a multi-site conference.
     -   `07_multicentric_benchmark.R`: Compares the multicentric model against a benchmark.
     -   `08_attraction_power.R`: Analyzes the regional draw of conference hubs.
+    -   `09_interactive_map.R`: Creates an interactive map of attendees. (WIP)
     -   `utils.R`: Utility functions used by other scripts.
 -   `data/`: Contains input data.
     -   `location_synonyms.csv`: A list of location names to be treated as synonyms during cleaning.
