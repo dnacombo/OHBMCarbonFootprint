@@ -10,7 +10,7 @@ geocoded_attendees <- readRDS("output/geocoded_attendee_data.rds")
 
 # --- 2. Define Hubs and Geocode Them ---
 hub_cities <- tibble(
-  full_address = c("Montreal", "Seoul", "Brisbane")
+  full_address = c("Glasgow", "Montreal", "Seoul", "Brisbane")
 )
 
 # Get hub coordinates from the cache

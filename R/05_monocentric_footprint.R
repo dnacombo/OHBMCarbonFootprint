@@ -16,7 +16,7 @@ attendee_data <- readRDS(geocoded_data_file)
 # --- 2. Define Conference Locations and Emission Factors ---
 
 # Define the required conference hubs as a tibble
-hub_cities <- tibble(full_address = c("Montreal", "Seoul", "Brisbane"))
+hub_cities <- tibble(full_address = c("Glasgow", "Montreal", "Seoul", "Brisbane"))
 
 # Now, retrieve the hub coordinates from the up-to-date cache for our calculation
 conference_hubs <- get_hub_coordinates(hub_cities$full_address) %>%
