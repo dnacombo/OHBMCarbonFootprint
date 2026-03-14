@@ -124,7 +124,6 @@ attraction_power <- attendees_count %>%
   filter(!is.na(close_to_city)) %>%
   group_by(close_to_city) %>%
   # compute ratio of N on conference year to the mean of the other years
-  mutate(conference_year = conference_hubs$year[conference_hubs$city == first(close_to_city)]) %>%
   summarise(
     attraction_power = n[close_to_city == conference_city] / mean(n[close_to_city != conference_city]),
     .groups = 'drop')
