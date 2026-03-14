@@ -250,6 +250,7 @@ ggplot() +
   scale_color_brewer(palette = "Set2", na.value = "grey80") +
   labs(title = "Attendee Proximity to Conference Cities (2023-2025)",
        x = "Longitude", y = "Latitude", color = "Close Hub") +
-  theme_minimal()
+  theme_minimal() +
+  theme(panel.background = element_rect(fill = "lightblue", color = NA))
 # save plot
 ggsave("output/figures/attendee_proximity_to_conference_cities_map.png", width = 10, height = 6)
