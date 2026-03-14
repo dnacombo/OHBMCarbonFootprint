@@ -18,6 +18,13 @@ scenarios <- list(
   One_Location_Montreal = 'Montreal',
   One_Location_Seoul = 'Seoul',
   One_Location_Brisbane = 'Brisbane',
+  # all possible two-location combinations
+  Two_Locations_Montreal_Seoul = c("Montreal", "Seoul"),
+  Two_Locations_Montreal_Brisbane = c("Montreal", "Brisbane"),
+  Two_Locations_Seoul_Brisbane = c("Seoul", "Brisbane"),
+  Two_Locations_Montreal_Glasgow = c("Montreal", "Glasgow"),
+  Two_Locations_Seoul_Glasgow = c("Seoul", "Glasgow"),
+  Two_Locations_Brisbane_Glasgow = c("Brisbane", "Glasgow"),
   Past_Three_Locations = c("Montreal", "Seoul", "Brisbane"),
   Past_Four_Locations = c("Glasgow", "Montreal", "Seoul", "Brisbane"),
   Six_Hubs_Global = c("Glasgow", "Montreal", "Sao Paulo", "Seoul", "Johannesburg", "Brisbane")
@@ -81,6 +88,7 @@ print(final_benchmark_summary)
 ggplot(data=final_benchmark_summary, aes(x=scenario, y=total_footprint_tonCO2e, fill=scenario)) +
   geom_col() +
   geom_text(aes(label=round(total_footprint_tonCO2e)), vjust=-0.5) +
+  theme(axis.text.x=element_text(angle = 90, hjust=1)) + 
   theme(axis.text.x=element_blank()) + 
   ylab('') + xlab('') +
   facet_wrap(~year+conference_city+total_attendees) +
@@ -90,6 +98,7 @@ ggsave('output/figures/multicentric_benchmark_total_footprint.png', width=10, he
 ggplot(data=final_benchmark_summary, aes(x=scenario, y=total_footprint_per_attendee_tonCO2, fill=scenario)) +
   geom_col() +
   geom_text(aes(label=round(total_footprint_per_attendee_tonCO2,2)), vjust=-0.5) +
+  theme(axis.text.x=element_text(angle = 90, hjust=1)) + 
   theme(axis.text.x=element_blank()) + 
   ylab('') + xlab('') +
   facet_wrap(~year+conference_city) +
