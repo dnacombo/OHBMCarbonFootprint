@@ -1,6 +1,6 @@
-# Conference Carbon Footprint Analysis
+# OHBM meeting Carbon Footprint Analysis
 
-This project analyzes the carbon footprint of a major conference and estimates the potential reduction in CO2 emissions by switching from a monocentric to a multicentric format.
+This project analyzes the carbon footprint of OHBM annual meeting and estimates the potential reduction in CO2 emissions by switching from a monocentric to a multicentric format.
 
 ## Project Workflow
 
