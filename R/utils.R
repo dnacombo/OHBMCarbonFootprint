@@ -16,14 +16,19 @@ geocoding_cache_path <- "output/geocoding_cache.rds"
 #'
 #' @return A numeric vector of the calculated carbon footprint in kg CO2e.
 calculate_footprint <- function(distance_km, 
-                                emission_factor_kg_co2e_per_km = 0.15 * 2, 
-                                local_travel_threshold_km = 100) {
+                                emission_factor_short_haul = 0.2586 * 2, 
+                                emission_factor_medium_haul = 0.1875 * 2, 
+                                emission_factor_long_haul = 0.152 * 2, 
+                                local_travel_threshold_km = 100,
+                                short_to_medium_haul_threshold_km = 1000,
+                                medium_to_long_haul_threshold_km = 3500) {
   
   # Calculate footprint
-  footprint <- if_else(
-    distance_km <= local_travel_threshold_km,
-    0,
-    distance_km * emission_factor_kg_co2e_per_km
+  footprint <- case_when(
+    distance_km < local_travel_threshold_km ~ 0,
+    distance_km < short_to_medium_haul_threshold_km ~ distance_km * emission_factor_short_haul,
+    distance_km < medium_to_long_haul_threshold_km ~ distance_km * emission_factor_medium_haul,
+    TRUE ~ distance_km * emission_factor_long_haul
   )
   
   return(footprint)
