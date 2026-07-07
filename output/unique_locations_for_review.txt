@@ -6,6 +6,7 @@
 07743, Germany
 1071, Anyangcheon-Ro, Yangcheon-Gu, Seoul, South Korea
 1234, Israel
+30124, USA
 74081, Germany
 98693, Germany
 A, Tx, USA
@@ -1236,6 +1237,5 @@ Zürich, Switzerland
 九肚山, Hong Kong
 杭州, China
 공주시, South Korea
-세종특별자치시, USA
 용인시, South Korea
 충청남도, South Korea
