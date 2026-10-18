@@ -3,28 +3,19 @@
 # It compares the number of participants within a radius_km radius for each of the last three conference cities.
 
 # --- 1. Load Libraries and Data ---
-library(tidyverse)
-library(geosphere)
-library(maps)
+# Load utility functions
+source("R/utils.R")
 
 # Load geocoded attendee data
 geocoded_attendees <- readRDS("output/geocoded_attendee_data.rds")
 
-# Load utility functions
-source("R/utils.R")
 
-# Define conference hubs as a tibble
-conference_hubs <- tibble(
-  city = c("Glasgow","Montreal", "Seoul", "Brisbane"),
-  year = c(2022, 2023, 2024, 2025)
-)
 
 # Get coordinates for our conference cities of interest and add them to the tibble
 hub_coords <- get_hub_coordinates(conference_hubs$city)
 conference_hubs <- conference_hubs %>%
   left_join(hub_coords, by = c("city" = "hub_city"))
 
-radius_km <- 4500
 
 # For each attendee, compute distance to that year's conference city
 geocoded_attendees <- geocoded_attendees %>%
@@ -38,6 +29,7 @@ geocoded_attendees <- geocoded_attendees %>%
       c(conference_city_longitude, conference_city_latitude)
     ) / 1000  )
 
+geocoded_attendees <- add_hub_distances(geocoded_attendees, conference_hubs, radius_km)
 
 attendees_count <- list()
 # for each conference city
@@ -46,7 +38,6 @@ for (i in 1:nrow(conference_hubs)) {
   
   # calculate the number of attendees within the radius for each year
   attendees_count[[i]] <- geocoded_attendees %>%
-    filter(!is.na(latitude) & !is.na(longitude)) %>%
     rowwise() %>%
     mutate(
       distance_to_hub = distHaversine(
@@ -102,9 +93,9 @@ attendees_count %>%
   geom_text(aes(label = n), vjust = -0.5) +
   labs(
     title = paste("Number of attendees living within", radius_km, "km of... for each year"),
-    x = "Close to city",
+    x = "",
     y = "Number of attendees",
-    fill = "Number of Attendees"
+    fill = "Close to city"
   ) +
   # fill brewer palette set2, transform so fourth level is grey
   scale_fill_brewer(palette = "Set2", na.value = "grey80",labels = function(x) ifelse(is.na(x), "None", x)) +
@@ -112,7 +103,8 @@ attendees_count %>%
   scale_x_discrete(labels = function(x) ifelse(is.na(x), "None", x)) +
   facet_wrap(~year+conference_city+N) +
   # white background
-  theme(background = element_rect(fill = "white")) +
+  theme(background = element_rect(fill = "white"),
+        axis.text.x = element_text(angle = 30, hjust = 1)) +
   theme_minimal()
 # Save the plot
 ggsave("output/figures/attraction_power_bar_plot.png", width = 8, height = 6)
@@ -147,65 +139,15 @@ ggplot(attraction_power, aes(x = close_to_city, y = attraction_power, fill = clo
   geom_col(show.legend = F) +
   geom_text(aes(label = round(attraction_power, 2)), vjust = -0.5) +
   labs(
-    title = "Attraction Power of Conference Cities",
+    title = 'Attraction Power of Conference Cities\nfor "local" participants',
     x = "Conference City",
-    y = "Attraction Power (N on Conference Year / Mean of Other Years)"
+    y = "Attraction Power" # \n(N on Conference Year / Mean of Other Years)
   ) +
+  scale_fill_brewer(palette = "Set2") +
   theme_minimal() +
-  theme(text = element_text(size = 14))
+  theme(text = element_text(size = 18))
 ggsave("output/figures/attraction_power_bar_plot_ratio.png", width = 6, height = 4)
 
-
-# now for each year, compute distance to each possible hub in new columns
-for (i in 1:nrow(conference_hubs)) {
-  hub <- conference_hubs[i, ]
-  geocoded_attendees <- geocoded_attendees %>%
-    rowwise() %>%
-    mutate(
-      !!paste0("distance_to_", hub$city) := distHaversine(
-        c(longitude, latitude),
-        c(hub$longitude, hub$latitude)
-      ) / 1000, # Convert to km
-      # add a column indicating if within radius 
-      !!paste0("within_", hub$city) := ifelse(!!sym(paste0("distance_to_", hub$city)) <= radius_km, TRUE, FALSE))
-}
-geocoded_attendees <- geocoded_attendees %>%
-  mutate(closest_hub = case_when(
-    distance_to_Glasgow <= distance_to_Montreal & distance_to_Glasgow <= distance_to_Seoul & distance_to_Glasgow <= distance_to_Brisbane ~ "Glasgow",
-    distance_to_Montreal <= distance_to_Glasgow & distance_to_Montreal <= distance_to_Seoul & distance_to_Montreal <= distance_to_Brisbane ~ "Montreal",
-    distance_to_Seoul <= distance_to_Glasgow & distance_to_Seoul <= distance_to_Montreal & distance_to_Seoul <= distance_to_Brisbane ~ "Seoul",
-    distance_to_Brisbane <= distance_to_Glasgow & distance_to_Brisbane <= distance_to_Montreal & distance_to_Brisbane <= distance_to_Seoul ~ "Brisbane",
-    TRUE ~ "None"
-  )
-  )
-
-
-# sanity check: count number of attendees within each city for each year
-attendees_count_again <- geocoded_attendees %>%
-  group_by(year) %>%
-  # count number of attendees "within_<city>" for each city
-  summarise(
-    n_Glasgow = sum(within_Glasgow, na.rm = TRUE),
-    n_Montreal = sum(within_Montreal, na.rm = TRUE),
-    n_Seoul = sum(within_Seoul, na.rm = TRUE),
-    n_Brisbane = sum(within_Brisbane, na.rm = TRUE),
-    n_None = sum(!(within_Glasgow | within_Montreal | within_Seoul | within_Brisbane), na.rm = TRUE),
-    N = n()
-  ) %>%
-  pivot_longer(cols = starts_with("n_"), names_to = "close_to_city", values_to = "n") %>%
-  mutate(close_to_city = case_when(
-    close_to_city == "n_Glasgow" ~ "Glasgow",
-    close_to_city == "n_Montreal" ~ "Montreal",
-    close_to_city == "n_Seoul" ~ "Seoul",
-    close_to_city == "n_Brisbane" ~ "Brisbane",
-    close_to_city == "n_None" ~ NA_character_
-  )) %>%
-  # check that this matches attendees_count
-  left_join(
-    attendees_count %>%
-      select(year, close_to_city, n, N),
-    by = c("year", "close_to_city", "N")
-  )
 
 # show a world map with points colored by which hub they are closest to
 world_map <- map_data("world")
@@ -226,20 +168,15 @@ for (i in hub_coords$hub_city) {
   }
 }
 
+
+
 ggplot() +
   geom_map(data = world_map, map = world_map,
            aes(x = long, y = lat, map_id = region),
            fill = "lightgray", color = "white", linewidth = .1) +
   geom_point(data = geocoded_attendees,
-             aes(x = longitude, y = latitude, color = factor(
-               case_when(
-                 within_Glasgow ~ "Glasgow",
-                 within_Montreal ~ "Montreal",
-                 within_Seoul ~ "Seoul",
-                 within_Brisbane ~ "Brisbane",
-                 TRUE ~ "None"
-               )
-             )), alpha = 0.3, size = 1) +
+             aes(x = longitude, y = latitude, color = closest_hub), 
+             alpha = 0.3, size = 1) +
   geom_point(data = conference_hubs,
              aes(x = longitude, y = latitude), color = 'black',
              size = 3, shape = 1) +
@@ -253,3 +190,62 @@ ggplot() +
   theme(panel.background = element_rect(fill = "lightblue", color = NA))
 # save plot
 ggsave("output/figures/attendee_proximity_to_conference_cities_map.png", width = 10, height = 6)
+
+# ============================================================
+# --- Exploration (not part of the saved pipeline outputs) ---
+# ============================================================
+
+toplot <- geocoded_attendees %>%
+  # add within_none column for attendees not within radius of any city
+  mutate(within_None = ifelse(!if_any((paste0("within_", conference_hubs$city))), TRUE, FALSE)) %>%
+  # merge witin_Glasgow and within_None into within_None column
+  mutate(within_None = ifelse(within_Glasgow == TRUE, TRUE, within_None)) %>%
+  select(-within_Glasgow) %>%
+  pivot_longer(cols = starts_with("within_"), names_to = "within_city", values_to = "within_radius") %>%
+  filter(within_radius == TRUE) %>%
+  group_by(ID) %>% slice(1) %>%
+  mutate(within_city = str_replace(within_city, "^within_", "")) %>%
+  # mutate(within_city = factor(within_city, levels = conference_hubs$city)) %>%
+  # mutate(closest_hub = factor(closest_hub, levels = conference_hubs$city)) %>%
+  group_by(within_city, year, conference_city) %>%
+  summarise(n = n()) %>%
+  ungroup() %>%
+  rename(from_city = within_city, 
+    to_city = conference_city,
+    number_of_attendees = n) %>%
+  select(to_city, year, from_city, number_of_attendees) %>%
+  arrange(year, from_city)
+
+toplot %>%
+  ggplot(aes(x = from_city, y = number_of_attendees, fill = year)) +
+  geom_col(position = "dodge") +
+  labs(title = "Number of Attendees by region and year") +
+  theme_minimal()
+
+# print a nice table with toplotn adding totals per year in a row after each year
+toplot %>%
+  group_by(year) %>%
+  bind_rows(toplot %>% group_by(year) %>% summarise(number_of_attendees = sum(number_of_attendees)) %>% mutate(from_city = "Total")) %>%
+  # reorder by year and from city (Montreal, Seoul, Brisbane, Other)
+  arrange(year, from_city) %>%
+  knitr::kable()
+
+geocoded_attendees %>%
+  group_by(year, conference_city) %>%
+  summarise(total_attendees = n()) %>%
+  ungroup()%>%
+  # order conference_city to put Montreal_Seoul_Brisbane last
+  # NOTE: this row is a manually-entered illustrative value for a hypothetical combined
+  # three-hub 2027 total, not computed from the pipeline data above. Confirm/document its
+  # exact derivation before reusing this figure.
+  add_row(year = "2027", conference_city = "Montreal_Seoul_Brisbane", total_attendees = 4184) %>%
+  mutate(conference_city = factor(conference_city, levels = c(conference_hubs$city, "Montreal_Seoul_Brisbane"))) %>%
+  mutate(year = factor(year, levels = c(2023, 2024, 2025, 2027)))%>%
+  # add a three hubs row with the sum of attendees close to each conference city
+  ggplot(aes(x = conference_city, y = total_attendees, fill = year)) +
+  geom_col(show.legend = F) +
+  geom_text(aes(label = total_attendees), vjust = -0.5) +
+  labs(title = "Total Attendees by Year") +
+  theme_minimal() +
+  scale_fill_brewer(palette = "Set2") 
+

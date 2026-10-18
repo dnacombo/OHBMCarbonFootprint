@@ -1,8 +1,21 @@
 # R/utils.R
 # This file contains utility functions and project-wide configuration.
 
+library(tidyverse)
+library(geosphere)
+library(maps)
+
 # --- Project-wide Configuration ---
 geocoding_cache_path <- "output/geocoding_cache.rds"
+radius_km <- 4500
+# Define conference hubs as a tibble
+conference_hubs <- tibble(
+  city = c("Montreal", "Seoul", "Brisbane"),
+  year = c(2023, 2024, 2025)
+)
+# add Glasgow in 2022
+conference_hubs <- conference_hubs %>%
+  add_row(city = "Glasgow", year = 2022)
 
 
 #' Calculate Carbon Footprint
@@ -152,4 +165,46 @@ calculate_multicentric_footprint <- function(attendees_df, hubs_df) {
     )
   
   return(footprint_details)
+}
+
+
+#' Add Hub Distances
+#'
+#' Computes distances from each attendee to all conference hubs and identifies
+#' which hubs are within a specified radius. Creates new columns for distance
+#' to each hub and a boolean indicating proximity to each hub.
+#'
+#' @param geocoded_attendees A data frame of attendees with `latitude` and `longitude` columns.
+#' @param conference_hubs A data frame of hubs with `city`, `latitude`, and `longitude` columns.
+#' @param radius_km The radius in kilometers to determine hub proximity.
+#'
+#' @return A data frame with added columns: `distance_to_*` for each hub's distance,
+#'   `within_*` for proximity indicators, and `closest_hub` for the nearest hub.
+
+add_hub_distances <- function(geocoded_attendees, conference_hubs, radius_km) {
+#for each year, compute distance to each possible hub in new columns
+# also compute if within radius_km of each hub in new columns
+for (i in 1:nrow(conference_hubs)) {
+  hub <- conference_hubs[i, ]
+  geocoded_attendees <- geocoded_attendees %>%
+    rowwise() %>%
+    mutate(
+      !!paste0("distance_to_", hub$city) := distHaversine(
+        c(longitude, latitude),
+        c(hub$longitude, hub$latitude)
+      ) / 1000, # Convert to km
+      # add a column indicating if within radius 
+      !!paste0("within_", hub$city) := ifelse(!!sym(paste0("distance_to_", hub$city)) <= radius_km, TRUE, FALSE))
+}
+
+# compute closest hub for each attendee
+cols <- paste0("distance_to_", conference_hubs$city)
+geocoded_attendees <- geocoded_attendees %>%
+  mutate(
+    closest_hub = apply(
+      pick(all_of(cols)),
+      1,
+      \(row) conference_hubs$city[which.min(row)]
+    )
+  )
 }
