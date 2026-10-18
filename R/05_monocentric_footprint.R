@@ -26,7 +26,7 @@ conference_hubs <- get_hub_coordinates(hub_cities$full_address) %>%
 
 # First, ensure the attendee data has coordinates. Stop if any are missing.
 if (any(is.na(attendee_data$latitude))) {
-  warning("Some attendee locations could not be geocoded. These will be excluded from the footprint calculation.")
+  warning(sprintf("Some attendee locations (n = %d) could not be geocoded. These will be excluded from the footprint calculation.", sum(is.na(attendee_data$latitude))))
   attendee_data <- attendee_data %>% filter(!is.na(latitude))
 }
 
@@ -60,7 +60,8 @@ summary_report <- footprint_data %>%
   group_by(year, conference_city) %>%
   summarise(
     total_attendees = n(),
-    total_footprint_tonCO2e = sum(carbon_footprint_kg_co2e, na.rm = TRUE) / 1000,
+    total_footprint_tonCO2e = round(sum(carbon_footprint_kg_co2e, na.rm = TRUE) / 1000),
+    total_footprint_per_attendee_ton_co2e = round(mean(carbon_footprint_kg_co2e, na.rm = TRUE) / 1000,3),
     .groups = 'drop'
   ) %>%
   arrange(year)
@@ -73,3 +74,15 @@ summary_file <- "output/reports/monocentric_footprint_summary.csv"
 write.csv(summary_report, file = summary_file, row.names = FALSE)
 
 print(paste("Summary report saved to", summary_file))
+
+summary_report <- summary_report %>%
+  mutate(conference_city = factor(conference_city, levels = c("Glasgow", "Montreal", "Seoul", "Brisbane")))
+
+# bar plot of the three monocentric conferences
+ggplot(data = summary_report, aes(x = conference_city, y = total_footprint_per_attendee_ton_co2e, fill = conference_city)) +
+  geom_col(show.legend = F) +
+  geom_text(aes(label = round(total_footprint_per_attendee_ton_co2e, 2)), vjust = -0.5) +
+  labs(title = "Transportation carbon emissions per participant", x = "Conference City", y = "Per participant emissions (ton CO2e)") +
+  theme_minimal() +
+  scale_fill_brewer(palette = "Set2") +
+  theme(text = element_text(size = 18))
