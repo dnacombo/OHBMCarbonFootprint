@@ -121,6 +121,11 @@ logic — **read it first** when touching more than one script:
   without expecting a slow full re-geocode of every unique address in the dataset.
   `output/unique_locations_for_review.txt` / `output/suspicious_pairs_for_review.csv` are manual QA aids,
   not consumed by later scripts directly — their output feeds back into `data/location_synonyms.csv`.
+- `data/location_synonyms.csv` is hand-edited: `synonym,canonical_name,correction_type`. Each synonym appears
+  once, and `correction_type` must be one of `misspelling`, `diacritics`, `variant` (other language,
+  romanization, spacing/hyphens, abbreviations), `country_name`, `format` (districts, postcodes, wrong or
+  duplicated state/country parts) or `wrong_country`; `02_` stops on a missing or unknown type and counts
+  corrected entries per type → `output/reports/synonym_corrections_summary.csv`.
 - `data/rail_emission_factors.csv` is a hand-edited input (ISO3 → low/central/high kg CO2e per passenger-km,
   one way, plus a `default` row). Each row's `source` field names its origin, basis and any
   derived/proxy/placeholder values; every cell must be filled (no NAs). Countries without a row use `default`.

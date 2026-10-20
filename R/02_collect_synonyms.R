@@ -12,9 +12,14 @@ all_attendees <- readRDS(raw_data_file)
 
 # --- 2. Cleaning and Standardization ---
 synonyms_file <- "data/location_synonyms.csv"
+# every synonym says what kind of correction it is (used for the counts in section 2b)
+correction_types <- c("misspelling", "diacritics", "variant", "country_name", "format", "wrong_country")
 if (file.exists(synonyms_file)) {
   synonyms <- read.csv(synonyms_file)
   synonym_vec <- setNames(synonyms$canonical_name, synonyms$synonym)
+  bad_type <- !synonyms$correction_type %in% correction_types
+  if (any(bad_type)) stop("Missing or unknown correction_type in ", synonyms_file, " for: ",
+                          paste(synonyms$synonym[bad_type], collapse = " | "))
 } else {
   synonym_vec <- c()
 }
@@ -122,12 +127,17 @@ conflicting_synonyms <- if (exists("synonyms")) {
 } else character(0)
 
 fired_synonyms <- function(hits) str_split(str_remove_all(hits, "(city|state|country): "), " >> |; ")
+# for a synonym listed twice, the first row is the one str_replace_all effectively uses
+synonym_type <- if (exists("synonyms")) {
+  synonyms %>% distinct(synonym, .keep_all = TRUE) %>% with(setNames(correction_type, synonym))
+} else character(0)
 synonym_audit <- cleaned_attendees %>%
   mutate(
     synonym_applied = !is.na(synonyms_component) | !is.na(synonyms_full_address),
     modified = full_address != full_address_raw,
-    conflicting = map_lgl(fired_synonyms(paste(synonyms_component, synonyms_full_address, sep = "; ")),
-                          \(s) any(s %in% conflicting_synonyms)),
+    fired = fired_synonyms(paste(synonyms_component, synonyms_full_address, sep = "; ")),
+    correction_types = map_chr(fired, \(s) paste(sort(unique(na.omit(synonym_type[s]))), collapse = "; ")),
+    conflicting = map_lgl(fired, \(s) any(s %in% conflicting_synonyms)),
     chained = str_detect(coalesce(synonyms_component, ""), " >> ") |
       str_detect(coalesce(synonyms_full_address, ""), " >> "),
     ambiguous = conflicting | chained
@@ -148,9 +158,24 @@ print(paste("Ambiguous entries:", sum(synonym_audit$ambiguous),
             "| chained replacements:", sum(synonym_audit$chained)))
 print(paste("Entries with a partial-string match:", sum(synonym_audit$synonym_partial_match)))
 
+# entries corrected per correction type (an entry can have corrections of several types)
+synonym_type_summary <- tibble(correction_type = correction_types) %>%
+  mutate(
+    n_entries = map_int(correction_type, \(t) sum(str_detect(synonym_audit$correction_types, fixed(t)))),
+    pct_of_entries = 100 * n_entries / nrow(synonym_audit)
+  ) %>%
+  bind_rows(tibble(correction_type = "any", n_entries = sum(synonym_audit$synonym_applied),
+                   pct_of_entries = 100 * mean(synonym_audit$synonym_applied))) %>%
+  mutate(total_entries = nrow(synonym_audit))
+write.csv(synonym_type_summary, "output/reports/synonym_corrections_summary.csv", row.names = FALSE)
+misspelled <- synonym_type_summary %>% filter(correction_type == "misspelling")
+print(sprintf("Misspelled entries corrected: %d of %d (%.1f%%)",
+              misspelled$n_entries, nrow(synonym_audit), misspelled$pct_of_entries))
+print(as.data.frame(synonym_type_summary %>% mutate(pct_of_entries = round(pct_of_entries, 2))))
+
 synonym_changes <- synonym_audit %>%
   filter(synonym_applied) %>%
-  count(full_address_raw, full_address, synonyms_component, synonyms_full_address,
+  count(full_address_raw, full_address, synonyms_component, synonyms_full_address, correction_types,
         conflicting, chained, partial = synonym_partial_match, name = "n_entries") %>%
   arrange(desc(conflicting | chained), desc(partial), desc(n_entries))
 write.csv(synonym_changes, synonym_audit_file, row.names = FALSE)

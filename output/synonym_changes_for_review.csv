@@ -1,607 +1,607 @@
-"full_address_raw","full_address","synonyms_component","synonyms_full_address","conflicting","chained","partial","n_entries"
-"Dollard-Des Ormeaux, Pq, Canada","Dollard-Des-Ormeaux, Québec, Canada",NA,"Dollard-Des Ormeaux, Pq, Canada >> Quebec, Canada",FALSE,TRUE,TRUE,1
-"Sao Paulo, Brazil","São Paulo, Sp, Brazil",NA,"Sao Paulo, Brazil >> São Paulo, Brazil",FALSE,TRUE,FALSE,1
-"Yongin, United States","Yonginsi, South Korea","country: United States","Yongin, USA >> Yonginsi, USA",FALSE,TRUE,FALSE,1
-"Montréal, Pq, Canada","Montréal, Quebec, Canada",NA,"Pq, Canada",FALSE,FALSE,TRUE,83
-"Québec, Pq, Canada","Québec, Quebec, Canada",NA,"Pq, Canada",FALSE,FALSE,TRUE,8
-"Sherbrooke, Pq, Canada","Sherbrooke, Quebec, Canada",NA,"Pq, Canada",FALSE,FALSE,TRUE,7
-"Trois-Rivières, Pq, Canada","Trois-Rivières, Quebec, Canada",NA,"Pq, Canada",FALSE,FALSE,TRUE,7
-"Verdun, Pq, Canada","Verdun, Quebec, Canada",NA,"Pq, Canada",FALSE,FALSE,TRUE,6
-"Laval, Pq, Canada","Laval, Quebec, Canada",NA,"Pq, Canada",FALSE,FALSE,TRUE,3
-"Saint-Bruno, Pq, Canada","Saint-Bruno, Quebec, Canada",NA,"Pq, Canada",FALSE,FALSE,TRUE,3
-"Daejeon, Republic Of Korea, Republic Of Korea","Daejeon, South Korea","city: Republic Of Korea; country: Republic Of Korea","South Korea, South Korea",FALSE,FALSE,TRUE,2
-"Lasalle, Pq, Canada","Lasalle, Quebec, Canada",NA,"Pq, Canada",FALSE,FALSE,TRUE,2
-"Longueuil, Pq, Canada","Longueuil, Quebec, Canada",NA,"Pq, Canada",FALSE,FALSE,TRUE,2
-"Montreal, Quebec, Canada","Montreal, Québec, Canada",NA,"Quebec, Canada",FALSE,FALSE,TRUE,2
-"Alma, Pq, Canada","Alma, Quebec, Canada",NA,"Pq, Canada",FALSE,FALSE,TRUE,1
-"Beaconsfield, Pq, Canada","Beaconsfield, Quebec, Canada",NA,"Pq, Canada",FALSE,FALSE,TRUE,1
-"Brossard, Pq, Canada","Brossard, Quebec, Canada",NA,"Pq, Canada",FALSE,FALSE,TRUE,1
-"Carignan, Pq, Canada","Carignan, Quebec, Canada",NA,"Pq, Canada",FALSE,FALSE,TRUE,1
-"Chambly, Pq, Canada","Chambly, Quebec, Canada",NA,"Pq, Canada",FALSE,FALSE,TRUE,1
-"Daegu, Korea, Republic Of Korea","Daegu, South Korea","country: Republic Of Korea","Korea, South Korea",FALSE,FALSE,TRUE,1
-"Dollard-Des-Ormeaux, Pq, Canada","Dollard-Des-Ormeaux, Quebec, Canada",NA,"Pq, Canada",FALSE,FALSE,TRUE,1
-"Esterel, Pq, Canada","Esterel, Quebec, Canada",NA,"Pq, Canada",FALSE,FALSE,TRUE,1
-"La Prairie, Pq, Canada","La Prairie, Quebec, Canada",NA,"Pq, Canada",FALSE,FALSE,TRUE,1
-"Lachine, Pq, Canada","Lachine, Quebec, Canada",NA,"Pq, Canada",FALSE,FALSE,TRUE,1
-"Mont-Saint-Hilaire, Pq, Canada","Mont-Saint-Hilaire, Quebec, Canada",NA,"Pq, Canada",FALSE,FALSE,TRUE,1
-"Prevost, Pq, Canada","Prevost, Quebec, Canada",NA,"Pq, Canada",FALSE,FALSE,TRUE,1
-"Saint-Félix-De-Valois, Pq, Canada","Saint-Félix-De-Valois, Quebec, Canada",NA,"Pq, Canada",FALSE,FALSE,TRUE,1
-"Saint-Hubert, Pq, Canada","Saint-Hubert, Quebec, Canada",NA,"Pq, Canada",FALSE,FALSE,TRUE,1
-"Saint-Leonard, Pq, Canada","Saint-Leonard, Quebec, Canada",NA,"Pq, Canada",FALSE,FALSE,TRUE,1
-"Sainte-Brigide D'iberville, Pq, Canada","Sainte-Brigide D'iberville, Quebec, Canada",NA,"Pq, Canada",FALSE,FALSE,TRUE,1
-"Sainte-Catherine, Pq, Canada","Sainte-Catherine, Quebec, Canada",NA,"Pq, Canada",FALSE,FALSE,TRUE,1
-"Sejong-Si, South Korea, Republic Of Korea","Sejong-Si, South Korea","country: Republic Of Korea","South Korea, South Korea",FALSE,FALSE,TRUE,1
-"Seoul Korea, Republic Of Korea","Seoul South Korea","country: Republic Of Korea","Korea, South Korea",FALSE,FALSE,TRUE,1
-"Seoul, South Korea, Republic Of Korea","Seoul, South Korea","country: Republic Of Korea","South Korea, South Korea",FALSE,FALSE,TRUE,1
-"The University Of Sydney, Australia","The University Of Sydney, Nsw, Australia",NA,"Sydney, Australia",FALSE,FALSE,TRUE,1
-"Ulsan, Republic Of Korea, Republic Of Korea","Ulsan, South Korea","city: Republic Of Korea; country: Republic Of Korea","South Korea, South Korea",FALSE,FALSE,TRUE,1
-"Unsw Sydney, Australia","Unsw Sydney, Nsw, Australia",NA,"Sydney, Australia",FALSE,FALSE,TRUE,1
-"Westmount, Pq, Canada","Westmount, Quebec, Canada",NA,"Pq, Canada",FALSE,FALSE,TRUE,1
-"Seoul, Republic Of Korea","Seoul, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,456
-"Montreal, Pq, Canada","Montréal, Canada",NA,"Montreal, Pq, Canada",FALSE,FALSE,FALSE,370
-"New York, Ny, United States","New York, Ny, USA","country: United States",NA,FALSE,FALSE,FALSE,104
-"Los Angeles, Ca, United States","Los Angeles, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,98
-"Bethesda, Md, United States","Bethesda, Md, USA","country: United States",NA,FALSE,FALSE,FALSE,91
-"Philadelphia, Pa, United States","Philadelphia, Pa, USA","country: United States",NA,FALSE,FALSE,FALSE,82
-"Boston, Ma, United States","Boston, Ma, USA","country: United States",NA,FALSE,FALSE,FALSE,80
-"New Haven, Ct, United States","New Haven, Ct, USA","country: United States",NA,FALSE,FALSE,FALSE,63
-"Montreal, Canada","Montréal, Canada",NA,"Montreal, Canada",FALSE,FALSE,FALSE,62
-"St. Louis, Mo, United States","St. Louis, Mo, USA","country: United States",NA,FALSE,FALSE,FALSE,60
-"Atlanta, Ga, United States","Atlanta, Ga, USA","country: United States",NA,FALSE,FALSE,FALSE,56
-"Suwon, Republic Of Korea","Suwon, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,52
-"Daejeon, Republic Of Korea","Daejeon, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,49
-"Stanford, Ca, United States","Stanford, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,46
-"Pittsburgh, Pa, United States","Pittsburgh, Pa, USA","country: United States",NA,FALSE,FALSE,FALSE,43
-"Chicago, Il, United States","Chicago, Il, USA","country: United States",NA,FALSE,FALSE,FALSE,42
-"Charlestown, Ma, United States","Charlestown, Ma, USA","country: United States",NA,FALSE,FALSE,FALSE,41
-"Cambridge, Ma, United States","Cambridge, Ma, USA","country: United States",NA,FALSE,FALSE,FALSE,39
-"San Francisco, Ca, United States","San Francisco, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,39
-"Geneva, Switzerland","Genève, Switzerland",NA,"Geneva, Switzerland",FALSE,FALSE,FALSE,38
-"Zurich, Switzerland","Zürich, Switzerland",NA,"Zurich, Switzerland",FALSE,FALSE,FALSE,37
-"Bloomington, In, United States","Bloomington, In, USA","country: United States",NA,FALSE,FALSE,FALSE,35
-"Columbus, Oh, United States","Columbus, Oh, USA","country: United States",NA,FALSE,FALSE,FALSE,33
-"Nashville, Tn, United States","Nashville, Tn, USA","country: United States",NA,FALSE,FALSE,FALSE,33
-"Daegu, Republic Of Korea","Daegu, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,31
-"Sydney, Australia","Sydney, Nsw, Australia",NA,"Sydney, Australia",FALSE,FALSE,FALSE,31
-"Hanover, Nh, United States","Hanover, Nh, USA","country: United States",NA,FALSE,FALSE,FALSE,30
-"Suwon-Si, Republic Of Korea","Suwon-Si, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,30
-"Minneapolis, Mn, United States","Minneapolis, Mn, USA","country: United States",NA,FALSE,FALSE,FALSE,29
-"Baltimore, Md, United States","Baltimore, Md, USA","country: United States",NA,FALSE,FALSE,FALSE,28
-"Dallas, Tx, United States","Dallas, Tx, USA","country: United States",NA,FALSE,FALSE,FALSE,27
-"Austin, Tx, United States","Austin, Tx, USA","country: United States",NA,FALSE,FALSE,FALSE,24
-"Roanoke, Va, United States","Roanoke, Va, USA","country: United States",NA,FALSE,FALSE,FALSE,23
-"Ann Arbor, Mi, United States","Ann Arbor, Mi, USA","country: United States",NA,FALSE,FALSE,FALSE,22
-"Washington, Dc, United States","Washington, Dc, USA","country: United States",NA,FALSE,FALSE,FALSE,21
-"Chapel Hill, Nc, United States","Chapel Hill, Nc, USA","country: United States",NA,FALSE,FALSE,FALSE,20
-"Gyeonggi-Do, Republic Of Korea","Gyeonggi-Do, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,19
-"Juelich, Germany","Jülich, Germany",NA,"Juelich, Germany",FALSE,FALSE,FALSE,18
-"Seattle, Wa, United States","Seattle, Wa, USA","country: United States",NA,FALSE,FALSE,FALSE,18
-"Palo Alto, Ca, United States","Palo Alto, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,17
-"Tübingen, Germany","Tuebingen, Germany",NA,"Tübingen, Germany",FALSE,FALSE,FALSE,17
-"Brooklyn, Ny, United States","Brooklyn, Ny, USA","country: United States",NA,FALSE,FALSE,FALSE,16
-"Saint Louis, Mo, United States","Saint Louis, Mo, USA","country: United States",NA,FALSE,FALSE,FALSE,16
-"Busan, Republic Of Korea","Busan, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,15
-"Padova, Italy","Padua, Italy",NA,"Padova, Italy",FALSE,FALSE,FALSE,15
-"St Lucia, Australia","St. Lucia, Australia",NA,"St Lucia, Australia",FALSE,FALSE,FALSE,15
-"Burlington, Vt, United States","Burlington, Vt, USA","country: United States",NA,FALSE,FALSE,FALSE,14
-"Detroit, Mi, United States","Detroit, Mi, USA","country: United States",NA,FALSE,FALSE,FALSE,14
-"Houston, Tx, United States","Houston, Tx, USA","country: United States",NA,FALSE,FALSE,FALSE,14
-"Ansan, Republic Of Korea","Ansan, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,13
-"Hong Kong, China","Hongkong, China",NA,"Hong Kong, China",FALSE,FALSE,FALSE,13
-"St Louis, Mo, United States","St. Louis, Mo, USA","country: United States","St Louis, Mo, USA",FALSE,FALSE,FALSE,13
-"Ulsan, Republic Of Korea","Ulsan, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,13
-"Birmingham, Al, United States","Birmingham, Al, USA","country: United States",NA,FALSE,FALSE,FALSE,12
-"Incheon, Republic Of Korea","Incheon, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,12
-"Madison, Wi, United States","Madison, Wi, USA","country: United States",NA,FALSE,FALSE,FALSE,12
-"Marina Del Rey, Ca, United States","Marina Del Rey, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,12
-"Miami, Fl, United States","Miami, Fl, USA","country: United States",NA,FALSE,FALSE,FALSE,12
-"Princeton, Nj, United States","Princeton, Nj, USA","country: United States",NA,FALSE,FALSE,FALSE,12
-"Salt Lake City, Ut, United States","Salt Lake City, Ut, USA","country: United States",NA,FALSE,FALSE,FALSE,12
-"San Antonio, Tx, United States","San Antonio, Tx, USA","country: United States",NA,FALSE,FALSE,FALSE,12
-"Berkeley, Ca, United States","Berkeley, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,11
-"Newark, Nj, United States","Newark, Nj, USA","country: United States",NA,FALSE,FALSE,FALSE,11
-"San Diego, Ca, United States","San Diego, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,11
-"Tel Aviv, Israel","Tel-Aviv, Israel",NA,"Tel Aviv, Israel",FALSE,FALSE,FALSE,11
-"Cincinnati, Oh, United States","Cincinnati, Oh, USA","country: United States",NA,FALSE,FALSE,FALSE,10
-"Gainesville, Fl, United States","Gainesville, Fl, USA","country: United States",NA,FALSE,FALSE,FALSE,10
-"Charlottesville, Va, United States","Charlottesville, Va, USA","country: United States",NA,FALSE,FALSE,FALSE,9
-"Gwangju, Republic Of Korea","Gwangju, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,9
-"Indianapolis, In, United States","Indianapolis, In, USA","country: United States",NA,FALSE,FALSE,FALSE,9
-"Iowa City, Ia, United States","Iowa City, Ia, USA","country: United States",NA,FALSE,FALSE,FALSE,9
-"Korea, Republic Of Korea","South Korea","country: Republic Of Korea","Korea, South Korea",FALSE,FALSE,FALSE,9
-"Little Rock, Ar, United States","Little Rock, Ar, USA","country: United States",NA,FALSE,FALSE,FALSE,9
-"Omaha, Ne, United States","Omaha, Ne, USA","country: United States",NA,FALSE,FALSE,FALSE,9
-"Queretaro, Mexico","Querétaro, Mexico",NA,"Queretaro, Mexico",FALSE,FALSE,FALSE,9
-"Somerville, Ma, United States","Somerville, Ma, USA","country: United States",NA,FALSE,FALSE,FALSE,9
-"Belmont, Ma, United States","Belmont, Ma, USA","country: United States",NA,FALSE,FALSE,FALSE,8
-"Durham, Nc, United States","Durham, Nc, USA","country: United States",NA,FALSE,FALSE,FALSE,8
-"La Jolla, Ca, United States","La Jolla, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,8
-"Milwaukee, Wi, United States","Milwaukee, Wi, USA","country: United States",NA,FALSE,FALSE,FALSE,8
-"Rockville, Md, United States","Rockville, Md, USA","country: United States",NA,FALSE,FALSE,FALSE,8
-"Yongin-Si, Republic Of Korea","Yongin-Si, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,8
-"Athens, Ga, United States","Athens, Ga, USA","country: United States",NA,FALSE,FALSE,FALSE,7
-"Duesseldorf, Germany","Düsseldorf, Germany",NA,"Duesseldorf, Germany",FALSE,FALSE,FALSE,7
-"Lisboa, Portugal","Lisbon, Portugal",NA,"Lisboa, Portugal",FALSE,FALSE,FALSE,7
-"Memphis, Tn, United States","Memphis, Tn, USA","country: United States",NA,FALSE,FALSE,FALSE,7
-"Sacramento, Ca, United States","Sacramento, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,7
-"Seoul, United States","Seoul, USA","country: United States",NA,FALSE,FALSE,FALSE,7
-"Woodbridge, Nj, United States","Woodbridge, Nj, USA","country: United States",NA,FALSE,FALSE,FALSE,7
-"Yongin, Republic Of Korea","Yongin, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,7
-"Albuquerque, Nm, United States","Albuquerque, Nm, USA","country: United States",NA,FALSE,FALSE,FALSE,6
-"Cleveland, Oh, United States","Cleveland, Oh, USA","country: United States",NA,FALSE,FALSE,FALSE,6
-"Evanston, Il, United States","Evanston, Il, USA","country: United States",NA,FALSE,FALSE,FALSE,6
-"Ithaca, Ny, United States","Ithaca, Ny, USA","country: United States",NA,FALSE,FALSE,FALSE,6
-"Liege, Belgium","Liège, Belgium",NA,"Liege, Belgium",FALSE,FALSE,FALSE,6
-"Portland, Or, United States","Portland, Or, USA","country: United States",NA,FALSE,FALSE,FALSE,6
-"Rochester, Ny, United States","Rochester, Ny, USA","country: United States",NA,FALSE,FALSE,FALSE,6
-"State College, Pa, United States","State College, Pa, USA","country: United States",NA,FALSE,FALSE,FALSE,6
-"Suwon-Si, Gyeonggi-Do, Republic Of Korea","Suwon-Si, Gyeonggi-Do, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,6
-"Urbana, Il, United States","Urbana, Il, USA","country: United States",NA,FALSE,FALSE,FALSE,6
-"West Lafayette, In, United States","West Lafayette, In, USA","country: United States",NA,FALSE,FALSE,FALSE,6
-"West Orange, Nj, United States","West Orange, Nj, USA","country: United States",NA,FALSE,FALSE,FALSE,6
-"Worcester, Ma, United States","Worcester, Ma, USA","country: United States",NA,FALSE,FALSE,FALSE,6
-"Aurora, Co, United States","Aurora, Co, USA","country: United States",NA,FALSE,FALSE,FALSE,5
-"Blacksburg, Va, United States","Blacksburg, Va, USA","country: United States",NA,FALSE,FALSE,FALSE,5
-"Davis, Ca, United States","Davis, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,5
-"Goyang-Si, Republic Of Korea","Goyang-Si, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,5
-"Los Angeles, United States","Los Angeles, USA","country: United States",NA,FALSE,FALSE,FALSE,5
-"Mountain View, Ca, United States","Mountain View, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,5
-"Orangeburg, Ny, United States","Orangeburg, Ny, USA","country: United States",NA,FALSE,FALSE,FALSE,5
-"Santa Barbara, Ca, United States","Santa Barbara, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,5
-"Sejong, Republic Of Korea","Sejong, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,5
-"Tulsa, Ok, United States","Tulsa, Ok, USA","country: United States",NA,FALSE,FALSE,FALSE,5
-"University Park, Pa, United States","University Park, Pa, USA","country: United States",NA,FALSE,FALSE,FALSE,5
-"Aarhus C, Denmark","Aarhus, Denmark",NA,"Aarhus C, Denmark",FALSE,FALSE,FALSE,4
-"Bronx, Ny, United States","Bronx, Ny, USA","country: United States",NA,FALSE,FALSE,FALSE,4
-"Coral Gables, Fl, United States","Coral Gables, Fl, USA","country: United States",NA,FALSE,FALSE,FALSE,4
-"Decatur, Ga, United States","Decatur, Ga, USA","country: United States",NA,FALSE,FALSE,FALSE,4
-"Denver, Co, United States","Denver, Co, USA","country: United States",NA,FALSE,FALSE,FALSE,4
-"El Paso, Tx, United States","El Paso, Tx, USA","country: United States",NA,FALSE,FALSE,FALSE,4
-"Genoa, Italy","Genova, Italy",NA,"Genoa, Italy",FALSE,FALSE,FALSE,4
-"Glen Oaks, Ny, United States","Glen Oaks, Ny, USA","country: United States",NA,FALSE,FALSE,FALSE,4
-"Goleta, Ca, United States","Goleta, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,4
-"Gongju-Si, Republic Of Korea","Gongju-Si, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,4
-"Graefelfing, Germany","Gräfelfing, Germany",NA,"Graefelfing, Germany",FALSE,FALSE,FALSE,4
-"Irvine, Ca, United States","Irvine, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,4
-"Lincoln, Ne, United States","Lincoln, Ne, USA","country: United States",NA,FALSE,FALSE,FALSE,4
-"London, United States","London, USA","country: United States",NA,FALSE,FALSE,FALSE,4
-"Northridge, Ca, United States","Northridge, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,4
-"Prague 8, Czech Republic","Prague, Czech Republic",NA,"Prague 8, Czech Republic",FALSE,FALSE,FALSE,4
-"Quebec, Pq, Canada","Québec, Canada",NA,"Quebec, Pq, Canada",FALSE,FALSE,FALSE,4
-"Seongnam, Republic Of Korea","Seongnam, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,4
-"Taoyuan City, Tpe, Taiwan","Taoyuan City, Taiwan",NA,"Taoyuan City, Tpe, Taiwan",FALSE,FALSE,FALSE,4
-"Warsaw, Poland","Warszawa, Poland",NA,"Warsaw, Poland",FALSE,FALSE,FALSE,4
-"Amherst, Ma, United States","Amherst, Ma, USA","country: United States",NA,FALSE,FALSE,FALSE,3
-"Ansan-Si, Republic Of Korea","Ansan-Si, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,3
-"Boys Town, Ne, United States","Boys Town, Ne, USA","country: United States",NA,FALSE,FALSE,FALSE,3
-"Cheongju, Republic Of Korea","Cheongju, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,3
-"Columbia, Md, United States","Columbia, Md, USA","country: United States",NA,FALSE,FALSE,FALSE,3
-"Culver City, Ca, United States","Culver City, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,3
-"Daejeon, United States","Daejeon, USA","country: United States",NA,FALSE,FALSE,FALSE,3
-"East Hanover, Nj, United States","East Hanover, Nj, USA","country: United States",NA,FALSE,FALSE,FALSE,3
-"Emerald Hills, Ca, United States","Emerald Hills, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,3
-"Eugene, Or, United States","Eugene, Or, USA","country: United States",NA,FALSE,FALSE,FALSE,3
-"Geumjeong-Gu, Republic Of Korea","Geumjeong-Gu, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,3
-"Gif Sur Yvette, France","Gif-Sur-Yvette, France",NA,"Gif Sur Yvette, France",FALSE,FALSE,FALSE,3
-"Glen Head, Ny, United States","Glen Head, Ny, USA","country: United States",NA,FALSE,FALSE,FALSE,3
-"Goyang, Republic Of Korea","Goyang, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,3
-"Green Cove Springs, Fl, United States","Green Cove Springs, Fl, USA","country: United States",NA,FALSE,FALSE,FALSE,3
-"Istanbul, Turkey","İstanbul, Turkey",NA,"Istanbul, Turkey",FALSE,FALSE,FALSE,3
-"Kansas City, Ks, United States","Kansas City, Ks, USA","country: United States",NA,FALSE,FALSE,FALSE,3
-"Krakow, Poland","Kraków, Poland",NA,"Krakow, Poland",FALSE,FALSE,FALSE,3
-"Le Chesnay Rocquencourt, France","Le Chesnay-Rocquencourt, France",NA,"Le Chesnay Rocquencourt, France",FALSE,FALSE,FALSE,3
-"Lexington, Ky, United States","Lexington, Ky, USA","country: United States",NA,FALSE,FALSE,FALSE,3
-"Medford, Ma, United States","Medford, Ma, USA","country: United States",NA,FALSE,FALSE,FALSE,3
-"Muenchen, Germany","Munich, Germany","city: Muenchen",NA,FALSE,FALSE,FALSE,3
-"Muenster, Germany","Münster, Germany",NA,"Muenster, Germany",FALSE,FALSE,FALSE,3
-"New Orleans, La, United States","New Orleans, La, USA","country: United States",NA,FALSE,FALSE,FALSE,3
-"North Bethesda, Md, United States","North Bethesda, Md, USA","country: United States",NA,FALSE,FALSE,FALSE,3
-"Oxford, United States","Oxford, USA","country: United States",NA,FALSE,FALSE,FALSE,3
-"Phoenix, Az, United States","Phoenix, Az, USA","country: United States",NA,FALSE,FALSE,FALSE,3
-"Piscataway, Nj, United States","Piscataway, Nj, USA","country: United States",NA,FALSE,FALSE,FALSE,3
-"Richardson, Tx, United States","Richardson, Tx, USA","country: United States",NA,FALSE,FALSE,FALSE,3
-"Riverside, Ca, United States","Riverside, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,3
-"Roseville, Mn, United States","Roseville, Mn, USA","country: United States",NA,FALSE,FALSE,FALSE,3
-"Santa Monica, Ca, United States","Santa Monica, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,3
-"Stony Brook, Ny, United States","Stony Brook, Ny, USA","country: United States",NA,FALSE,FALSE,FALSE,3
-"Swarthmore, Pa, United States","Swarthmore, Pa, USA","country: United States",NA,FALSE,FALSE,FALSE,3
-"Valparaiso, Chile","Valparaíso, Chile",NA,"Valparaiso, Chile",FALSE,FALSE,FALSE,3
-"West Hartford, Ct, United States","West Hartford, Ct, USA","country: United States",NA,FALSE,FALSE,FALSE,3
-"A, Tx, United States","A, Tx, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Allen, Mi, United States","Allen, Mi, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Allston, Ma, United States","Allston, Ma, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Ansan-Si, Gyeonggi-Do, Republic Of Korea","Ansan-Si, Gyeonggi-Do, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,2
-"Anyang, Republic Of Korea","Anyang, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,2
-"Anyang-Si, Gyeonggi-Do, Republic Of Korea","Anyang-Si, Gyeonggi-Do, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,2
-"Anyang-Si, Republic Of Korea","Anyang-Si, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,2
-"Arcadia, Ca, United States","Arcadia, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Arlington, Va, United States","Arlington, Va, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Beijing, United States","Beijing, China","country: United States","Beijing, USA",FALSE,FALSE,FALSE,2
-"Beijing,China, United States","Beijing, China","country: United States","Beijing,China, USA",FALSE,FALSE,FALSE,2
-"Belleville, Wi, United States","Belleville, Wi, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Boston, Ma, Ma, United States","Boston, Ma, Ma, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Brookline, Ma, United States","Brookline, Ma, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Bucheon, Republic Of Korea","Bucheon, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,2
-"Camperdown, Nb, Australia","Camperdown, Australia",NA,"Camperdown, Nb, Australia",FALSE,FALSE,FALSE,2
-"Camperdown, New South Wales, Australia","Camperdown, Australia",NA,"Camperdown, New South Wales, Australia",FALSE,FALSE,FALSE,2
-"Campus Box 8225, Mo, United States","Campus Box 8225, Mo, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Castello, Spain","Castelló, Spain",NA,"Castello, Spain",FALSE,FALSE,FALSE,2
-"Champaign, Il, United States","Champaign, Il, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Charleston, Sc, United States","Charleston, Sc, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Columbia, Sc, United States","Columbia, Sc, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Donostia/San Sebastián, Spain","Donostia-San Sebastián, Spain",NA,"Donostia/San Sebastián, Spain",FALSE,FALSE,FALSE,2
-"Dublin 7, Ireland","Dublin, Ireland",NA,"Dublin 7, Ireland",FALSE,FALSE,FALSE,2
-"East Haven, Ct, United States","East Haven, Ct, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"East Lansing, Mi, United States","East Lansing, Mi, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Fremont, Ca, United States","Fremont, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Gangnam, Republic Of Korea","Gangnam, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,2
-"Geneve, Switzerland","Genève, Switzerland",NA,"Geneve, Switzerland",FALSE,FALSE,FALSE,2
-"Grenoble Cedex 9, France","Grenoble, France","city: Grenoble Cedex 9",NA,FALSE,FALSE,FALSE,2
-"Gunsan-Si, Republic Of Korea","Gunsan-Si, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,2
-"Gwanak-Gu, Republic Of Korea","Gwanak-Gu, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,2
-"Incheon, United States","Incheon, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Isfahan, Iran, Islamic Republic Of","Isfahan, Iran","country: Iran, Islamic Republic Of",NA,FALSE,FALSE,FALSE,2
-"Jeonju, Republic Of Korea","Jeonju, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,2
-"Jeonju-Si, Republic Of Korea","Jeonju-Si, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,2
-"Jersey City, Nj, United States","Jersey City, Nj, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Kearney, Ne, United States","Kearney, Ne, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Kensington, Md, United States","Kensington, Md, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Köln, Germany","Cologne, Germany","city: Köln",NA,FALSE,FALSE,FALSE,2
-"Las Vegas, Nv, United States","Las Vegas, Nv, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Louisville, Co, United States","Louisville, Co, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Macao, Macao","Macau, Macao",NA,"Macao, Macao",FALSE,FALSE,FALSE,2
-"Madison Heights, Mi, United States","Madison Heights, Mi, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Malden, Ma, United States","Malden, Ma, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Manhasset, Ny, United States","Manhasset, Ny, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Md, United States","Md, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Montreal, Pq, France","Montréal, Canada",NA,"Montreal, Pq, France",FALSE,FALSE,FALSE,2
-"Montreal, Pq, United States","Montréal, Canada","country: United States","Montreal, Pq, USA",FALSE,FALSE,FALSE,2
-"Montvale, Nj, United States","Montvale, Nj, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Nanjing, United States","Nanjing, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"New Carrollton, Md, United States","New Carrollton, Md, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"New York City, Ny, United States","New York City, Ny, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"New York, United States","New York, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Norman, Ok, United States","Norman, Ok, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"North Chicago, Il, United States","North Chicago, Il, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Ny, Ny, United States","New York City, USA","country: United States","Ny, Ny, USA",FALSE,FALSE,FALSE,2
-"Oakland, Ca, United States","Oakland, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Orange, Ca, United States","Orange, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Ormond Beach, Fl, United States","Ormond Beach, Fl, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Pohang, Republic Of Korea","Pohang, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,2
-"Pohang-Si, Republic Of Korea","Pohang-Si, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,2
-"Praha 8, Czech Republic","Praha, Czech Republic",NA,"Praha 8, Czech Republic",FALSE,FALSE,FALSE,2
-"Providence, Ri, United States","Providence, Ri, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Provo, Ut, United States","Provo, Ut, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Raleigh, Nc, United States","Raleigh, Nc, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Rancho Murieta, Ca, United States","Rancho Murieta, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Reading, Ma, United States","Reading, Ma, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Redwood City, Ca, United States","Redwood City, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Reston, Va, United States","Reston, Va, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Roma, Italy","Rome, Italy","city: Roma",NA,FALSE,FALSE,FALSE,2
-"Saint Paul, Mn, United States","Saint Paul, Mn, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"San Francisco, United States","San Francisco, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"San Luis Obispo, Ca, United States","San Luis Obispo, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Sejong-Si, Republic Of Korea","Sejong-Si, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,2
-"Somerset, Nj, United States","Somerset, Nj, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Spring Hill, Tn, United States","Spring Hill, Tn, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Sterling Heights, Mi, United States","Sterling Heights, Mi, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Suwon-Si, United States","Suwon-Si, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Sydney, Nb, Australia","Sydney, Australia",NA,"Sydney, Nb, Australia",FALSE,FALSE,FALSE,2
-"São Paulo / Sp, Brazil","São Paulo, Sp, Brazil",NA,"São Paulo / Sp, Brazil",FALSE,FALSE,FALSE,2
-"Tallahassee, Fl, United States","Tallahassee, Fl, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Torino, Italy","Turin, Italy",NA,"Torino, Italy",FALSE,FALSE,FALSE,2
-"Verona, Wi, United States","Verona, Wi, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Waukesha, Wi, United States","Waukesha, Wi, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Winston Salem, Nc, United States","Winston-Salem, Nc, USA","country: United States","Winston Salem, Nc, USA",FALSE,FALSE,FALSE,2
-"Winston-Salem, Nc, United States","Winston-Salem, Nc, USA","country: United States",NA,FALSE,FALSE,FALSE,2
-"Woerthsee, Germany","Wörthsee, Germany",NA,"Woerthsee, Germany",FALSE,FALSE,FALSE,2
-"Wonju, Republic Of Korea","Wonju, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,2
-"Xi' An, China","Xi'an, China",NA,"Xi' An, China",FALSE,FALSE,FALSE,2
-"Yangsan, Republic Of Korea","Yangsan, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,2
-"Yangsan-Si, Gyeongsangnam-Do, Republic Of Korea","Yangsan-Si, Gyeongsangnam-Do, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,2
-"Yeosu-Si, Republic Of Korea","Yeosu-Si, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,2
-"07719, Nj, United States","07719, Nj, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"1071, Anyangcheon-Ro, Yangcheon-Gu, Seoul, Republic Of Korea","1071, Anyangcheon-Ro, Yangcheon-Gu, Seoul, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,1
-"30124, United States","30124, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Aberdeen Proving Ground, Md, United States","Aberdeen Proving Ground, Md, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Acton, Ma, United States","Acton, Ma, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Alexandria, Va, United States","Alexandria, Va, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Anseong-Si, Republic Of Korea","Anseong-Si, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,1
-"Anthony, Nm, United States","Anthony, Nm, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Apple Valley, Mn, United States","Apple Valley, Mn, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Arlington, Ma, United States","Arlington, Ma, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Arvada, Co, United States","Arvada, Co, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Astoria, United States","Astoria, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Athens, Oh, United States","Athens, Oh, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Atlanta, United States","Atlanta, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Auburn University, Al, United States","Auburn University, Al, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Auburn, Al, United States","Auburn, Al, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Auburndale, Ma, United States","Auburndale, Ma, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Aurora, Il, United States","Aurora, Il, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Austell, Ga, United States","Austell, Ga, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Bahama, Nc, United States","Bahama, Nc, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Ballwin, Mo, United States","Ballwin, Mo, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Barcelona, Sk, Spain","Barcelona, Spain",NA,"Barcelona, Sk, Spain",FALSE,FALSE,FALSE,1
-"Barcelona, Spain, Spain","Barcelona, Spain",NA,"Barcelona, Spain, Spain",FALSE,FALSE,FALSE,1
-"Bayonne, Nj, United States","Bayonne, Nj, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Bear, De, United States","Bear, De, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Bei Jing, China","Beijing, China",NA,"Bei Jing, China",FALSE,FALSE,FALSE,1
-"Beijin, China","Beijing, China",NA,"Beijin, China",FALSE,FALSE,FALSE,1
-"Beijing, China, China","Beijing, China",NA,"Beijing, China, China",FALSE,FALSE,FALSE,1
-"Bejing, China","Beijing, China",NA,"Bejing, China",FALSE,FALSE,FALSE,1
-"Belmont, United States","Belmont, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Bend, Or, United States","Bend, Or, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Bentonville, Ar, United States","Bentonville, Ar, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Berlin, Germany, Germany","Berlin, Germany",NA,"Berlin, Germany, Germany",FALSE,FALSE,FALSE,1
-"Bethel Park, Pa, United States","Bethel Park, Pa, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Bethesda, Va, United States","Bethesda, Va, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Bethlehem, Pa, United States","Bethlehem, Pa, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Birmingham, United States","Birmingham, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Bloomfield Hills, Mi, United States","Bloomfield Hills, Mi, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Bloomfield, Nj, United States","Bloomfield, Nj, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Blythewood, Sc, United States","Blythewood, Sc, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Bordeaux, United States","Bordeaux, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Boulder, Co, United States","Boulder, Co, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Branford, Ct, United States","Branford, Ct, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Brighton, Ma, United States","Brighton, Ma, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Brighton, United States","Brighton, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Brisbane Qld, Australia","Brisbane, Qld, Australia",NA,"Brisbane Qld, Australia",FALSE,FALSE,FALSE,1
-"Brookfield, Ca, United States","Brookfield, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Brooklyn, Ny, Australia","Brooklyn, Australia",NA,"Brooklyn, Ny, Australia",FALSE,FALSE,FALSE,1
-"Brownsville, Tx, United States","Brownsville, Tx, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Brussel, Belgium","Brussels, Belgium",NA,"Brussel, Belgium",FALSE,FALSE,FALSE,1
-"Bucheon-Si, Republic Of Korea","Bucheon-Si, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,1
-"Buffalo, Ny, United States","Buffalo, Ny, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Bundang-Gu, Republic Of Korea","Bundang-Gu, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,1
-"Burbank, Ca, United States","Burbank, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Burbank, United States","Burbank, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Cambridge, United States","Cambridge, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Campbellsville, Ky, United States","Campbellsville, Ky, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Camridge, Ma, United States","Cambridge, Ma, USA","country: United States","Camridge, Ma, USA",FALSE,FALSE,FALSE,1
-"Canton, Mi, United States","Canton, Mi, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Canton, Oh, United States","Canton, Oh, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Castelló De La Plana, Spain","Castellón De La Plana, Spain",NA,"Castelló De La Plana, Spain",FALSE,FALSE,FALSE,1
-"Catonsville, Md, United States","Catonsville, Md, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Cedar Park, Tx, United States","Cedar Park, Tx, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Chandler, Az, United States","Chandler, Az, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Changchun, Jilin Province, Prc, China","Changchun, China",NA,"Changchun, Jilin Province, Prc, China",FALSE,FALSE,FALSE,1
-"Changwon, Republic Of Korea","Changwon, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,1
-"Chengdu, United States","Chengdu, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Cheonan, Republic Of Korea","Cheonan, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,1
-"Cheonan-Si, Republic Of Korea","Cheonan-Si, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,1
-"Cheshire, Ct, United States","Cheshire, Ct, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Cheswick, Pa, United States","Cheswick, Pa, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Chicago, United States","Chicago, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Chofu, United States","Chofu, Japan","country: United States","Chofu, USA",FALSE,FALSE,FALSE,1
-"Chuncheon, Republic Of Korea","Chuncheon, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,1
-"Chungcheongnam-Do, Republic Of Korea","Chungcheongnam-Do, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,1
-"Cincinnati Ohio, Oh, United States","Cincinnati Ohio, Oh, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Clarksburg, Md, United States","Clarksburg, Md, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Clayton Vic, Australia","Clayton, Vic, Australia",NA,"Clayton Vic, Australia",FALSE,FALSE,FALSE,1
-"Clinton, Pa, United States","Clinton, Pa, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Columbia, Ny, United States","Columbia, Ny, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Columbia, Sc, Sc, United States","Columbia, Sc, Sc, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Concepcion, Chile","Concepción, Chile",NA,"Concepcion, Chile",FALSE,FALSE,FALSE,1
-"Coral Gabels, Fl, United States","Coral Gables, Fl, USA","country: United States","Coral Gabels, Fl, USA",FALSE,FALSE,FALSE,1
-"Coral Springs, Fl, United States","Coral Springs, Fl, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Coralville, Ia, United States","Coralville, Ia, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Costa Mesa, Ca, United States","Costa Mesa, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Cranbury, Nj, United States","Cranbury, Nj, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Dae-Gu, Republic Of Korea","Dae-Gu, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,1
-"Daegu, United States","Daegu, South Korea","country: United States","Daegu, USA",FALSE,FALSE,FALSE,1
-"Daejeon Metropolitan City, Republic Of Korea","Daejeon Metropolitan City, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,1
-"Daejeon-Si, Republic Of Korea","Daejeon-Si, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,1
-"Daejon, Republic Of Korea","Daejon, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,1
-"Deogyang-Gu, Goyang-Si, Republic Of Korea","Deogyang-Gu, Goyang-Si, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,1
-"Dong-Gu, Republic Of Korea","Dong-Gu, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,1
-"Donostia San Sebastian, Spain","Donostia-San Sebastián, Spain",NA,"Donostia San Sebastian, Spain",FALSE,FALSE,FALSE,1
-"Dublin 4, Ireland","Dublin, Ireland",NA,"Dublin 4, Ireland",FALSE,FALSE,FALSE,1
-"Duluth, Ga, United States","Duluth, Ga, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Dunwoody, Ga, United States","Dunwoody, Ga, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Emeryville, Ca, United States","Emeryville, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Fairfax, Va, United States","Fairfax, Va, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Farmington Hills, Mi, United States","Farmington Hills, Mi, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Fitchburg, Wi, United States","Fitchburg, Wi, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Forest Hills, Ny, United States","Forest Hills, Ny, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Fort Worth, Tx, United States","Fort Worth, Tx, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Freemont, Ca, United States","Freemont, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Gangnam-Gu, Seoul, Republic Of Korea","Gangnam-Gu, Seoul, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,1
-"Gangnamgu, Republic Of Korea","Gangnamgu, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,1
-"Garner, Nc, United States","Garner, Nc, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Geneva, United States","Geneva, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Geongi, Republic Of Korea","Gyeonggi, South Korea","country: Republic Of Korea","Geongi, South Korea",FALSE,FALSE,FALSE,1
-"Georgetown, Ma, United States","Georgetown, Ma, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Germantown, Md, United States","Germantown, Md, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Glen Allen, Va, United States","Glen Allen, Va, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Glen Rock, Nj, United States","Glen Rock, Nj, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Gloucester, Ma, United States","Gloucester, Ma, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Goleta, Ca, Ca, United States","Goleta, Ca, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Goyangsi, Republic Of Korea","Goyangsi, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,1
-"Goyanh, Republic Of Korea","Goyang, South Korea","country: Republic Of Korea","Goyanh, South Korea",FALSE,FALSE,FALSE,1
-"Greenbelt, Md, United States","Greenbelt, Md, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Guildford, United States","Guildford, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Guilford, Ct, United States","Guilford, Ct, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Gumi, Republic Of Korea","Gumi, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,1
-"Gunsan, Republic Of Korea","Gunsan, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,1
-"Guri, Republic Of Korea","Guri, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,1
-"Gwacheon-Si, United States","Gwacheon-Si, South Korea","country: United States","Gwacheon-Si, USA",FALSE,FALSE,FALSE,1
-"Gwanak-Gu, Ny, Republic Of Korea","Gwanak-gu, South Korea","country: Republic Of Korea","Gwanak-Gu, Ny, South Korea",FALSE,FALSE,FALSE,1
-"Gwanak-Gu, Seoul, Republic Of Korea","Gwanak-Gu, Seoul, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,1
-"Hamamatsu, Shizuoka Pref., Japan","Hamamatsu, Shizuoka, Japan",NA,"Hamamatsu, Shizuoka Pref., Japan",FALSE,FALSE,FALSE,1
-"Hamden, Ct, United States","Hamden, Ct, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Hang Zhou, China","Hangzhou, China",NA,"Hang Zhou, China",FALSE,FALSE,FALSE,1
-"Hanover,Nh, Nh, United States","Hanover,Nh, Nh, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Harbin, Md, China","Harbin, China",NA,"Harbin, Md, China",FALSE,FALSE,FALSE,1
-"Hartsdale, Ny, United States","Hartsdale, Ny, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Haworth, Nj, United States","Haworth, Nj, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Hefei, United States","Hefei, China","country: United States","Hefei, USA",FALSE,FALSE,FALSE,1
-"Heidelberg, United States","Heidelberg, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Henderson, Nv, United States","Henderson, Nv, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Hershey, Pa, United States","Hershey, Pa, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Hinsdale, Il, United States","Hinsdale, Il, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Hong Kong, China, China","Hongkong, China, China","city: Hong Kong, China",NA,FALSE,FALSE,FALSE,1
-"Honolulu, Hi, United States","Honolulu, Hi, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Hsinchu City 300081 , Taiwan (R.o.c.), Taiwan","Hsinchu City, Taiwan",NA,"Hsinchu City 300081 , Taiwan (R.o.c.), Taiwan",FALSE,FALSE,FALSE,1
-"Jeonbuk-Do, Republic Of Korea","Jeonbuk-Do, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,1
-"Jeonju-Si, Jeonbuk-Do, Republic Of Korea","Jeonju-Si, Jeonbuk-Do, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,1
-"Jericho, Ny, United States","Jericho, Ny, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Johns Creek, Ga, United States","Johns Creek, Ga, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Jongno-Gu, Republic Of Korea","Jongno-Gu, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,1
-"Julich, Germany","Jülich, Germany",NA,"Julich, Germany",FALSE,FALSE,FALSE,1
-"Katushikaku, Japan","Tokyo, Japan",NA,"Katushikaku, Japan",FALSE,FALSE,FALSE,1
-"Katy, Tx, United States","Katy, Tx, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Key Biscayne, Fl, United States","Key Biscayne, Fl, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Kingston, United States","Kingston, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Kristianstad, Il, Sweden","Kristianstad, Sweden",NA,"Kristianstad, Il, Sweden",FALSE,FALSE,FALSE,1
-"Kunsan, Republic Of Korea","Kunsan, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,1
-"La Mesa, Ca, United States","La Mesa, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Ladera Ranch, Ca, United States","Ladera Ranch, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Las Vegas, Oh, United States","Las Vegas, Oh, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Lehi, Ut, United States","Lehi, Ut, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Lexington, Ma, United States","Lexington, Ma, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Liberty Hill, Tx, United States","Liberty Hill, Tx, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Lindenhurst, Ny, United States","Lindenhurst, Ny, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"London, Fl, United States","London, Fl, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Los Anegeles, Ca, United States","Los Angeles, Ca, USA","country: United States","Los Anegeles, Ca, USA",FALSE,FALSE,FALSE,1
-"Los Angeles Ca, Ca, United States","Los Angeles Ca, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Los Angeles County, Ca, United States","Los Angeles County, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Lucca (Italy), Italy","Lucca, Italy","city: Lucca (Italy)",NA,FALSE,FALSE,FALSE,1
-"Lucca, Italy, Italy","Lucca, Italy",NA,"Lucca, Italy, Italy",FALSE,FALSE,FALSE,1
-"Lund, Pa, Sweden","Lund, Sweden",NA,"Lund, Pa, Sweden",FALSE,FALSE,FALSE,1
-"Lynchburg, Va, United States","Lynchburg, Va, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Manlius, Ny, United States","Manlius, Ny, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Maspeth, Ny, United States","Maspeth, Ny, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Mckees Rocks, Pa, United States","Mckees Rocks, Pa, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Meriden, Nh, United States","Meriden, Nh, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Metuchen, Nj, United States","Metuchen, Nj, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Miami Gardens, United States","Miami Gardens, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Mill Valley, Ca, United States","Mill Valley, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Milwaukee, United States","Milwaukee, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Mission Hills, Ca, United States","Mission Hills, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Missoula, Mt, United States","Missoula, Mt, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Mlebourne, Australia","Melbourne, Australia",NA,"Mlebourne, Australia",FALSE,FALSE,FALSE,1
-"Mobile, Al, United States","Mobile, Al, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Monteal, Canada","Montréal, Canada",NA,"Monteal, Canada",FALSE,FALSE,FALSE,1
-"Monteal, Pq, Canada","Montréal, Canada",NA,"Monteal, Pq, Canada",FALSE,FALSE,FALSE,1
-"Montrea;, Pq, Canada","Montréal, Canada",NA,"Montrea;, Pq, Canada",FALSE,FALSE,FALSE,1
-"Montreal, Pq, Mexico","Montréal, Canada",NA,"Montreal, Pq, Mexico",FALSE,FALSE,FALSE,1
-"Montreal, United States","Montreal, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Morrisville, Pa, United States","Morrisville, Pa, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Mount Waverley, Australia","Mount Waverley, Vic, Australia",NA,"Mount Waverley, Australia",FALSE,FALSE,FALSE,1
-"Mount Waverley, Co, Australia","Mount Waverley, Vic, Australia",NA,"Mount Waverley, Co, Australia",FALSE,FALSE,FALSE,1
-"Msd, Malta","Msida, Malta",NA,"Msd, Malta",FALSE,FALSE,FALSE,1
-"Munich, United States","Munich, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Nashville, United States","Nashville, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Natick, Ma, United States","Natick, Ma, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Needham, Ma, United States","Needham, Ma, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"New Tapiei City, Taiwan","New Taipei, Taiwan",NA,"New Tapiei City, Taiwan",FALSE,FALSE,FALSE,1
-"Newark, De, United States","Newark, De, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Niskayuna, Ny, United States","Niskayuna, Ny, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Nyc, Ny, United States","Nyc, Ny, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Oak Park, Mi, United States","Oak Park, Mi, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Oklahoma City, Ok, United States","Oklahoma City, Ok, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Opelika, Al, United States","Opelika, Al, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Padova, United States","Padova, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Palisades Park, Nj, United States","Palisades Park, Nj, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Paris, United States","Paris, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Pasadena, Ca, United States","Pasadena, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Pearland, Tx, United States","Pearland, Tx, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Pembroke Pines, Fl, United States","Pembroke Pines, Fl, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Philadelphia, United States","Philadelphia, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Pittsford, Ny, United States","Pittsford, Ny, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Pleasanton, Ca, United States","Pleasanton, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Plymouth, Mn, United States","Plymouth, Mn, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Pohang,  Gyeongbuk, Republic Of Korea","Pohang,  Gyeongbuk, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,1
-"Pohangsi, Republic Of Korea","Pohangsi, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,1
-"Potomac, Md, United States","Potomac, Md, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Pottstown, Pa, United States","Pottstown, Pa, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Prague 2, Czech Republic","Prague, Czech Republic",NA,"Prague 2, Czech Republic",FALSE,FALSE,FALSE,1
-"Prague 6, Czech Republic","Prague, Czech Republic",NA,"Prague 6, Czech Republic",FALSE,FALSE,FALSE,1
-"Prague, Czechia, Czech Republic","Prague, Czech Republic",NA,"Prague, Czechia, Czech Republic",FALSE,FALSE,FALSE,1
-"Princeton Junction, Nj, United States","Princeton Junction, Nj, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Prospect Park, Pa, United States","Prospect Park, Pa, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Quebec, Canada","Québec, Canada",NA,"Quebec, Canada",FALSE,FALSE,FALSE,1
-"Redmond, Wa, United States","Redmond, Wa, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Rehengeri, Rwanda","Ruhengeri, Rwanda",NA,"Rehengeri, Rwanda",FALSE,FALSE,FALSE,1
-"Richmond, Va, United States","Richmond, Va, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Saint Louis, United States","Saint Louis, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"San Carlos, Ca, United States","San Carlos, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"San Deigo, United States","San Diego, USA","country: United States","San Deigo, USA",FALSE,FALSE,FALSE,1
-"San Diego, United States","San Diego, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"San Pedro, Ca, United States","San Pedro, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"San Sebastian - Donostia, Spain","San Sebastian-Donostia, Spain",NA,"San Sebastian - Donostia, Spain",FALSE,FALSE,FALSE,1
-"Sandy, Ut, United States","Sandy, Ut, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Santiago, United States","Santiago, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Santo Andre, Brazil","Santo André, Brazil",NA,"Santo Andre, Brazil",FALSE,FALSE,FALSE,1
-"Saratoga, Ca, United States","Saratoga, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Scottsdale, Az, United States","Scottsdale, Az, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Sendai, United States","Sendai, Japan","country: United States","Sendai, USA",FALSE,FALSE,FALSE,1
-"Seongdong-Gu, Republic Of Korea","Seongdong-Gu, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,1
-"Seongnam, Gyeonggi-Do, Republic Of Korea","Seongnam, Gyeonggi-Do, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,1
-"Seoul City, Republic Of Korea","Seoul City, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,1
-"Seoul, Ma, Republic Of Korea","Seoul, Ma, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,1
-"Seul, Republic Of Korea","Seul, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,1
-"Sevilla, Spain","Seville, Spain",NA,"Sevilla, Spain",FALSE,FALSE,FALSE,1
-"Sha Tin, Hong Kong","Shatin, Hong Kong",NA,"Sha Tin, Hong Kong",FALSE,FALSE,FALSE,1
-"Shang Hai, China","Shanghai, China",NA,"Shang Hai, China",FALSE,FALSE,FALSE,1
-"Shangahi, China","Shanghai, China",NA,"Shangahi, China",FALSE,FALSE,FALSE,1
-"Shanghai, United States","Shanghai, China","country: United States","Shanghai, USA",FALSE,FALSE,FALSE,1
-"Sharpsburg, Pa, United States","Sharpsburg, Pa, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Shenghai, China","Shanghai, China",NA,"Shenghai, China",FALSE,FALSE,FALSE,1
-"Sherman Oaks, Ca, United States","Sherman Oaks, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Siheung, Republic Of Korea","Siheung, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,1
-"Siheung-Si, Republic Of Korea","Siheung-Si, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,1
-"Singapore, United States","Singapore, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Sion, Svizzera, Switzerland","Sion, Switzerland",NA,"Sion, Svizzera, Switzerland",FALSE,FALSE,FALSE,1
-"Sommerville, Ma, United States","Sommerville, Ma, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"South Burlington, Vt, United States","South Burlington, Vt, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Spring House, Pa, United States","Spring House, Pa, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"St Paul, Mn, United States","St Paul, Mn, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Suita, Oasaka, Japan","Suita, Japan",NA,"Suita, Oasaka, Japan",FALSE,FALSE,FALSE,1
-"Suita, Osaka, Id, Japan","Suita, Japan",NA,"Suita, Osaka, Id, Japan",FALSE,FALSE,FALSE,1
-"Sujung-Gu, Sungnam-Si, Republic Of Korea","Sujeong-gu, South Korea","country: Republic Of Korea","Sujung-Gu, Sungnam-Si, South Korea",FALSE,FALSE,FALSE,1
-"Sun City, Az, United States","Sun City, Az, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Surry, Bc, Canada","Surrey, Bc, Canada",NA,"Surry, Bc, Canada",FALSE,FALSE,FALSE,1
-"Suwon Si, Republic Of Korea","Suwon Si, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,1
-"São Paulo, Brazil","São Paulo, Sp, Brazil",NA,"São Paulo, Brazil",FALSE,FALSE,FALSE,1
-"Taipei, United States","Taipei, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Tampa, United States","Tampa, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Taoyuan, United States","Taoyuan City, Taiwan","country: United States","Taoyuan, USA",FALSE,FALSE,FALSE,1
-"Tehran, Iran, Islamic Republic Of","Tehran, Iran","country: Iran, Islamic Republic Of",NA,FALSE,FALSE,FALSE,1
-"The Bronx, Ny, United States","The Bronx, Ny, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Toledo, Oh, United States","Toledo, Oh, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Toronto, On, United States","Toronto, On, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Toronto, United States","Toronto, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Trento - Vat 00340520220, Italy","Trento, Italy","city: Trento - Vat 00340520220",NA,FALSE,FALSE,FALSE,1
-"Trois-Rivieres, Pq, Canada","Trois-Rivières, Quebec, Canada",NA,"Trois-Rivieres, Pq, Canada",FALSE,FALSE,FALSE,1
-"Troy, Mi, United States","Troy, Mi, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Tsimshatsui, Hong Kong","Hong Kong",NA,"Tsimshatsui, Hong Kong",FALSE,FALSE,FALSE,1
-"University City, Mo, United States","University City, Mo, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Upper Arlington, Oh, United States","Upper Arlington, Oh, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Upper Darby, Pa, United States","Upper Darby, Pa, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Valencia, Ca, United States","Valencia, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Vancouver, Wa, United States","Vancouver, Wa, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Venice, Ca, United States","Venice, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Villanova, Pa, United States","Villanova, Pa, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Wahsington, Dc, United States","Washington, Dc, USA","country: United States","Wahsington, Dc, USA",FALSE,FALSE,FALSE,1
-"Warszawa, United States","Warszawa, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Wayzata, Mn, United States","Wayzata, Mn, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"West Lebanon, Nh, United States","West Lebanon, Nh, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"West Orang, Nj, United States","West Orange, Nj, USA","country: United States","West Orang, Nj, USA",FALSE,FALSE,FALSE,1
-"Westerville, Oh, United States","Westerville, Oh, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Wexford, Pa, United States","Wexford, Pa, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"White Plains, Ny, United States","White Plains, Ny, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"White River Junction, Vt, United States","White River Junction, Vt, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Wisconsin, Wi, Republic Of Korea","Wisconsin, Wi, USA","country: Republic Of Korea","Wisconsin, Wi, South Korea",FALSE,FALSE,FALSE,1
-"Wiston-Salem, Nc, United States","Winston-Salem, Nc, USA","country: United States","Wiston-Salem, Nc, USA",FALSE,FALSE,FALSE,1
-"Woodside, Ca, United States","Woodside, Ca, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Wurzburg, Germany","Würzburg, Germany",NA,"Wurzburg, Germany",FALSE,FALSE,FALSE,1
-"X, United States","X, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"Yangsan-Si, Gyeongsangnam-Do, United States","Yangsan-Si, Gyeongsangnam-Do, South Korea","country: United States","Yangsan-Si, Gyeongsangnam-Do, USA",FALSE,FALSE,FALSE,1
-"Yeongdeungpo-Gu, Republic Of Korea","Yeongdeungpo-Gu, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,1
-"Yeosu, Republic Of Korea","Yeosu, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,1
-"Yonginsi, United States","Yonginsi, South Korea","country: United States","Yonginsi, USA",FALSE,FALSE,FALSE,1
-"Yorktown Heights, Ny, United States","Yorktown Heights, Ny, USA","country: United States",NA,FALSE,FALSE,FALSE,1
-"공주시, Republic Of Korea","공주시, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,1
-"용인시, Republic Of Korea","용인시, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,1
-"충청남도, Republic Of Korea","충청남도, South Korea","country: Republic Of Korea",NA,FALSE,FALSE,FALSE,1
+"full_address_raw","full_address","synonyms_component","synonyms_full_address","correction_types","conflicting","chained","partial","n_entries"
+"Dollard-Des Ormeaux, Pq, Canada","Dollard-Des-Ormeaux, Québec, Canada",NA,"Dollard-Des Ormeaux, Pq, Canada >> Quebec, Canada","diacritics; format",FALSE,TRUE,TRUE,1
+"Sao Paulo, Brazil","São Paulo, Sp, Brazil",NA,"Sao Paulo, Brazil >> São Paulo, Brazil","diacritics; format",FALSE,TRUE,FALSE,1
+"Yongin, United States","Yonginsi, South Korea","country: United States","Yongin, USA >> Yonginsi, USA","country_name; variant; wrong_country",FALSE,TRUE,FALSE,1
+"Montréal, Pq, Canada","Montréal, Quebec, Canada",NA,"Pq, Canada","format",FALSE,FALSE,TRUE,83
+"Québec, Pq, Canada","Québec, Quebec, Canada",NA,"Pq, Canada","format",FALSE,FALSE,TRUE,8
+"Sherbrooke, Pq, Canada","Sherbrooke, Quebec, Canada",NA,"Pq, Canada","format",FALSE,FALSE,TRUE,7
+"Trois-Rivières, Pq, Canada","Trois-Rivières, Quebec, Canada",NA,"Pq, Canada","format",FALSE,FALSE,TRUE,7
+"Verdun, Pq, Canada","Verdun, Quebec, Canada",NA,"Pq, Canada","format",FALSE,FALSE,TRUE,6
+"Laval, Pq, Canada","Laval, Quebec, Canada",NA,"Pq, Canada","format",FALSE,FALSE,TRUE,3
+"Saint-Bruno, Pq, Canada","Saint-Bruno, Quebec, Canada",NA,"Pq, Canada","format",FALSE,FALSE,TRUE,3
+"Daejeon, Republic Of Korea, Republic Of Korea","Daejeon, South Korea","city: Republic Of Korea; country: Republic Of Korea","South Korea, South Korea","country_name; format",FALSE,FALSE,TRUE,2
+"Lasalle, Pq, Canada","Lasalle, Quebec, Canada",NA,"Pq, Canada","format",FALSE,FALSE,TRUE,2
+"Longueuil, Pq, Canada","Longueuil, Quebec, Canada",NA,"Pq, Canada","format",FALSE,FALSE,TRUE,2
+"Montreal, Quebec, Canada","Montreal, Québec, Canada",NA,"Quebec, Canada","diacritics",FALSE,FALSE,TRUE,2
+"Alma, Pq, Canada","Alma, Quebec, Canada",NA,"Pq, Canada","format",FALSE,FALSE,TRUE,1
+"Beaconsfield, Pq, Canada","Beaconsfield, Quebec, Canada",NA,"Pq, Canada","format",FALSE,FALSE,TRUE,1
+"Brossard, Pq, Canada","Brossard, Quebec, Canada",NA,"Pq, Canada","format",FALSE,FALSE,TRUE,1
+"Carignan, Pq, Canada","Carignan, Quebec, Canada",NA,"Pq, Canada","format",FALSE,FALSE,TRUE,1
+"Chambly, Pq, Canada","Chambly, Quebec, Canada",NA,"Pq, Canada","format",FALSE,FALSE,TRUE,1
+"Daegu, Korea, Republic Of Korea","Daegu, South Korea","country: Republic Of Korea","Korea, South Korea","country_name; format",FALSE,FALSE,TRUE,1
+"Dollard-Des-Ormeaux, Pq, Canada","Dollard-Des-Ormeaux, Quebec, Canada",NA,"Pq, Canada","format",FALSE,FALSE,TRUE,1
+"Esterel, Pq, Canada","Esterel, Quebec, Canada",NA,"Pq, Canada","format",FALSE,FALSE,TRUE,1
+"La Prairie, Pq, Canada","La Prairie, Quebec, Canada",NA,"Pq, Canada","format",FALSE,FALSE,TRUE,1
+"Lachine, Pq, Canada","Lachine, Quebec, Canada",NA,"Pq, Canada","format",FALSE,FALSE,TRUE,1
+"Mont-Saint-Hilaire, Pq, Canada","Mont-Saint-Hilaire, Quebec, Canada",NA,"Pq, Canada","format",FALSE,FALSE,TRUE,1
+"Prevost, Pq, Canada","Prevost, Quebec, Canada",NA,"Pq, Canada","format",FALSE,FALSE,TRUE,1
+"Saint-Félix-De-Valois, Pq, Canada","Saint-Félix-De-Valois, Quebec, Canada",NA,"Pq, Canada","format",FALSE,FALSE,TRUE,1
+"Saint-Hubert, Pq, Canada","Saint-Hubert, Quebec, Canada",NA,"Pq, Canada","format",FALSE,FALSE,TRUE,1
+"Saint-Leonard, Pq, Canada","Saint-Leonard, Quebec, Canada",NA,"Pq, Canada","format",FALSE,FALSE,TRUE,1
+"Sainte-Brigide D'iberville, Pq, Canada","Sainte-Brigide D'iberville, Quebec, Canada",NA,"Pq, Canada","format",FALSE,FALSE,TRUE,1
+"Sainte-Catherine, Pq, Canada","Sainte-Catherine, Quebec, Canada",NA,"Pq, Canada","format",FALSE,FALSE,TRUE,1
+"Sejong-Si, South Korea, Republic Of Korea","Sejong-Si, South Korea","country: Republic Of Korea","South Korea, South Korea","country_name; format",FALSE,FALSE,TRUE,1
+"Seoul Korea, Republic Of Korea","Seoul South Korea","country: Republic Of Korea","Korea, South Korea","country_name; format",FALSE,FALSE,TRUE,1
+"Seoul, South Korea, Republic Of Korea","Seoul, South Korea","country: Republic Of Korea","South Korea, South Korea","country_name; format",FALSE,FALSE,TRUE,1
+"The University Of Sydney, Australia","The University Of Sydney, Nsw, Australia",NA,"Sydney, Australia","format",FALSE,FALSE,TRUE,1
+"Ulsan, Republic Of Korea, Republic Of Korea","Ulsan, South Korea","city: Republic Of Korea; country: Republic Of Korea","South Korea, South Korea","country_name; format",FALSE,FALSE,TRUE,1
+"Unsw Sydney, Australia","Unsw Sydney, Nsw, Australia",NA,"Sydney, Australia","format",FALSE,FALSE,TRUE,1
+"Westmount, Pq, Canada","Westmount, Quebec, Canada",NA,"Pq, Canada","format",FALSE,FALSE,TRUE,1
+"Seoul, Republic Of Korea","Seoul, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,456
+"Montreal, Pq, Canada","Montréal, Canada",NA,"Montreal, Pq, Canada","format",FALSE,FALSE,FALSE,370
+"New York, Ny, United States","New York, Ny, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,104
+"Los Angeles, Ca, United States","Los Angeles, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,98
+"Bethesda, Md, United States","Bethesda, Md, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,91
+"Philadelphia, Pa, United States","Philadelphia, Pa, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,82
+"Boston, Ma, United States","Boston, Ma, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,80
+"New Haven, Ct, United States","New Haven, Ct, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,63
+"Montreal, Canada","Montréal, Canada",NA,"Montreal, Canada","diacritics",FALSE,FALSE,FALSE,62
+"St. Louis, Mo, United States","St. Louis, Mo, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,60
+"Atlanta, Ga, United States","Atlanta, Ga, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,56
+"Suwon, Republic Of Korea","Suwon, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,52
+"Daejeon, Republic Of Korea","Daejeon, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,49
+"Stanford, Ca, United States","Stanford, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,46
+"Pittsburgh, Pa, United States","Pittsburgh, Pa, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,43
+"Chicago, Il, United States","Chicago, Il, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,42
+"Charlestown, Ma, United States","Charlestown, Ma, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,41
+"Cambridge, Ma, United States","Cambridge, Ma, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,39
+"San Francisco, Ca, United States","San Francisco, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,39
+"Geneva, Switzerland","Genève, Switzerland",NA,"Geneva, Switzerland","variant",FALSE,FALSE,FALSE,38
+"Zurich, Switzerland","Zürich, Switzerland",NA,"Zurich, Switzerland","diacritics",FALSE,FALSE,FALSE,37
+"Bloomington, In, United States","Bloomington, In, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,35
+"Columbus, Oh, United States","Columbus, Oh, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,33
+"Nashville, Tn, United States","Nashville, Tn, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,33
+"Daegu, Republic Of Korea","Daegu, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,31
+"Sydney, Australia","Sydney, Nsw, Australia",NA,"Sydney, Australia","format",FALSE,FALSE,FALSE,31
+"Hanover, Nh, United States","Hanover, Nh, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,30
+"Suwon-Si, Republic Of Korea","Suwon-Si, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,30
+"Minneapolis, Mn, United States","Minneapolis, Mn, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,29
+"Baltimore, Md, United States","Baltimore, Md, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,28
+"Dallas, Tx, United States","Dallas, Tx, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,27
+"Austin, Tx, United States","Austin, Tx, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,24
+"Roanoke, Va, United States","Roanoke, Va, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,23
+"Ann Arbor, Mi, United States","Ann Arbor, Mi, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,22
+"Washington, Dc, United States","Washington, Dc, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,21
+"Chapel Hill, Nc, United States","Chapel Hill, Nc, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,20
+"Gyeonggi-Do, Republic Of Korea","Gyeonggi-Do, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,19
+"Juelich, Germany","Jülich, Germany",NA,"Juelich, Germany","diacritics",FALSE,FALSE,FALSE,18
+"Seattle, Wa, United States","Seattle, Wa, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,18
+"Palo Alto, Ca, United States","Palo Alto, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,17
+"Tübingen, Germany","Tuebingen, Germany",NA,"Tübingen, Germany","diacritics",FALSE,FALSE,FALSE,17
+"Brooklyn, Ny, United States","Brooklyn, Ny, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,16
+"Saint Louis, Mo, United States","Saint Louis, Mo, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,16
+"Busan, Republic Of Korea","Busan, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,15
+"Padova, Italy","Padua, Italy",NA,"Padova, Italy","variant",FALSE,FALSE,FALSE,15
+"St Lucia, Australia","St. Lucia, Australia",NA,"St Lucia, Australia","variant",FALSE,FALSE,FALSE,15
+"Burlington, Vt, United States","Burlington, Vt, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,14
+"Detroit, Mi, United States","Detroit, Mi, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,14
+"Houston, Tx, United States","Houston, Tx, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,14
+"Ansan, Republic Of Korea","Ansan, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,13
+"Hong Kong, China","Hongkong, China",NA,"Hong Kong, China","variant",FALSE,FALSE,FALSE,13
+"St Louis, Mo, United States","St. Louis, Mo, USA","country: United States","St Louis, Mo, USA","country_name; variant",FALSE,FALSE,FALSE,13
+"Ulsan, Republic Of Korea","Ulsan, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,13
+"Birmingham, Al, United States","Birmingham, Al, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,12
+"Incheon, Republic Of Korea","Incheon, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,12
+"Madison, Wi, United States","Madison, Wi, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,12
+"Marina Del Rey, Ca, United States","Marina Del Rey, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,12
+"Miami, Fl, United States","Miami, Fl, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,12
+"Princeton, Nj, United States","Princeton, Nj, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,12
+"Salt Lake City, Ut, United States","Salt Lake City, Ut, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,12
+"San Antonio, Tx, United States","San Antonio, Tx, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,12
+"Berkeley, Ca, United States","Berkeley, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,11
+"Newark, Nj, United States","Newark, Nj, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,11
+"San Diego, Ca, United States","San Diego, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,11
+"Tel Aviv, Israel","Tel-Aviv, Israel",NA,"Tel Aviv, Israel","variant",FALSE,FALSE,FALSE,11
+"Cincinnati, Oh, United States","Cincinnati, Oh, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,10
+"Gainesville, Fl, United States","Gainesville, Fl, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,10
+"Charlottesville, Va, United States","Charlottesville, Va, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,9
+"Gwangju, Republic Of Korea","Gwangju, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,9
+"Indianapolis, In, United States","Indianapolis, In, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,9
+"Iowa City, Ia, United States","Iowa City, Ia, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,9
+"Korea, Republic Of Korea","South Korea","country: Republic Of Korea","Korea, South Korea","country_name; format",FALSE,FALSE,FALSE,9
+"Little Rock, Ar, United States","Little Rock, Ar, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,9
+"Omaha, Ne, United States","Omaha, Ne, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,9
+"Queretaro, Mexico","Querétaro, Mexico",NA,"Queretaro, Mexico","diacritics",FALSE,FALSE,FALSE,9
+"Somerville, Ma, United States","Somerville, Ma, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,9
+"Belmont, Ma, United States","Belmont, Ma, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,8
+"Durham, Nc, United States","Durham, Nc, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,8
+"La Jolla, Ca, United States","La Jolla, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,8
+"Milwaukee, Wi, United States","Milwaukee, Wi, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,8
+"Rockville, Md, United States","Rockville, Md, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,8
+"Yongin-Si, Republic Of Korea","Yongin-Si, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,8
+"Athens, Ga, United States","Athens, Ga, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,7
+"Duesseldorf, Germany","Düsseldorf, Germany",NA,"Duesseldorf, Germany","diacritics",FALSE,FALSE,FALSE,7
+"Lisboa, Portugal","Lisbon, Portugal",NA,"Lisboa, Portugal","variant",FALSE,FALSE,FALSE,7
+"Memphis, Tn, United States","Memphis, Tn, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,7
+"Sacramento, Ca, United States","Sacramento, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,7
+"Seoul, United States","Seoul, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,7
+"Woodbridge, Nj, United States","Woodbridge, Nj, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,7
+"Yongin, Republic Of Korea","Yongin, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,7
+"Albuquerque, Nm, United States","Albuquerque, Nm, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,6
+"Cleveland, Oh, United States","Cleveland, Oh, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,6
+"Evanston, Il, United States","Evanston, Il, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,6
+"Ithaca, Ny, United States","Ithaca, Ny, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,6
+"Liege, Belgium","Liège, Belgium",NA,"Liege, Belgium","diacritics",FALSE,FALSE,FALSE,6
+"Portland, Or, United States","Portland, Or, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,6
+"Rochester, Ny, United States","Rochester, Ny, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,6
+"State College, Pa, United States","State College, Pa, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,6
+"Suwon-Si, Gyeonggi-Do, Republic Of Korea","Suwon-Si, Gyeonggi-Do, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,6
+"Urbana, Il, United States","Urbana, Il, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,6
+"West Lafayette, In, United States","West Lafayette, In, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,6
+"West Orange, Nj, United States","West Orange, Nj, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,6
+"Worcester, Ma, United States","Worcester, Ma, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,6
+"Aurora, Co, United States","Aurora, Co, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,5
+"Blacksburg, Va, United States","Blacksburg, Va, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,5
+"Davis, Ca, United States","Davis, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,5
+"Goyang-Si, Republic Of Korea","Goyang-Si, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,5
+"Los Angeles, United States","Los Angeles, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,5
+"Mountain View, Ca, United States","Mountain View, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,5
+"Orangeburg, Ny, United States","Orangeburg, Ny, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,5
+"Santa Barbara, Ca, United States","Santa Barbara, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,5
+"Sejong, Republic Of Korea","Sejong, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,5
+"Tulsa, Ok, United States","Tulsa, Ok, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,5
+"University Park, Pa, United States","University Park, Pa, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,5
+"Aarhus C, Denmark","Aarhus, Denmark",NA,"Aarhus C, Denmark","format",FALSE,FALSE,FALSE,4
+"Bronx, Ny, United States","Bronx, Ny, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,4
+"Coral Gables, Fl, United States","Coral Gables, Fl, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,4
+"Decatur, Ga, United States","Decatur, Ga, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,4
+"Denver, Co, United States","Denver, Co, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,4
+"El Paso, Tx, United States","El Paso, Tx, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,4
+"Genoa, Italy","Genova, Italy",NA,"Genoa, Italy","variant",FALSE,FALSE,FALSE,4
+"Glen Oaks, Ny, United States","Glen Oaks, Ny, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,4
+"Goleta, Ca, United States","Goleta, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,4
+"Gongju-Si, Republic Of Korea","Gongju-Si, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,4
+"Graefelfing, Germany","Gräfelfing, Germany",NA,"Graefelfing, Germany","diacritics",FALSE,FALSE,FALSE,4
+"Irvine, Ca, United States","Irvine, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,4
+"Lincoln, Ne, United States","Lincoln, Ne, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,4
+"London, United States","London, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,4
+"Northridge, Ca, United States","Northridge, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,4
+"Prague 8, Czech Republic","Prague, Czech Republic",NA,"Prague 8, Czech Republic","format",FALSE,FALSE,FALSE,4
+"Quebec, Pq, Canada","Québec, Canada",NA,"Quebec, Pq, Canada","format",FALSE,FALSE,FALSE,4
+"Seongnam, Republic Of Korea","Seongnam, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,4
+"Taoyuan City, Tpe, Taiwan","Taoyuan City, Taiwan",NA,"Taoyuan City, Tpe, Taiwan","format",FALSE,FALSE,FALSE,4
+"Warsaw, Poland","Warszawa, Poland",NA,"Warsaw, Poland","variant",FALSE,FALSE,FALSE,4
+"Amherst, Ma, United States","Amherst, Ma, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,3
+"Ansan-Si, Republic Of Korea","Ansan-Si, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,3
+"Boys Town, Ne, United States","Boys Town, Ne, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,3
+"Cheongju, Republic Of Korea","Cheongju, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,3
+"Columbia, Md, United States","Columbia, Md, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,3
+"Culver City, Ca, United States","Culver City, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,3
+"Daejeon, United States","Daejeon, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,3
+"East Hanover, Nj, United States","East Hanover, Nj, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,3
+"Emerald Hills, Ca, United States","Emerald Hills, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,3
+"Eugene, Or, United States","Eugene, Or, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,3
+"Geumjeong-Gu, Republic Of Korea","Geumjeong-Gu, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,3
+"Gif Sur Yvette, France","Gif-Sur-Yvette, France",NA,"Gif Sur Yvette, France","variant",FALSE,FALSE,FALSE,3
+"Glen Head, Ny, United States","Glen Head, Ny, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,3
+"Goyang, Republic Of Korea","Goyang, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,3
+"Green Cove Springs, Fl, United States","Green Cove Springs, Fl, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,3
+"Istanbul, Turkey","İstanbul, Turkey",NA,"Istanbul, Turkey","diacritics",FALSE,FALSE,FALSE,3
+"Kansas City, Ks, United States","Kansas City, Ks, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,3
+"Krakow, Poland","Kraków, Poland",NA,"Krakow, Poland","diacritics",FALSE,FALSE,FALSE,3
+"Le Chesnay Rocquencourt, France","Le Chesnay-Rocquencourt, France",NA,"Le Chesnay Rocquencourt, France","variant",FALSE,FALSE,FALSE,3
+"Lexington, Ky, United States","Lexington, Ky, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,3
+"Medford, Ma, United States","Medford, Ma, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,3
+"Muenchen, Germany","Munich, Germany","city: Muenchen",NA,"variant",FALSE,FALSE,FALSE,3
+"Muenster, Germany","Münster, Germany",NA,"Muenster, Germany","diacritics",FALSE,FALSE,FALSE,3
+"New Orleans, La, United States","New Orleans, La, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,3
+"North Bethesda, Md, United States","North Bethesda, Md, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,3
+"Oxford, United States","Oxford, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,3
+"Phoenix, Az, United States","Phoenix, Az, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,3
+"Piscataway, Nj, United States","Piscataway, Nj, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,3
+"Richardson, Tx, United States","Richardson, Tx, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,3
+"Riverside, Ca, United States","Riverside, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,3
+"Roseville, Mn, United States","Roseville, Mn, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,3
+"Santa Monica, Ca, United States","Santa Monica, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,3
+"Stony Brook, Ny, United States","Stony Brook, Ny, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,3
+"Swarthmore, Pa, United States","Swarthmore, Pa, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,3
+"Valparaiso, Chile","Valparaíso, Chile",NA,"Valparaiso, Chile","diacritics",FALSE,FALSE,FALSE,3
+"West Hartford, Ct, United States","West Hartford, Ct, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,3
+"A, Tx, United States","A, Tx, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Allen, Mi, United States","Allen, Mi, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Allston, Ma, United States","Allston, Ma, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Ansan-Si, Gyeonggi-Do, Republic Of Korea","Ansan-Si, Gyeonggi-Do, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,2
+"Anyang, Republic Of Korea","Anyang, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,2
+"Anyang-Si, Gyeonggi-Do, Republic Of Korea","Anyang-Si, Gyeonggi-Do, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,2
+"Anyang-Si, Republic Of Korea","Anyang-Si, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,2
+"Arcadia, Ca, United States","Arcadia, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Arlington, Va, United States","Arlington, Va, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Beijing, United States","Beijing, China","country: United States","Beijing, USA","country_name; wrong_country",FALSE,FALSE,FALSE,2
+"Beijing,China, United States","Beijing, China","country: United States","Beijing,China, USA","country_name; wrong_country",FALSE,FALSE,FALSE,2
+"Belleville, Wi, United States","Belleville, Wi, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Boston, Ma, Ma, United States","Boston, Ma, Ma, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Brookline, Ma, United States","Brookline, Ma, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Bucheon, Republic Of Korea","Bucheon, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,2
+"Camperdown, Nb, Australia","Camperdown, Australia",NA,"Camperdown, Nb, Australia","format",FALSE,FALSE,FALSE,2
+"Camperdown, New South Wales, Australia","Camperdown, Australia",NA,"Camperdown, New South Wales, Australia","format",FALSE,FALSE,FALSE,2
+"Campus Box 8225, Mo, United States","Campus Box 8225, Mo, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Castello, Spain","Castelló, Spain",NA,"Castello, Spain","diacritics",FALSE,FALSE,FALSE,2
+"Champaign, Il, United States","Champaign, Il, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Charleston, Sc, United States","Charleston, Sc, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Columbia, Sc, United States","Columbia, Sc, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Donostia/San Sebastián, Spain","Donostia-San Sebastián, Spain",NA,"Donostia/San Sebastián, Spain","variant",FALSE,FALSE,FALSE,2
+"Dublin 7, Ireland","Dublin, Ireland",NA,"Dublin 7, Ireland","format",FALSE,FALSE,FALSE,2
+"East Haven, Ct, United States","East Haven, Ct, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"East Lansing, Mi, United States","East Lansing, Mi, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Fremont, Ca, United States","Fremont, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Gangnam, Republic Of Korea","Gangnam, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,2
+"Geneve, Switzerland","Genève, Switzerland",NA,"Geneve, Switzerland","diacritics",FALSE,FALSE,FALSE,2
+"Grenoble Cedex 9, France","Grenoble, France","city: Grenoble Cedex 9",NA,"format",FALSE,FALSE,FALSE,2
+"Gunsan-Si, Republic Of Korea","Gunsan-Si, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,2
+"Gwanak-Gu, Republic Of Korea","Gwanak-Gu, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,2
+"Incheon, United States","Incheon, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Isfahan, Iran, Islamic Republic Of","Isfahan, Iran","country: Iran, Islamic Republic Of",NA,"country_name",FALSE,FALSE,FALSE,2
+"Jeonju, Republic Of Korea","Jeonju, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,2
+"Jeonju-Si, Republic Of Korea","Jeonju-Si, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,2
+"Jersey City, Nj, United States","Jersey City, Nj, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Kearney, Ne, United States","Kearney, Ne, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Kensington, Md, United States","Kensington, Md, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Köln, Germany","Cologne, Germany","city: Köln",NA,"variant",FALSE,FALSE,FALSE,2
+"Las Vegas, Nv, United States","Las Vegas, Nv, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Louisville, Co, United States","Louisville, Co, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Macao, Macao","Macau, Macao",NA,"Macao, Macao","variant",FALSE,FALSE,FALSE,2
+"Madison Heights, Mi, United States","Madison Heights, Mi, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Malden, Ma, United States","Malden, Ma, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Manhasset, Ny, United States","Manhasset, Ny, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Md, United States","Md, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Montreal, Pq, France","Montréal, Canada",NA,"Montreal, Pq, France","wrong_country",FALSE,FALSE,FALSE,2
+"Montreal, Pq, United States","Montréal, Canada","country: United States","Montreal, Pq, USA","country_name; wrong_country",FALSE,FALSE,FALSE,2
+"Montvale, Nj, United States","Montvale, Nj, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Nanjing, United States","Nanjing, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"New Carrollton, Md, United States","New Carrollton, Md, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"New York City, Ny, United States","New York City, Ny, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"New York, United States","New York, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Norman, Ok, United States","Norman, Ok, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"North Chicago, Il, United States","North Chicago, Il, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Ny, Ny, United States","New York City, USA","country: United States","Ny, Ny, USA","country_name; variant",FALSE,FALSE,FALSE,2
+"Oakland, Ca, United States","Oakland, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Orange, Ca, United States","Orange, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Ormond Beach, Fl, United States","Ormond Beach, Fl, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Pohang, Republic Of Korea","Pohang, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,2
+"Pohang-Si, Republic Of Korea","Pohang-Si, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,2
+"Praha 8, Czech Republic","Praha, Czech Republic",NA,"Praha 8, Czech Republic","format",FALSE,FALSE,FALSE,2
+"Providence, Ri, United States","Providence, Ri, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Provo, Ut, United States","Provo, Ut, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Raleigh, Nc, United States","Raleigh, Nc, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Rancho Murieta, Ca, United States","Rancho Murieta, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Reading, Ma, United States","Reading, Ma, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Redwood City, Ca, United States","Redwood City, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Reston, Va, United States","Reston, Va, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Roma, Italy","Rome, Italy","city: Roma",NA,"variant",FALSE,FALSE,FALSE,2
+"Saint Paul, Mn, United States","Saint Paul, Mn, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"San Francisco, United States","San Francisco, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"San Luis Obispo, Ca, United States","San Luis Obispo, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Sejong-Si, Republic Of Korea","Sejong-Si, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,2
+"Somerset, Nj, United States","Somerset, Nj, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Spring Hill, Tn, United States","Spring Hill, Tn, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Sterling Heights, Mi, United States","Sterling Heights, Mi, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Suwon-Si, United States","Suwon-Si, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Sydney, Nb, Australia","Sydney, Australia",NA,"Sydney, Nb, Australia","format",FALSE,FALSE,FALSE,2
+"São Paulo / Sp, Brazil","São Paulo, Sp, Brazil",NA,"São Paulo / Sp, Brazil","format",FALSE,FALSE,FALSE,2
+"Tallahassee, Fl, United States","Tallahassee, Fl, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Torino, Italy","Turin, Italy",NA,"Torino, Italy","variant",FALSE,FALSE,FALSE,2
+"Verona, Wi, United States","Verona, Wi, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Waukesha, Wi, United States","Waukesha, Wi, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Winston Salem, Nc, United States","Winston-Salem, Nc, USA","country: United States","Winston Salem, Nc, USA","country_name; variant",FALSE,FALSE,FALSE,2
+"Winston-Salem, Nc, United States","Winston-Salem, Nc, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,2
+"Woerthsee, Germany","Wörthsee, Germany",NA,"Woerthsee, Germany","diacritics",FALSE,FALSE,FALSE,2
+"Wonju, Republic Of Korea","Wonju, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,2
+"Xi' An, China","Xi'an, China",NA,"Xi' An, China","variant",FALSE,FALSE,FALSE,2
+"Yangsan, Republic Of Korea","Yangsan, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,2
+"Yangsan-Si, Gyeongsangnam-Do, Republic Of Korea","Yangsan-Si, Gyeongsangnam-Do, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,2
+"Yeosu-Si, Republic Of Korea","Yeosu-Si, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,2
+"07719, Nj, United States","07719, Nj, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"1071, Anyangcheon-Ro, Yangcheon-Gu, Seoul, Republic Of Korea","1071, Anyangcheon-Ro, Yangcheon-Gu, Seoul, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,1
+"30124, United States","30124, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Aberdeen Proving Ground, Md, United States","Aberdeen Proving Ground, Md, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Acton, Ma, United States","Acton, Ma, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Alexandria, Va, United States","Alexandria, Va, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Anseong-Si, Republic Of Korea","Anseong-Si, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,1
+"Anthony, Nm, United States","Anthony, Nm, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Apple Valley, Mn, United States","Apple Valley, Mn, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Arlington, Ma, United States","Arlington, Ma, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Arvada, Co, United States","Arvada, Co, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Astoria, United States","Astoria, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Athens, Oh, United States","Athens, Oh, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Atlanta, United States","Atlanta, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Auburn University, Al, United States","Auburn University, Al, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Auburn, Al, United States","Auburn, Al, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Auburndale, Ma, United States","Auburndale, Ma, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Aurora, Il, United States","Aurora, Il, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Austell, Ga, United States","Austell, Ga, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Bahama, Nc, United States","Bahama, Nc, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Ballwin, Mo, United States","Ballwin, Mo, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Barcelona, Sk, Spain","Barcelona, Spain",NA,"Barcelona, Sk, Spain","format",FALSE,FALSE,FALSE,1
+"Barcelona, Spain, Spain","Barcelona, Spain",NA,"Barcelona, Spain, Spain","format",FALSE,FALSE,FALSE,1
+"Bayonne, Nj, United States","Bayonne, Nj, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Bear, De, United States","Bear, De, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Bei Jing, China","Beijing, China",NA,"Bei Jing, China","variant",FALSE,FALSE,FALSE,1
+"Beijin, China","Beijing, China",NA,"Beijin, China","misspelling",FALSE,FALSE,FALSE,1
+"Beijing, China, China","Beijing, China",NA,"Beijing, China, China","format",FALSE,FALSE,FALSE,1
+"Bejing, China","Beijing, China",NA,"Bejing, China","misspelling",FALSE,FALSE,FALSE,1
+"Belmont, United States","Belmont, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Bend, Or, United States","Bend, Or, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Bentonville, Ar, United States","Bentonville, Ar, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Berlin, Germany, Germany","Berlin, Germany",NA,"Berlin, Germany, Germany","format",FALSE,FALSE,FALSE,1
+"Bethel Park, Pa, United States","Bethel Park, Pa, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Bethesda, Va, United States","Bethesda, Va, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Bethlehem, Pa, United States","Bethlehem, Pa, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Birmingham, United States","Birmingham, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Bloomfield Hills, Mi, United States","Bloomfield Hills, Mi, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Bloomfield, Nj, United States","Bloomfield, Nj, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Blythewood, Sc, United States","Blythewood, Sc, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Bordeaux, United States","Bordeaux, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Boulder, Co, United States","Boulder, Co, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Branford, Ct, United States","Branford, Ct, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Brighton, Ma, United States","Brighton, Ma, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Brighton, United States","Brighton, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Brisbane Qld, Australia","Brisbane, Qld, Australia",NA,"Brisbane Qld, Australia","format",FALSE,FALSE,FALSE,1
+"Brookfield, Ca, United States","Brookfield, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Brooklyn, Ny, Australia","Brooklyn, Australia",NA,"Brooklyn, Ny, Australia","format",FALSE,FALSE,FALSE,1
+"Brownsville, Tx, United States","Brownsville, Tx, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Brussel, Belgium","Brussels, Belgium",NA,"Brussel, Belgium","variant",FALSE,FALSE,FALSE,1
+"Bucheon-Si, Republic Of Korea","Bucheon-Si, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,1
+"Buffalo, Ny, United States","Buffalo, Ny, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Bundang-Gu, Republic Of Korea","Bundang-Gu, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,1
+"Burbank, Ca, United States","Burbank, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Burbank, United States","Burbank, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Cambridge, United States","Cambridge, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Campbellsville, Ky, United States","Campbellsville, Ky, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Camridge, Ma, United States","Cambridge, Ma, USA","country: United States","Camridge, Ma, USA","country_name; misspelling",FALSE,FALSE,FALSE,1
+"Canton, Mi, United States","Canton, Mi, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Canton, Oh, United States","Canton, Oh, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Castelló De La Plana, Spain","Castellón De La Plana, Spain",NA,"Castelló De La Plana, Spain","variant",FALSE,FALSE,FALSE,1
+"Catonsville, Md, United States","Catonsville, Md, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Cedar Park, Tx, United States","Cedar Park, Tx, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Chandler, Az, United States","Chandler, Az, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Changchun, Jilin Province, Prc, China","Changchun, China",NA,"Changchun, Jilin Province, Prc, China","format",FALSE,FALSE,FALSE,1
+"Changwon, Republic Of Korea","Changwon, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,1
+"Chengdu, United States","Chengdu, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Cheonan, Republic Of Korea","Cheonan, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,1
+"Cheonan-Si, Republic Of Korea","Cheonan-Si, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,1
+"Cheshire, Ct, United States","Cheshire, Ct, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Cheswick, Pa, United States","Cheswick, Pa, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Chicago, United States","Chicago, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Chofu, United States","Chofu, Japan","country: United States","Chofu, USA","country_name; wrong_country",FALSE,FALSE,FALSE,1
+"Chuncheon, Republic Of Korea","Chuncheon, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,1
+"Chungcheongnam-Do, Republic Of Korea","Chungcheongnam-Do, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,1
+"Cincinnati Ohio, Oh, United States","Cincinnati Ohio, Oh, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Clarksburg, Md, United States","Clarksburg, Md, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Clayton Vic, Australia","Clayton, Vic, Australia",NA,"Clayton Vic, Australia","format",FALSE,FALSE,FALSE,1
+"Clinton, Pa, United States","Clinton, Pa, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Columbia, Ny, United States","Columbia, Ny, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Columbia, Sc, Sc, United States","Columbia, Sc, Sc, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Concepcion, Chile","Concepción, Chile",NA,"Concepcion, Chile","diacritics",FALSE,FALSE,FALSE,1
+"Coral Gabels, Fl, United States","Coral Gables, Fl, USA","country: United States","Coral Gabels, Fl, USA","country_name; misspelling",FALSE,FALSE,FALSE,1
+"Coral Springs, Fl, United States","Coral Springs, Fl, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Coralville, Ia, United States","Coralville, Ia, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Costa Mesa, Ca, United States","Costa Mesa, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Cranbury, Nj, United States","Cranbury, Nj, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Dae-Gu, Republic Of Korea","Dae-Gu, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,1
+"Daegu, United States","Daegu, South Korea","country: United States","Daegu, USA","country_name; wrong_country",FALSE,FALSE,FALSE,1
+"Daejeon Metropolitan City, Republic Of Korea","Daejeon Metropolitan City, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,1
+"Daejeon-Si, Republic Of Korea","Daejeon-Si, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,1
+"Daejon, Republic Of Korea","Daejon, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,1
+"Deogyang-Gu, Goyang-Si, Republic Of Korea","Deogyang-Gu, Goyang-Si, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,1
+"Dong-Gu, Republic Of Korea","Dong-Gu, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,1
+"Donostia San Sebastian, Spain","Donostia-San Sebastián, Spain",NA,"Donostia San Sebastian, Spain","variant",FALSE,FALSE,FALSE,1
+"Dublin 4, Ireland","Dublin, Ireland",NA,"Dublin 4, Ireland","format",FALSE,FALSE,FALSE,1
+"Duluth, Ga, United States","Duluth, Ga, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Dunwoody, Ga, United States","Dunwoody, Ga, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Emeryville, Ca, United States","Emeryville, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Fairfax, Va, United States","Fairfax, Va, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Farmington Hills, Mi, United States","Farmington Hills, Mi, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Fitchburg, Wi, United States","Fitchburg, Wi, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Forest Hills, Ny, United States","Forest Hills, Ny, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Fort Worth, Tx, United States","Fort Worth, Tx, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Freemont, Ca, United States","Freemont, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Gangnam-Gu, Seoul, Republic Of Korea","Gangnam-Gu, Seoul, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,1
+"Gangnamgu, Republic Of Korea","Gangnamgu, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,1
+"Garner, Nc, United States","Garner, Nc, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Geneva, United States","Geneva, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Geongi, Republic Of Korea","Gyeonggi, South Korea","country: Republic Of Korea","Geongi, South Korea","country_name; misspelling",FALSE,FALSE,FALSE,1
+"Georgetown, Ma, United States","Georgetown, Ma, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Germantown, Md, United States","Germantown, Md, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Glen Allen, Va, United States","Glen Allen, Va, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Glen Rock, Nj, United States","Glen Rock, Nj, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Gloucester, Ma, United States","Gloucester, Ma, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Goleta, Ca, Ca, United States","Goleta, Ca, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Goyangsi, Republic Of Korea","Goyangsi, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,1
+"Goyanh, Republic Of Korea","Goyang, South Korea","country: Republic Of Korea","Goyanh, South Korea","country_name; misspelling",FALSE,FALSE,FALSE,1
+"Greenbelt, Md, United States","Greenbelt, Md, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Guildford, United States","Guildford, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Guilford, Ct, United States","Guilford, Ct, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Gumi, Republic Of Korea","Gumi, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,1
+"Gunsan, Republic Of Korea","Gunsan, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,1
+"Guri, Republic Of Korea","Guri, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,1
+"Gwacheon-Si, United States","Gwacheon-Si, South Korea","country: United States","Gwacheon-Si, USA","country_name; wrong_country",FALSE,FALSE,FALSE,1
+"Gwanak-Gu, Ny, Republic Of Korea","Gwanak-gu, South Korea","country: Republic Of Korea","Gwanak-Gu, Ny, South Korea","country_name; format",FALSE,FALSE,FALSE,1
+"Gwanak-Gu, Seoul, Republic Of Korea","Gwanak-Gu, Seoul, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,1
+"Hamamatsu, Shizuoka Pref., Japan","Hamamatsu, Shizuoka, Japan",NA,"Hamamatsu, Shizuoka Pref., Japan","format",FALSE,FALSE,FALSE,1
+"Hamden, Ct, United States","Hamden, Ct, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Hang Zhou, China","Hangzhou, China",NA,"Hang Zhou, China","variant",FALSE,FALSE,FALSE,1
+"Hanover,Nh, Nh, United States","Hanover,Nh, Nh, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Harbin, Md, China","Harbin, China",NA,"Harbin, Md, China","format",FALSE,FALSE,FALSE,1
+"Hartsdale, Ny, United States","Hartsdale, Ny, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Haworth, Nj, United States","Haworth, Nj, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Hefei, United States","Hefei, China","country: United States","Hefei, USA","country_name; wrong_country",FALSE,FALSE,FALSE,1
+"Heidelberg, United States","Heidelberg, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Henderson, Nv, United States","Henderson, Nv, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Hershey, Pa, United States","Hershey, Pa, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Hinsdale, Il, United States","Hinsdale, Il, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Hong Kong, China, China","Hongkong, China, China","city: Hong Kong, China",NA,"variant",FALSE,FALSE,FALSE,1
+"Honolulu, Hi, United States","Honolulu, Hi, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Hsinchu City 300081 , Taiwan (R.o.c.), Taiwan","Hsinchu City, Taiwan",NA,"Hsinchu City 300081 , Taiwan (R.o.c.), Taiwan","format",FALSE,FALSE,FALSE,1
+"Jeonbuk-Do, Republic Of Korea","Jeonbuk-Do, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,1
+"Jeonju-Si, Jeonbuk-Do, Republic Of Korea","Jeonju-Si, Jeonbuk-Do, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,1
+"Jericho, Ny, United States","Jericho, Ny, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Johns Creek, Ga, United States","Johns Creek, Ga, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Jongno-Gu, Republic Of Korea","Jongno-Gu, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,1
+"Julich, Germany","Jülich, Germany",NA,"Julich, Germany","diacritics",FALSE,FALSE,FALSE,1
+"Katushikaku, Japan","Tokyo, Japan",NA,"Katushikaku, Japan","misspelling",FALSE,FALSE,FALSE,1
+"Katy, Tx, United States","Katy, Tx, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Key Biscayne, Fl, United States","Key Biscayne, Fl, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Kingston, United States","Kingston, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Kristianstad, Il, Sweden","Kristianstad, Sweden",NA,"Kristianstad, Il, Sweden","format",FALSE,FALSE,FALSE,1
+"Kunsan, Republic Of Korea","Kunsan, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,1
+"La Mesa, Ca, United States","La Mesa, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Ladera Ranch, Ca, United States","Ladera Ranch, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Las Vegas, Oh, United States","Las Vegas, Oh, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Lehi, Ut, United States","Lehi, Ut, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Lexington, Ma, United States","Lexington, Ma, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Liberty Hill, Tx, United States","Liberty Hill, Tx, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Lindenhurst, Ny, United States","Lindenhurst, Ny, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"London, Fl, United States","London, Fl, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Los Anegeles, Ca, United States","Los Angeles, Ca, USA","country: United States","Los Anegeles, Ca, USA","country_name; misspelling",FALSE,FALSE,FALSE,1
+"Los Angeles Ca, Ca, United States","Los Angeles Ca, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Los Angeles County, Ca, United States","Los Angeles County, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Lucca (Italy), Italy","Lucca, Italy","city: Lucca (Italy)",NA,"format",FALSE,FALSE,FALSE,1
+"Lucca, Italy, Italy","Lucca, Italy",NA,"Lucca, Italy, Italy","format",FALSE,FALSE,FALSE,1
+"Lund, Pa, Sweden","Lund, Sweden",NA,"Lund, Pa, Sweden","format",FALSE,FALSE,FALSE,1
+"Lynchburg, Va, United States","Lynchburg, Va, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Manlius, Ny, United States","Manlius, Ny, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Maspeth, Ny, United States","Maspeth, Ny, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Mckees Rocks, Pa, United States","Mckees Rocks, Pa, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Meriden, Nh, United States","Meriden, Nh, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Metuchen, Nj, United States","Metuchen, Nj, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Miami Gardens, United States","Miami Gardens, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Mill Valley, Ca, United States","Mill Valley, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Milwaukee, United States","Milwaukee, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Mission Hills, Ca, United States","Mission Hills, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Missoula, Mt, United States","Missoula, Mt, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Mlebourne, Australia","Melbourne, Australia",NA,"Mlebourne, Australia","misspelling",FALSE,FALSE,FALSE,1
+"Mobile, Al, United States","Mobile, Al, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Monteal, Canada","Montréal, Canada",NA,"Monteal, Canada","misspelling",FALSE,FALSE,FALSE,1
+"Monteal, Pq, Canada","Montréal, Canada",NA,"Monteal, Pq, Canada","misspelling",FALSE,FALSE,FALSE,1
+"Montrea;, Pq, Canada","Montréal, Canada",NA,"Montrea;, Pq, Canada","misspelling",FALSE,FALSE,FALSE,1
+"Montreal, Pq, Mexico","Montréal, Canada",NA,"Montreal, Pq, Mexico","wrong_country",FALSE,FALSE,FALSE,1
+"Montreal, United States","Montreal, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Morrisville, Pa, United States","Morrisville, Pa, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Mount Waverley, Australia","Mount Waverley, Vic, Australia",NA,"Mount Waverley, Australia","format",FALSE,FALSE,FALSE,1
+"Mount Waverley, Co, Australia","Mount Waverley, Vic, Australia",NA,"Mount Waverley, Co, Australia","format",FALSE,FALSE,FALSE,1
+"Msd, Malta","Msida, Malta",NA,"Msd, Malta","variant",FALSE,FALSE,FALSE,1
+"Munich, United States","Munich, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Nashville, United States","Nashville, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Natick, Ma, United States","Natick, Ma, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Needham, Ma, United States","Needham, Ma, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"New Tapiei City, Taiwan","New Taipei, Taiwan",NA,"New Tapiei City, Taiwan","misspelling",FALSE,FALSE,FALSE,1
+"Newark, De, United States","Newark, De, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Niskayuna, Ny, United States","Niskayuna, Ny, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Nyc, Ny, United States","Nyc, Ny, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Oak Park, Mi, United States","Oak Park, Mi, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Oklahoma City, Ok, United States","Oklahoma City, Ok, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Opelika, Al, United States","Opelika, Al, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Padova, United States","Padova, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Palisades Park, Nj, United States","Palisades Park, Nj, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Paris, United States","Paris, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Pasadena, Ca, United States","Pasadena, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Pearland, Tx, United States","Pearland, Tx, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Pembroke Pines, Fl, United States","Pembroke Pines, Fl, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Philadelphia, United States","Philadelphia, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Pittsford, Ny, United States","Pittsford, Ny, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Pleasanton, Ca, United States","Pleasanton, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Plymouth, Mn, United States","Plymouth, Mn, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Pohang,  Gyeongbuk, Republic Of Korea","Pohang,  Gyeongbuk, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,1
+"Pohangsi, Republic Of Korea","Pohangsi, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,1
+"Potomac, Md, United States","Potomac, Md, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Pottstown, Pa, United States","Pottstown, Pa, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Prague 2, Czech Republic","Prague, Czech Republic",NA,"Prague 2, Czech Republic","format",FALSE,FALSE,FALSE,1
+"Prague 6, Czech Republic","Prague, Czech Republic",NA,"Prague 6, Czech Republic","format",FALSE,FALSE,FALSE,1
+"Prague, Czechia, Czech Republic","Prague, Czech Republic",NA,"Prague, Czechia, Czech Republic","format",FALSE,FALSE,FALSE,1
+"Princeton Junction, Nj, United States","Princeton Junction, Nj, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Prospect Park, Pa, United States","Prospect Park, Pa, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Quebec, Canada","Québec, Canada",NA,"Quebec, Canada","diacritics",FALSE,FALSE,FALSE,1
+"Redmond, Wa, United States","Redmond, Wa, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Rehengeri, Rwanda","Ruhengeri, Rwanda",NA,"Rehengeri, Rwanda","misspelling",FALSE,FALSE,FALSE,1
+"Richmond, Va, United States","Richmond, Va, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Saint Louis, United States","Saint Louis, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"San Carlos, Ca, United States","San Carlos, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"San Deigo, United States","San Diego, USA","country: United States","San Deigo, USA","country_name; misspelling",FALSE,FALSE,FALSE,1
+"San Diego, United States","San Diego, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"San Pedro, Ca, United States","San Pedro, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"San Sebastian - Donostia, Spain","San Sebastian-Donostia, Spain",NA,"San Sebastian - Donostia, Spain","variant",FALSE,FALSE,FALSE,1
+"Sandy, Ut, United States","Sandy, Ut, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Santiago, United States","Santiago, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Santo Andre, Brazil","Santo André, Brazil",NA,"Santo Andre, Brazil","diacritics",FALSE,FALSE,FALSE,1
+"Saratoga, Ca, United States","Saratoga, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Scottsdale, Az, United States","Scottsdale, Az, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Sendai, United States","Sendai, Japan","country: United States","Sendai, USA","country_name; wrong_country",FALSE,FALSE,FALSE,1
+"Seongdong-Gu, Republic Of Korea","Seongdong-Gu, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,1
+"Seongnam, Gyeonggi-Do, Republic Of Korea","Seongnam, Gyeonggi-Do, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,1
+"Seoul City, Republic Of Korea","Seoul City, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,1
+"Seoul, Ma, Republic Of Korea","Seoul, Ma, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,1
+"Seul, Republic Of Korea","Seul, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,1
+"Sevilla, Spain","Seville, Spain",NA,"Sevilla, Spain","variant",FALSE,FALSE,FALSE,1
+"Sha Tin, Hong Kong","Shatin, Hong Kong",NA,"Sha Tin, Hong Kong","variant",FALSE,FALSE,FALSE,1
+"Shang Hai, China","Shanghai, China",NA,"Shang Hai, China","variant",FALSE,FALSE,FALSE,1
+"Shangahi, China","Shanghai, China",NA,"Shangahi, China","misspelling",FALSE,FALSE,FALSE,1
+"Shanghai, United States","Shanghai, China","country: United States","Shanghai, USA","country_name; wrong_country",FALSE,FALSE,FALSE,1
+"Sharpsburg, Pa, United States","Sharpsburg, Pa, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Shenghai, China","Shanghai, China",NA,"Shenghai, China","misspelling",FALSE,FALSE,FALSE,1
+"Sherman Oaks, Ca, United States","Sherman Oaks, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Siheung, Republic Of Korea","Siheung, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,1
+"Siheung-Si, Republic Of Korea","Siheung-Si, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,1
+"Singapore, United States","Singapore, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Sion, Svizzera, Switzerland","Sion, Switzerland",NA,"Sion, Svizzera, Switzerland","format",FALSE,FALSE,FALSE,1
+"Sommerville, Ma, United States","Sommerville, Ma, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"South Burlington, Vt, United States","South Burlington, Vt, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Spring House, Pa, United States","Spring House, Pa, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"St Paul, Mn, United States","St Paul, Mn, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Suita, Oasaka, Japan","Suita, Japan",NA,"Suita, Oasaka, Japan","misspelling",FALSE,FALSE,FALSE,1
+"Suita, Osaka, Id, Japan","Suita, Japan",NA,"Suita, Osaka, Id, Japan","format",FALSE,FALSE,FALSE,1
+"Sujung-Gu, Sungnam-Si, Republic Of Korea","Sujeong-gu, South Korea","country: Republic Of Korea","Sujung-Gu, Sungnam-Si, South Korea","country_name; variant",FALSE,FALSE,FALSE,1
+"Sun City, Az, United States","Sun City, Az, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Surry, Bc, Canada","Surrey, Bc, Canada",NA,"Surry, Bc, Canada","misspelling",FALSE,FALSE,FALSE,1
+"Suwon Si, Republic Of Korea","Suwon Si, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,1
+"São Paulo, Brazil","São Paulo, Sp, Brazil",NA,"São Paulo, Brazil","format",FALSE,FALSE,FALSE,1
+"Taipei, United States","Taipei, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Tampa, United States","Tampa, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Taoyuan, United States","Taoyuan City, Taiwan","country: United States","Taoyuan, USA","country_name; wrong_country",FALSE,FALSE,FALSE,1
+"Tehran, Iran, Islamic Republic Of","Tehran, Iran","country: Iran, Islamic Republic Of",NA,"country_name",FALSE,FALSE,FALSE,1
+"The Bronx, Ny, United States","The Bronx, Ny, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Toledo, Oh, United States","Toledo, Oh, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Toronto, On, United States","Toronto, On, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Toronto, United States","Toronto, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Trento - Vat 00340520220, Italy","Trento, Italy","city: Trento - Vat 00340520220",NA,"format",FALSE,FALSE,FALSE,1
+"Trois-Rivieres, Pq, Canada","Trois-Rivières, Quebec, Canada",NA,"Trois-Rivieres, Pq, Canada","diacritics",FALSE,FALSE,FALSE,1
+"Troy, Mi, United States","Troy, Mi, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Tsimshatsui, Hong Kong","Hong Kong",NA,"Tsimshatsui, Hong Kong","format",FALSE,FALSE,FALSE,1
+"University City, Mo, United States","University City, Mo, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Upper Arlington, Oh, United States","Upper Arlington, Oh, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Upper Darby, Pa, United States","Upper Darby, Pa, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Valencia, Ca, United States","Valencia, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Vancouver, Wa, United States","Vancouver, Wa, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Venice, Ca, United States","Venice, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Villanova, Pa, United States","Villanova, Pa, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Wahsington, Dc, United States","Washington, Dc, USA","country: United States","Wahsington, Dc, USA","country_name; misspelling",FALSE,FALSE,FALSE,1
+"Warszawa, United States","Warszawa, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Wayzata, Mn, United States","Wayzata, Mn, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"West Lebanon, Nh, United States","West Lebanon, Nh, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"West Orang, Nj, United States","West Orange, Nj, USA","country: United States","West Orang, Nj, USA","country_name; misspelling",FALSE,FALSE,FALSE,1
+"Westerville, Oh, United States","Westerville, Oh, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Wexford, Pa, United States","Wexford, Pa, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"White Plains, Ny, United States","White Plains, Ny, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"White River Junction, Vt, United States","White River Junction, Vt, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Wisconsin, Wi, Republic Of Korea","Wisconsin, Wi, USA","country: Republic Of Korea","Wisconsin, Wi, South Korea","country_name; wrong_country",FALSE,FALSE,FALSE,1
+"Wiston-Salem, Nc, United States","Winston-Salem, Nc, USA","country: United States","Wiston-Salem, Nc, USA","country_name; misspelling",FALSE,FALSE,FALSE,1
+"Woodside, Ca, United States","Woodside, Ca, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Wurzburg, Germany","Würzburg, Germany",NA,"Wurzburg, Germany","diacritics",FALSE,FALSE,FALSE,1
+"X, United States","X, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"Yangsan-Si, Gyeongsangnam-Do, United States","Yangsan-Si, Gyeongsangnam-Do, South Korea","country: United States","Yangsan-Si, Gyeongsangnam-Do, USA","country_name; wrong_country",FALSE,FALSE,FALSE,1
+"Yeongdeungpo-Gu, Republic Of Korea","Yeongdeungpo-Gu, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,1
+"Yeosu, Republic Of Korea","Yeosu, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,1
+"Yonginsi, United States","Yonginsi, South Korea","country: United States","Yonginsi, USA","country_name; wrong_country",FALSE,FALSE,FALSE,1
+"Yorktown Heights, Ny, United States","Yorktown Heights, Ny, USA","country: United States",NA,"country_name",FALSE,FALSE,FALSE,1
+"공주시, Republic Of Korea","공주시, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,1
+"용인시, Republic Of Korea","용인시, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,1
+"충청남도, Republic Of Korea","충청남도, South Korea","country: Republic Of Korea",NA,"country_name",FALSE,FALSE,FALSE,1

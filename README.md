@@ -24,7 +24,7 @@ Run the scripts in `R/` in numerical order. Each script reads the outputs of the
 | Script | What it does | Main outputs |
 |---|---|---|
 | `01_data_loading.R` | Reads the attendee spreadsheet (one sheet per year) | `output/raw_attendee_data.rds` |
-| `02_collect_synonyms.R` | Cleans and standardises locations using `data/location_synonyms.csv`; counts the entries changed by synonyms and the ambiguous ones; lists suspicious names for manual review | `output/cleaned_attendee_data.rds`, `output/synonym_changes_for_review.csv` |
+| `02_collect_synonyms.R` | Cleans and standardises locations using `data/location_synonyms.csv`; counts the entries corrected, per type of correction (misspelling, accents, country name, …), and the ambiguous ones; lists suspicious names for manual review | `output/cleaned_attendee_data.rds`, `output/reports/synonym_corrections_summary.csv`, `output/synonym_changes_for_review.csv` |
 | `03_geocode.R` | Geocodes locations with OpenStreetMap, with a cache so only new addresses are queried | `output/geocoded_attendee_data.rds` |
 | `04_all_attendees_maps.R` | Maps of where attendees come from, per year | `output/figures/attendee_world_*` |
 | `05_monocentric_footprint.R` | Footprint of each real meeting (everyone travels to the host) | `output/reports/monocentric_footprint_summary.csv` |
@@ -77,6 +77,10 @@ Shared settings and functions are in `R/utils.R`: the emission factors, hub list
 
 ## Main results so far
 
+- **Location cleaning.** Of 8,069 attendee entries, 3,934 (48.8%) had their location text corrected, mostly
+  standardised country names (2,994, 37.1%). Only 22 entries (0.27%) had a misspelled place name (e.g.
+  `Monteal`, `Mlebourne`, `Wahsington`); 188 (2.3%) had missing accents and 20 (0.25%) the wrong country. Source:
+  `output/reports/synonym_corrections_summary.csv`.
 - **Past meetings.** Average travel footprint per attendee was 1.25 t CO2e (Montreal 2023), 1.94 t (Seoul 2024)
   and 3.01 t (Brisbane 2025). Source: `output/reports/monocentric_footprint_summary.csv`.
 - **Taking the train.** Here a trip can go by rail only if it is 100–1,500 km and both ends are in the same

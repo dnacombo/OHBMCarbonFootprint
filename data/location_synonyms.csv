@@ -1,186 +1,186 @@
-synonym,canonical_name
-Roma,Rome
-Tel aviv,Tel Aviv
-United States,USA
-United States of America,USA
-U.S.A.,USA
-U.S.,USA
-America,USA
-UK,United Kingdom
-Great Britain,United Kingdom
-England,United Kingdom
-Scotland,United Kingdom
-Northern Ireland,United Kingdom
-The Netherlands,Netherlands
-Holland,Netherlands
-Rep. of Korea,South Korea
-"Korea, Republic of",South Korea
-PRC,China
-People's Republic of China,China
-Mainland China,China
-UAE,United Arab Emirates
-Moskva,Moscow
-Sankt-Peterburg,Saint Petersburg
-Muenchen,Munich
-Köln,Cologne
-Cote d'Ivoire,Ivory Coast
-Espana,Spain
-Deutschland,Germany
-Nippon,Japan
-Brasil,Brazil
-"Beijin, China","Beijing, China"
-"Brisbane Qld, Australia","Brisbane, Qld, Australia"
-"Brussel, Belgium","Brussels, Belgium"
-"Camridge, Ma, USA","Cambridge, Ma, USA"
-"Castello, Spain","Castelló, Spain"
-"Castelló De La Plana, Spain","Castellón De La Plana, Spain"
-"Clayton Vic, Australia","Clayton, Vic, Australia"
-"Concepcion, Chile","Concepción, Chile"
-"Dollard-Des Ormeaux, Pq, Canada","Dollard-Des-Ormeaux, Quebec, Canada"
-"Geneve, Switzerland","Genève, Switzerland"
-"Genoa, Italy","Genova, Italy"
-"Gunsan, Republic Of Korea","Kunsan, South Korea"
-"Istanbul, Turkey","İstanbul, Turkey"
-"Julich, Germany","Jülich, Germany"
-"Krakow, Poland","Kraków, Poland"
-"Le Chesnay Rocquencourt, France","Le Chesnay-Rocquencourt, France"
-"Liege, Belgium","Liège, Belgium"
-"Lisboa, Portugal","Lisbon, Portugal"
-"Los Anegeles, Ca, USA","Los Angeles, Ca, USA"
-"Macao, Macao","Macau, Macao"
-"Monteal, Canada","Montréal, Canada"
-"Monteal, Pq, Canada","Montréal, Canada"
-"Montrea;, Pq, Canada","Montréal, Canada"
-"Montreal, Canada","Montréal, Canada"
-"Montreal, Pq, Canada","Montréal, Canada"
-"Montréal,, Canada","Montréal, Canada"
-"Montréal,, Pq, Canada","Montréal, Canada"
-"Northridge,, Ca, USA","Northridge, Ca, USA"
-"Ny, Ny, USA","New York City, USA"
-"Prague 2, Czech Republic","Prague, Czech Republic"
-"Prague 6, Czech Republic","Prague, Czech Republic"
-"Quebec, Canada","Québec, Canada"
-"Quebec, Pq, Canada","Québec, Canada"
-"Queretaro, Mexico","Querétaro, Mexico"
-"Santo Andre, Brazil","Santo André, Brazil"
-"Sao Paulo, Brazil","São Paulo, Brazil"
-"Seul, Republic Of Korea","Seoul, South Korea"
-"Sevilla, Spain","Seville, Spain"
-"St Louis, Mo, USA","St. Louis, Mo, USA"
-"St Lucia, Australia","St. Lucia, Australia"
-"Surry, Bc, Canada","Surrey, Bc, Canada"
-"Suwon Si, Republic Of Korea","Suwon-Si, South Korea"
-"Tel Aviv, Israel","Tel-Aviv, Israel"
-"Trois-Rivieres, Pq, Canada","Trois-Rivières, Quebec, Canada"
-"Valparaiso, Chile","Valparaíso, Chile"
-"West Orang, Nj, USA","West Orange, Nj, USA"
-"Winston Salem, Nc, USA","Winston-Salem, Nc, USA"
-"Wiston-Salem, Nc, USA","Winston-Salem, Nc, USA"
-"Wurzburg, Germany","Würzburg, Germany"
-"Zurich, Switzerland","Zürich, Switzerland"
-"Aarhus C, Denmark","Aarhus, Denmark"
-"Bei Jing, China","Beijing, China"
-"Coral Gabels, Fl, USA","Coral Gables, Fl, USA"
-"Dae-Gu, Republic Of Korea","Daegu, South Korea"
-"Daejeon,, Republic Of Korea","Daejeon, South Korea"
-"Daejon, Republic Of Korea","Daejeon, South Korea"
-"Donostia San Sebastian, Spain","Donostia-San Sebastián, Spain"
-"Donostia/San Sebastián, Spain","Donostia-San Sebastián, Spain"
-"Dublin 4, Ireland","Dublin, Ireland"
-"Dublin 7, Ireland","Dublin, Ireland"
-"Duesseldorf, Germany","Düsseldorf, Germany"
-"Gangnam, Republic Of Korea","Gangnamgu, South Korea"
-"Geneva, Switzerland","Genève, Switzerland"
-"Gif Sur Yvette, France","Gif-Sur-Yvette, France"
-"Goyang, Republic Of Korea","Goyangsi, South Korea"
-"Goyang-Si, Republic Of Korea","Goyangsi, South Korea"
-"Graefelfing, Germany","Gräfelfing, Germany"
-"Hang Zhou, China","Hangzhou, China"
-"Hong Kong, China","Hongkong, China"
-"Juelich, Germany","Jülich, Germany"
-"Mlebourne, Australia","Melbourne, Australia"
-"Msd, Malta","Msida, Malta"
-"Muenster, Germany","Münster, Germany"
-"Padova, Italy","Padua, Italy"
-"Pohang, Republic Of Korea","Pohangsi, South Korea"
-"Pohang-Si, Republic Of Korea","Pohangsi, South Korea"
-"Prague 8, Czech Republic","Prague, Czech Republic"
-"Praha 8, Czech Republic","Praha, Czech Republic"
-"San Deigo, USA","San Diego, USA"
-"San Sebastian - Donostia, Spain","San Sebastian-Donostia, Spain"
-"Sha Tin, Hong Kong","Shatin, Hong Kong"
-"Shang Hai, China","Shanghai, China"
-"Shangahi, China","Shanghai, China"
-"Torino, Italy","Turin, Italy"
-"Tübingen, Germany","Tuebingen, Germany"
-"Wahsington, Dc, USA","Washington, Dc, USA"
-"Warsaw, Poland","Warszawa, Poland"
-"Woerthsee, Germany","Wörthsee, Germany"
-"Xi' An, China","Xi'an, China"
-"Yongin, USA","Yonginsi, USA"
-"Mount Waverley, Australia","Mount Waverley, Vic, Australia"
-"Mount Waverley, Co, Australia","Mount Waverley, Vic, Australia"
-"Sydney, Australia","Sydney, Nsw, Australia"
-"Unsw Sydney, Australia","Sydney, Nsw, Australia"
-"São Paulo, Brazil","São Paulo, Sp, Brazil"
-"São Paulo / Sp, Brazil","São Paulo, Sp, Brazil"
-"Camperdown, New South Wales, Australia","Camperdown, Australia"
-"Camperdown, Nb, Australia","Camperdown, Australia"
-"North Mlebourne, Australia","North Melbourne, Australia"
-"Pq, Canada","Quebec, Canada"
-"Prague, Czechia, Czech Republic","Prague, Czech Republic"
-"Suita, Oasaka, Japan","Suita, Japan"
-"Hamamatsu, Shizuoka Pref., Japan","Hamamatsu, Shizuoka, Japan"
-Republic Of South Korea,South Korea
-"New Tapiei City, Taiwan","New Taipei, Taiwan"
-"Taoyuan City, Tpe, Taiwan","Taoyuan City, Taiwan"
-"Hsinchu City 300081 , Taiwan (R.o.c.), Taiwan","Hsinchu City, Taiwan"
-"Brooklyn, Ny, Australia","Brooklyn, Australia"
-"Harbin, Md, China","Harbin, China"
-"Berlin, Germany, Germany","Berlin, Germany"
-"Tsimshatsui, Hong Kong",Hong Kong
-"Tehran, Iran, Islamic Republic Of","Tehran, Iran"
-"Lucca, Italy, Italy","Lucca, Italy"
-"Suita, Osaka, Id, Japan","Suita, Japan"
-"Barcelona, Sk, Spain","Barcelona, Spain"
-"Barcelona, Spain, Spain","Barcelona, Spain"
-"Kristianstad, Il, Sweden","Kristianstad, Sweden"
-"Yangsan-Si, Gyeongsangnam-Do, USA","Yangsan-Si, Gyeongsangnam-Do, South Korea"
-"1071, Anyangcheon-Ro, Yangcheon-Gu, Seoul, Republic Of Korea","Seoul, South Korea"
-"Republic Of Korea, Republic Of Korea",South Korea
-"South Korea, Republic Of Korea",South Korea
-"Korea, Republic Of Korea",South Korea
-"Iran, Islamic Republic Of",Iran
-Trento - Vat 00340520220,Trento
-Lucca (Italy),Lucca
-"Sydney, Nb, Australia","Sydney, Australia"
-Grenoble Cedex 9,Grenoble
-"Yonginsi, USA","Yonginsi, South Korea"
-"Gwacheon-Si, USA","Gwacheon-Si, South Korea"
-"Taoyuan, USA","Taoyuan City, Taiwan"
-"Sendai, USA","Sendai, Japan"
-"Daegu, USA","Daegu, South Korea"
-Republic Of Korea,South Korea
-"South Korea, South Korea",South Korea
-"Montreal, Pq, USA","Montréal, Canada"
-"Rehengeri, Rwanda","Ruhengeri, Rwanda"
-"Lund, Pa, Sweden","Lund, Sweden"
-"Sion, Svizzera, Switzerland","Sion, Switzerland"
-"Korea, South Korea",South Korea
-"Montreal, Pq, Mexico","Montréal, Canada"
-"Katushikaku, Japan","Tokyo, Japan"
-"Montreal, Pq, France","Montréal, Canada"
-"Wisconsin, Wi, South Korea","Wisconsin, Wi, USA"
-"Geongi, South Korea","Gyeonggi, South Korea"
-"Goyanh, South Korea","Goyang, South Korea"
-"Hefei, USA","Hefei, China"
-"Chofu, USA","Chofu, Japan"
-"Changchun, Jilin Province, Prc, China","Changchun, China"
-"Sujung-Gu, Sungnam-Si, South Korea","Sujeong-gu, South Korea"
-"Gwanak-Gu, Ny, South Korea","Gwanak-gu, South Korea"
-"Bejing, China","Beijing, China"
-"Shenghai, China","Shanghai, China"
-"Beijing, USA","Beijing, China"
-"Beijing,China, USA","Beijing, China"
-"Shanghai, USA","Shanghai, China"
-"Beijing, China, China","Beijing, China"
+synonym,canonical_name,correction_type
+Roma,Rome,variant
+Tel aviv,Tel Aviv,variant
+United States,USA,country_name
+United States of America,USA,country_name
+U.S.A.,USA,country_name
+U.S.,USA,country_name
+America,USA,country_name
+UK,United Kingdom,country_name
+Great Britain,United Kingdom,country_name
+England,United Kingdom,country_name
+Scotland,United Kingdom,country_name
+Northern Ireland,United Kingdom,country_name
+The Netherlands,Netherlands,country_name
+Holland,Netherlands,country_name
+Rep. of Korea,South Korea,country_name
+"Korea, Republic of",South Korea,country_name
+PRC,China,country_name
+People's Republic of China,China,country_name
+Mainland China,China,country_name
+UAE,United Arab Emirates,country_name
+Moskva,Moscow,variant
+Sankt-Peterburg,Saint Petersburg,variant
+Muenchen,Munich,variant
+Köln,Cologne,variant
+Cote d'Ivoire,Ivory Coast,country_name
+Espana,Spain,country_name
+Deutschland,Germany,country_name
+Nippon,Japan,country_name
+Brasil,Brazil,country_name
+"Beijin, China","Beijing, China",misspelling
+"Brisbane Qld, Australia","Brisbane, Qld, Australia",format
+"Brussel, Belgium","Brussels, Belgium",variant
+"Camridge, Ma, USA","Cambridge, Ma, USA",misspelling
+"Castello, Spain","Castelló, Spain",diacritics
+"Castelló De La Plana, Spain","Castellón De La Plana, Spain",variant
+"Clayton Vic, Australia","Clayton, Vic, Australia",format
+"Concepcion, Chile","Concepción, Chile",diacritics
+"Dollard-Des Ormeaux, Pq, Canada","Dollard-Des-Ormeaux, Quebec, Canada",format
+"Geneve, Switzerland","Genève, Switzerland",diacritics
+"Genoa, Italy","Genova, Italy",variant
+"Gunsan, Republic Of Korea","Kunsan, South Korea",variant
+"Istanbul, Turkey","İstanbul, Turkey",diacritics
+"Julich, Germany","Jülich, Germany",diacritics
+"Krakow, Poland","Kraków, Poland",diacritics
+"Le Chesnay Rocquencourt, France","Le Chesnay-Rocquencourt, France",variant
+"Liege, Belgium","Liège, Belgium",diacritics
+"Lisboa, Portugal","Lisbon, Portugal",variant
+"Los Anegeles, Ca, USA","Los Angeles, Ca, USA",misspelling
+"Macao, Macao","Macau, Macao",variant
+"Monteal, Canada","Montréal, Canada",misspelling
+"Monteal, Pq, Canada","Montréal, Canada",misspelling
+"Montrea;, Pq, Canada","Montréal, Canada",misspelling
+"Montreal, Canada","Montréal, Canada",diacritics
+"Montreal, Pq, Canada","Montréal, Canada",format
+"Montréal,, Canada","Montréal, Canada",format
+"Montréal,, Pq, Canada","Montréal, Canada",format
+"Northridge,, Ca, USA","Northridge, Ca, USA",format
+"Ny, Ny, USA","New York City, USA",variant
+"Prague 2, Czech Republic","Prague, Czech Republic",format
+"Prague 6, Czech Republic","Prague, Czech Republic",format
+"Quebec, Canada","Québec, Canada",diacritics
+"Quebec, Pq, Canada","Québec, Canada",format
+"Queretaro, Mexico","Querétaro, Mexico",diacritics
+"Santo Andre, Brazil","Santo André, Brazil",diacritics
+"Sao Paulo, Brazil","São Paulo, Brazil",diacritics
+"Seul, Republic Of Korea","Seoul, South Korea",variant
+"Sevilla, Spain","Seville, Spain",variant
+"St Louis, Mo, USA","St. Louis, Mo, USA",variant
+"St Lucia, Australia","St. Lucia, Australia",variant
+"Surry, Bc, Canada","Surrey, Bc, Canada",misspelling
+"Suwon Si, Republic Of Korea","Suwon-Si, South Korea",variant
+"Tel Aviv, Israel","Tel-Aviv, Israel",variant
+"Trois-Rivieres, Pq, Canada","Trois-Rivières, Quebec, Canada",diacritics
+"Valparaiso, Chile","Valparaíso, Chile",diacritics
+"West Orang, Nj, USA","West Orange, Nj, USA",misspelling
+"Winston Salem, Nc, USA","Winston-Salem, Nc, USA",variant
+"Wiston-Salem, Nc, USA","Winston-Salem, Nc, USA",misspelling
+"Wurzburg, Germany","Würzburg, Germany",diacritics
+"Zurich, Switzerland","Zürich, Switzerland",diacritics
+"Aarhus C, Denmark","Aarhus, Denmark",format
+"Bei Jing, China","Beijing, China",variant
+"Coral Gabels, Fl, USA","Coral Gables, Fl, USA",misspelling
+"Dae-Gu, Republic Of Korea","Daegu, South Korea",variant
+"Daejeon,, Republic Of Korea","Daejeon, South Korea",format
+"Daejon, Republic Of Korea","Daejeon, South Korea",variant
+"Donostia San Sebastian, Spain","Donostia-San Sebastián, Spain",variant
+"Donostia/San Sebastián, Spain","Donostia-San Sebastián, Spain",variant
+"Dublin 4, Ireland","Dublin, Ireland",format
+"Dublin 7, Ireland","Dublin, Ireland",format
+"Duesseldorf, Germany","Düsseldorf, Germany",diacritics
+"Gangnam, Republic Of Korea","Gangnamgu, South Korea",variant
+"Geneva, Switzerland","Genève, Switzerland",variant
+"Gif Sur Yvette, France","Gif-Sur-Yvette, France",variant
+"Goyang, Republic Of Korea","Goyangsi, South Korea",variant
+"Goyang-Si, Republic Of Korea","Goyangsi, South Korea",variant
+"Graefelfing, Germany","Gräfelfing, Germany",diacritics
+"Hang Zhou, China","Hangzhou, China",variant
+"Hong Kong, China","Hongkong, China",variant
+"Juelich, Germany","Jülich, Germany",diacritics
+"Mlebourne, Australia","Melbourne, Australia",misspelling
+"Msd, Malta","Msida, Malta",variant
+"Muenster, Germany","Münster, Germany",diacritics
+"Padova, Italy","Padua, Italy",variant
+"Pohang, Republic Of Korea","Pohangsi, South Korea",variant
+"Pohang-Si, Republic Of Korea","Pohangsi, South Korea",variant
+"Prague 8, Czech Republic","Prague, Czech Republic",format
+"Praha 8, Czech Republic","Praha, Czech Republic",format
+"San Deigo, USA","San Diego, USA",misspelling
+"San Sebastian - Donostia, Spain","San Sebastian-Donostia, Spain",variant
+"Sha Tin, Hong Kong","Shatin, Hong Kong",variant
+"Shang Hai, China","Shanghai, China",variant
+"Shangahi, China","Shanghai, China",misspelling
+"Torino, Italy","Turin, Italy",variant
+"Tübingen, Germany","Tuebingen, Germany",diacritics
+"Wahsington, Dc, USA","Washington, Dc, USA",misspelling
+"Warsaw, Poland","Warszawa, Poland",variant
+"Woerthsee, Germany","Wörthsee, Germany",diacritics
+"Xi' An, China","Xi'an, China",variant
+"Yongin, USA","Yonginsi, USA",variant
+"Mount Waverley, Australia","Mount Waverley, Vic, Australia",format
+"Mount Waverley, Co, Australia","Mount Waverley, Vic, Australia",format
+"Sydney, Australia","Sydney, Nsw, Australia",format
+"Unsw Sydney, Australia","Sydney, Nsw, Australia",format
+"São Paulo, Brazil","São Paulo, Sp, Brazil",format
+"São Paulo / Sp, Brazil","São Paulo, Sp, Brazil",format
+"Camperdown, New South Wales, Australia","Camperdown, Australia",format
+"Camperdown, Nb, Australia","Camperdown, Australia",format
+"North Mlebourne, Australia","North Melbourne, Australia",misspelling
+"Pq, Canada","Quebec, Canada",format
+"Prague, Czechia, Czech Republic","Prague, Czech Republic",format
+"Suita, Oasaka, Japan","Suita, Japan",misspelling
+"Hamamatsu, Shizuoka Pref., Japan","Hamamatsu, Shizuoka, Japan",format
+Republic Of South Korea,South Korea,country_name
+"New Tapiei City, Taiwan","New Taipei, Taiwan",misspelling
+"Taoyuan City, Tpe, Taiwan","Taoyuan City, Taiwan",format
+"Hsinchu City 300081 , Taiwan (R.o.c.), Taiwan","Hsinchu City, Taiwan",format
+"Brooklyn, Ny, Australia","Brooklyn, Australia",format
+"Harbin, Md, China","Harbin, China",format
+"Berlin, Germany, Germany","Berlin, Germany",format
+"Tsimshatsui, Hong Kong",Hong Kong,format
+"Tehran, Iran, Islamic Republic Of","Tehran, Iran",format
+"Lucca, Italy, Italy","Lucca, Italy",format
+"Suita, Osaka, Id, Japan","Suita, Japan",format
+"Barcelona, Sk, Spain","Barcelona, Spain",format
+"Barcelona, Spain, Spain","Barcelona, Spain",format
+"Kristianstad, Il, Sweden","Kristianstad, Sweden",format
+"Yangsan-Si, Gyeongsangnam-Do, USA","Yangsan-Si, Gyeongsangnam-Do, South Korea",wrong_country
+"1071, Anyangcheon-Ro, Yangcheon-Gu, Seoul, Republic Of Korea","Seoul, South Korea",format
+"Republic Of Korea, Republic Of Korea",South Korea,format
+"South Korea, Republic Of Korea",South Korea,format
+"Korea, Republic Of Korea",South Korea,format
+"Iran, Islamic Republic Of",Iran,country_name
+Trento - Vat 00340520220,Trento,format
+Lucca (Italy),Lucca,format
+"Sydney, Nb, Australia","Sydney, Australia",format
+Grenoble Cedex 9,Grenoble,format
+"Yonginsi, USA","Yonginsi, South Korea",wrong_country
+"Gwacheon-Si, USA","Gwacheon-Si, South Korea",wrong_country
+"Taoyuan, USA","Taoyuan City, Taiwan",wrong_country
+"Sendai, USA","Sendai, Japan",wrong_country
+"Daegu, USA","Daegu, South Korea",wrong_country
+Republic Of Korea,South Korea,country_name
+"South Korea, South Korea",South Korea,format
+"Montreal, Pq, USA","Montréal, Canada",wrong_country
+"Rehengeri, Rwanda","Ruhengeri, Rwanda",misspelling
+"Lund, Pa, Sweden","Lund, Sweden",format
+"Sion, Svizzera, Switzerland","Sion, Switzerland",format
+"Korea, South Korea",South Korea,format
+"Montreal, Pq, Mexico","Montréal, Canada",wrong_country
+"Katushikaku, Japan","Tokyo, Japan",misspelling
+"Montreal, Pq, France","Montréal, Canada",wrong_country
+"Wisconsin, Wi, South Korea","Wisconsin, Wi, USA",wrong_country
+"Geongi, South Korea","Gyeonggi, South Korea",misspelling
+"Goyanh, South Korea","Goyang, South Korea",misspelling
+"Hefei, USA","Hefei, China",wrong_country
+"Chofu, USA","Chofu, Japan",wrong_country
+"Changchun, Jilin Province, Prc, China","Changchun, China",format
+"Sujung-Gu, Sungnam-Si, South Korea","Sujeong-gu, South Korea",variant
+"Gwanak-Gu, Ny, South Korea","Gwanak-gu, South Korea",format
+"Bejing, China","Beijing, China",misspelling
+"Shenghai, China","Shanghai, China",misspelling
+"Beijing, USA","Beijing, China",wrong_country
+"Beijing,China, USA","Beijing, China",wrong_country
+"Shanghai, USA","Shanghai, China",wrong_country
+"Beijing, China, China","Beijing, China",format
