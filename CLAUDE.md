@@ -46,8 +46,8 @@ numerical order** on a clean run, and later scripts assume earlier scripts' outp
    lines with hover tooltips) from the monocentric footprint data → `output/interactive_attendee_map.html`.
 10. `R/10_greedy_hub_selection.R` — greedy hub search over `maps::world.cities` (pop > `min_population`,
    coordinates taken from that dataset, not the geocoding cache). `greedy_hubs()` is run on all years
-   pooled and then on each conference year separately (`sample` column). Greedy selection of `n_hubs` hubs: at step k the k-1 hubs already chosen are kept and every candidate
-   city (pool restricted per step by `hub_countries[[k]]`; NULL = world) is tried as an extra hub, assigning
+   pooled and then on each conference year separately (`sample` column). Greedy selection of `n_hubs` hubs:
+   at step k the k-1 hubs already chosen are kept and every candidate city (pool restricted per step by `hub_countries[[k]]`; NULL = world) is tried as an extra hub, assigning
    each attendee to the nearest hub. Distances are computed once as a vectorized `geosphere::distm` matrix,
    not with `calculate_multicentric_footprint()`, which would be too slow for ~2000 cities.
    → `output/reports/greedy_hub_candidates_<all_years|year>.csv`, `output/reports/greedy_hub_sequence.csv`,
@@ -71,7 +71,8 @@ numerical order** on a clean run, and later scripts assume earlier scripts' outp
    → `output/reports/equitable_hub_*.csv`, `output/figures/equitable_hub_*.png`, `output/equitable_hub_results.rds`.
 
 Methods, formulas, decisions and references for 11–13 are in `docs/methods_hub_selection.md` — keep it in
-sync when changing those scripts.
+sync when changing those scripts. `README.md` has the user-facing pipeline table and headline results; update
+it when adding a script or when results change.
 
 `R/utils.R` is sourced (`source("R/utils.R")`) by every downstream script and holds all shared state and
 logic — **read it first** when touching more than one script:
@@ -107,9 +108,9 @@ logic — **read it first** when touching more than one script:
   `05_`/`06_`/`07_`/`08_` are separate, sometimes overlapping lists used for specific scenario analyses.
 - Figures go to `output/figures/`, tabular summaries to `output/reports/`, intermediate/full datasets as
   `.rds` directly under `output/`. Follow this split for any new output.
-- This project uses `renv` (`renv.lock`, `renv/`) for dependency management — restore with
-  `renv::restore()` rather than ad hoc `install.packages()`.
-- `04_`, `07_`, and `08_` each end with a block banner-commented
+- This project uses `renv` (`renv.lock`, `renv/`, R 4.5) for dependency management — restore with
+  `renv::restore()` rather than ad hoc `install.packages()`; after adding a package, `renv::snapshot()`.
+- `04_`, `07_`, `08_` and `10_`–`13_` each end with a block banner-commented
   `# --- Exploration (not part of the saved pipeline outputs) ---`: everything above the banner feeds a
   `ggsave()`/`write.csv()`/`saveRDS()` call and is the actual pipeline output; everything below is
   console-only (`print()`/`knitr::kable()`) analysis kept for reference. Keep new throwaway
