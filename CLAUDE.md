@@ -35,6 +35,12 @@ numerical order** on a clean run, and later scripts assume earlier scripts' outp
 6. `R/06_multicentric_footprint.R` — footprint if each attendee instead travels to their nearest of the
    four hubs (Glasgow/Montreal/Seoul/Brisbane) → `output/multicentric_footprint_detailed.rds` /
    `output/reports/multicentric_footprint_summary.csv`.
+   - `R/05b_monocentric_footprint_train.R` / `R/06b_multicentric_footprint_train.R` — train-share sensitivity
+     versions of `05_`/`06_` (originals untouched). Sweep `train_sensitivity_grid` (train share × max train km ×
+     low/central/high rail emission factor) with `calculate_footprint_train()` →
+     `output/reports/{mono,multi}centric_train_sensitivity.csv`, `*_train_detailed.rds` (central scenario),
+     `output/figures/*_train_sensitivity.png`. `06b_` also writes `multi_vs_mono_train_sensitivity.csv` and
+     needs `05b_`'s CSV, so run `05b_` first. Share = 0 reproduces the plane-only `05_`/`06_` totals exactly.
 7. `R/07_multicentric_benchmark.R` — runs `calculate_multicentric_footprint()` across a matrix of
    hypothetical hub-set **scenarios** (1, 2, 3, 4, 6 hubs, defined in a `scenarios` list) to compare total
    and per-attendee footprint as a function of number/placement of hubs →
@@ -81,6 +87,13 @@ logic — **read it first** when touching more than one script:
 - `calculate_footprint()` — the core emissions model: zero for trips under `local_travel_threshold_km`
   (100 km), then a distinct kg CO2e/km round-trip factor for short/medium/long haul bands (thresholds at
   1000 km and 3500 km). Changing emission factors or thresholds here affects every script downstream.
+- Train/plane split (`05b_`/`06b_` only): `attendee_country()` gives the ISO3 code from coordinates
+  (`maps::map.where`, falling back to `countrycode` on `country_clean`; Northern Ireland = `"GBR_NI"`).
+  `rail_zone()` and the `rail_zones` list define land-connected zones: Europe incl. GB, USA+CAN, CHN+HKG+MAC,
+  IRL+NI; every other country is its own zone. `rail_eligible()` requires 100 km ≤ d ≤ `max_train_km` and the
+  same zone. `calculate_footprint_train()` returns the expected footprint: share × rail
+  (d × 1.2 detour × origin-country factor × 2) + (1 − share) × `calculate_footprint()`.
+  `plot_train_sensitivity()` draws the shared figure style.
 - `get_geocoding_cache()` / `update_geocoding_cache()` — the geocoding cache is the source of truth for
   coordinates of both attendees and hubs; it is additive-only (never pruned) and keyed on `full_address`.
 - `get_hub_coordinates()` — geocodes/caches hub city names on demand; used whenever a script needs
@@ -101,6 +114,9 @@ logic — **read it first** when touching more than one script:
   without expecting a slow full re-geocode of every unique address in the dataset.
   `output/unique_locations_for_review.txt` / `output/suspicious_pairs_for_review.csv` are manual QA aids,
   not consumed by later scripts directly — their output feeds back into `data/location_synonyms.csv`.
+- `data/rail_emission_factors.csv` is a hand-edited input (ISO3 → low/central/high kg CO2e per passenger-km,
+  one way, plus a `default` row). Each row's `source` field names its origin, basis and any
+  derived/proxy/placeholder values; every cell must be filled (no NAs). Countries without a row use `default`.
 - `year` is numeric through geocoding, then coerced to a `factor` in `03_geocode.R`'s output; some later
   scripts re-coerce it locally for plotting — check a given script's own handling rather than assuming.
 - New conference hubs are added by extending the `conference_hubs` tibble in `utils.R` (`add_row(...)`) —
@@ -110,7 +126,7 @@ logic — **read it first** when touching more than one script:
   `.rds` directly under `output/`. Follow this split for any new output.
 - This project uses `renv` (`renv.lock`, `renv/`, R 4.5) for dependency management — restore with
   `renv::restore()` rather than ad hoc `install.packages()`; after adding a package, `renv::snapshot()`.
-- `04_`, `07_`, `08_` and `10_`–`13_` each end with a block banner-commented
+- `04_`, `05b_`, `06b_`, `07_`, `08_` and `10_`–`13_` each end with a block banner-commented
   `# --- Exploration (not part of the saved pipeline outputs) ---`: everything above the banner feeds a
   `ggsave()`/`write.csv()`/`saveRDS()` call and is the actual pipeline output; everything below is
   console-only (`print()`/`knitr::kable()`) analysis kept for reference. Keep new throwaway

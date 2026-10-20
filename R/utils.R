@@ -47,6 +47,115 @@ calculate_footprint <- function(distance_km,
   return(footprint)
 }
 
+# --- Train/plane split (used by 05b_ and 06b_) ---
+
+# Sensitivity grid: share of rail-eligible trips made by train, maximum (great-circle)
+# distance for which train is considered, and level of the rail emission factor.
+train_sensitivity_grid <- crossing(
+  train_share = c(0, 0.25, 0.5, 0.75, 1),
+  max_train_km = c(500, 1000, 1500),
+  ef_scenario = factor(c("low", "central", "high"), levels = c("low", "central", "high"))
+)
+# Default point reported in the detailed per-attendee outputs
+train_central_scenario <- list(train_share = 0.5, max_train_km = 1000, ef_scenario = "central")
+
+# Land-connected rail zones (ISO3 codes). Countries not listed form their own zone.
+# Great Britain is linked to the continent through the Channel Tunnel; Ireland and
+# Northern Ireland ("GBR_NI") are not.
+rail_zones <- list(
+  europe = c("ALB", "AUT", "BEL", "BGR", "BIH", "BLR", "CHE", "CZE", "DEU", "DNK", "ESP",
+             "EST", "FIN", "FRA", "GBR", "GRC", "HRV", "HUN", "ITA", "LIE", "LTU", "LUX",
+             "LVA", "MDA", "MKD", "MNE", "NLD", "NOR", "POL", "PRT", "ROU", "SRB", "SVK",
+             "SVN", "SWE", "TUR", "UKR"),
+  north_america = c("USA", "CAN"),
+  china = c("CHN", "HKG", "MAC"),
+  ireland = c("IRL", "GBR_NI")
+)
+
+#' Country (ISO3) of a location, from its coordinates
+#'
+#' Uses the `maps` world polygons, falling back to `countrycode` on a free-text
+#' country name for points that fall outside the polygons (coasts, small territories).
+#' Northern Ireland is coded "GBR_NI" so it can be kept apart from Great Britain.
+attendee_country <- function(lon, lat, country_fallback = NA_character_) {
+  where <- maps::map.where("world", lon, lat)
+  iso <- suppressWarnings(countrycode::countrycode(sub(":.*", "", where), "country.name", "iso3c",
+                                                   custom_match = c(UK = "GBR")))
+  iso[!is.na(where) & where == "UK:Northern Ireland"] <- "GBR_NI"
+  fallback <- suppressWarnings(countrycode::countrycode(rep_len(country_fallback, length(lon)),
+                                                        "country.name", "iso3c"))
+  coalesce(iso, fallback)
+}
+
+rail_zone <- function(iso3) {
+  zone <- iso3
+  for (z in names(rail_zones)) zone[iso3 %in% rail_zones[[z]]] <- z
+  zone
+}
+
+get_rail_emission_factors <- function(path = "data/rail_emission_factors.csv") {
+  read_csv(path, show_col_types = FALSE)
+}
+
+#' Is a trip rail-eligible? Non-local, within `max_train_km` and within one rail zone.
+rail_eligible <- function(distance_km, origin_iso3, hub_iso3, max_train_km,
+                          local_travel_threshold_km = 100) {
+  !is.na(origin_iso3) & !is.na(hub_iso3) &
+    distance_km >= local_travel_threshold_km & distance_km <= max_train_km &
+    rail_zone(origin_iso3) == rail_zone(hub_iso3)
+}
+
+#' Expected round-trip footprint with a train/plane split
+#'
+#' Rail-eligible trips are made by train with probability `train_share` and flown
+#' otherwise (expected value, no randomness); other trips use `calculate_footprint()`.
+#' Train emissions use the origin country's factor from `data/rail_emission_factors.csv`
+#' (column `ef_<ef_scenario>`), applied to the great-circle distance times
+#' `rail_detour_factor`, round trip. All arguments except `rail_factors` are vectorised.
+calculate_footprint_train <- function(distance_km, origin_iso3, hub_iso3, train_share,
+                                      max_train_km, ef_scenario = "central",
+                                      rail_detour_factor = 1.2,
+                                      rail_factors = get_rail_emission_factors()) {
+  plane <- calculate_footprint(distance_km)
+  row <- match(sub("_NI$", "", origin_iso3), rail_factors$iso3)
+  row[is.na(row)] <- match("default", rail_factors$iso3)
+  ef_scenario <- rep_len(as.character(ef_scenario), length(distance_km))
+  ef <- case_when(
+    ef_scenario == "low" ~ rail_factors$ef_low[row],
+    ef_scenario == "central" ~ rail_factors$ef_central[row],
+    ef_scenario == "high" ~ rail_factors$ef_high[row]
+  )
+  train <- distance_km * rail_detour_factor * ef * 2
+  if_else(rail_eligible(distance_km, origin_iso3, hub_iso3, max_train_km),
+          train_share * train + (1 - train_share) * plane,
+          plane)
+}
+
+#' Plot a train-share sensitivity summary: per-attendee footprint vs train share,
+#' one line per max train distance (central EF), ribbon spanning low-high EF.
+plot_train_sensitivity <- function(summary_df, facet_var, title) {
+  wide <- summary_df %>%
+    select({{ facet_var }}, train_share, max_train_km, ef_scenario, per_attendee_ton_co2e) %>%
+    pivot_wider(names_from = ef_scenario, values_from = per_attendee_ton_co2e) %>%
+    arrange(max_train_km) %>%
+    mutate(max_train_km = fct_inorder(paste0("≤ ", scales::comma(max_train_km), " km")))
+  ggplot(wide, aes(x = train_share, colour = max_train_km, fill = max_train_km)) +
+    geom_ribbon(aes(ymin = low, ymax = high), alpha = 0.15, colour = NA) +
+    geom_line(aes(y = central), linewidth = 0.7) +
+    geom_point(aes(y = central), size = 1.8) +
+    facet_wrap(vars({{ facet_var }}), nrow = 1, scales = "free_y") +
+    scale_x_continuous(labels = scales::percent) +
+    # one hue, light -> dark for the ordered distance cut-off (lightest Blues steps skipped for contrast)
+    scale_colour_manual(values = c("#6BAED6", "#2171B5", "#08306B"), aesthetics = c("colour", "fill")) +
+    labs(title = title,
+         subtitle = "Lines: central rail emission factor; bands: low-high factor range. Y-axes differ between panels",
+         x = "Share of rail-eligible trips made by train",
+         y = "Per-attendee emissions (t CO2e)",
+         colour = "Max train distance", fill = "Max train distance") +
+    theme_minimal(base_size = 13) +
+    theme(legend.position = "bottom", panel.grid.minor = element_blank())
+}
+
 #' Get Geocoding Cache
 #'
 #' This function loads the main project geocoding cache. If the cache file

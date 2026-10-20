@@ -28,7 +28,9 @@ Run the scripts in `R/` in numerical order. Each script reads the outputs of the
 | `03_geocode.R` | Geocodes locations with OpenStreetMap, with a cache so only new addresses are queried | `output/geocoded_attendee_data.rds` |
 | `04_all_attendees_maps.R` | Maps of where attendees come from, per year | `output/figures/attendee_world_*` |
 | `05_monocentric_footprint.R` | Footprint of each real meeting (everyone travels to the host) | `output/reports/monocentric_footprint_summary.csv` |
+| `05b_monocentric_footprint_train.R` | Train-share sensitivity of `05_`: part of the rail-feasible trips go by train, with emission factors per country from `data/rail_emission_factors.csv` | `output/reports/monocentric_train_sensitivity.csv`, `output/figures/monocentric_train_sensitivity.png` |
 | `06_multicentric_footprint.R` | Footprint if attendees go to the nearest of Glasgow, Montreal, Seoul and Brisbane | `output/reports/multicentric_footprint_summary.csv` |
+| `06b_multicentric_footprint_train.R` | Train-share sensitivity of `06_`, and multi- vs monocentric comparison under the same train scenarios (run after `05b_`) | `output/reports/multicentric_train_sensitivity*.csv`, `output/reports/multi_vs_mono_train_sensitivity.csv`, `output/figures/*_train_sensitivity.png` |
 | `07_multicentric_benchmark.R` | Compares hand-picked hub scenarios (1–6 hubs) | `output/reports/multicentric_benchmark_summary.csv` |
 | `08_attraction_power.R` | How much a host city boosts local attendance | `output/figures/attraction_power_*` |
 | `09_interactive_map.R` | Interactive, self-contained HTML map of attendee travel | `output/interactive_attendee_map.html` |
@@ -74,6 +76,14 @@ Shared settings and functions are in `R/utils.R`: the emission factors, hub list
 
 - **Past meetings.** Average travel footprint per attendee was 1.25 t CO2e (Montreal 2023), 1.94 t (Seoul 2024)
   and 3.01 t (Brisbane 2025). Source: `output/reports/monocentric_footprint_summary.csv`.
+- **Taking the train.** Here a trip can go by rail only if it is 100–1,500 km and both ends are in the same
+  land-connected rail zone (Europe including Great Britain, USA+Canada, each other country on its own). Rail
+  barely changes single-city meetings. Even when every eligible trip goes by train, footprints fall by only
+  4.2% (Montreal), 0.2% (Seoul) and 0.9% (Brisbane), because most attendees fly long-haul. For the 4-hub format
+  the same assumption cuts 22–32%, mainly through European trips to Glasgow. That widens the multicentric saving
+  from 64–83% to 74–86%. Rail emission factors per country are in `data/rail_emission_factors.csv`, each with its
+  source. Their basis differs (direct, well-to-wheel or life cycle), and several are proxies or secondary figures.
+  Sources: `output/reports/*_train_sensitivity.csv`.
 - **Where the community is vs. who comes.** Relative to their share of neuroimaging articles, the host regions
   were over-represented among 2023–25 attendees:
 
