@@ -1,0 +1,13 @@
+"held_out","predictor","tvd","beta_train"
+"2023 Montreal","Decay model, fixed-effects slope",0.11245776679465,-0.53472194349742
+"2023 Montreal","Decay model, offset slope",0.0579001524688722,-0.870255815611321
+"2023 Montreal","Past attendance shares",0.332336137604226,NA
+"2023 Montreal","Community shares",0.273469225670321,NA
+"2024 Seoul","Decay model, fixed-effects slope",0.14143828060816,-0.727026678622484
+"2024 Seoul","Decay model, offset slope",0.183064643971658,-0.932024771876065
+"2024 Seoul","Past attendance shares",0.199743097850876,NA
+"2024 Seoul","Community shares",0.21330473583275,NA
+"2025 Brisbane","Decay model, fixed-effects slope",0.21167408386504,-0.504801982094669
+"2025 Brisbane","Decay model, offset slope",0.163005788752017,-0.767391439556551
+"2025 Brisbane","Past attendance shares",0.246359134413327,NA
+"2025 Brisbane","Community shares",0.301586572761171,NA

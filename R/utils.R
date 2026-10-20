@@ -208,3 +208,21 @@ geocoded_attendees <- geocoded_attendees %>%
     )
   )
 }
+
+
+#' Distance-Decay Transform
+#'
+#' Transform of travel distance used by the participation model (12_) and the hub
+#' search (13_): relative participation at distance d is exp(beta * distance_decay_g(d)).
+#' See docs/methods_hub_selection.md, section M2.
+#'
+#' @param distance_km Numeric vector of distances in km.
+#' @param form "power" for log(1 + d/1000) (participation ~ (1 + d/1000)^beta), or
+#'   "exponential" for d/1000 (participation ~ exp(beta * d/1000)).
+#' @return Numeric vector, 0 at d = 0.
+distance_decay_g <- function(distance_km, form = c("power", "exponential")) {
+  form <- match.arg(form)
+  switch(form,
+         power = log1p(distance_km / 1000),
+         exponential = distance_km / 1000)
+}
