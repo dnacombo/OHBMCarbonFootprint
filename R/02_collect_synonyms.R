@@ -19,8 +19,28 @@ if (file.exists(synonyms_file)) {
   synonym_vec <- c()
 }
 
+# Same result as str_replace_all(x, fixed(replacements)) (patterns applied in order, each on the
+# output of the previous one), but also records which synonyms fired on each element.
+# Returns list(value, hits, partial): hits = fired synonyms joined by " >> " (NA if none),
+# partial = TRUE if a synonym matched only part of the string rather than the whole of it.
+replace_synonyms_logged <- function(x, replacements) {
+  hits <- vector("list", length(x))
+  partial <- rep(FALSE, length(x))
+  for (i in seq_along(replacements)) {
+    pattern <- names(replacements)[i]
+    hit <- which(str_detect(x, fixed(pattern)))
+    if (length(hit) == 0) next
+    partial[hit] <- partial[hit] | x[hit] != pattern
+    hits[hit] <- lapply(hits[hit], c, pattern)
+    x[hit] <- str_replace_all(x[hit], fixed(pattern), replacements[[i]])
+  }
+  list(value = x,
+       hits = map_chr(hits, \(h) if (is.null(h)) NA_character_ else paste(h, collapse = " >> ")),
+       partial = partial)
+}
+
 clean_locations <- function(df, replacements) {
-  df %>%
+  df <- df %>%
     # 1. First, do basic component cleaning
     mutate(
       across(c(city, state, country), ~ str_trim(str_to_title(.))),
@@ -28,12 +48,28 @@ clean_locations <- function(df, replacements) {
       state_clean = na_if(state, "None"),
       country_clean = na_if(country, "None")
     ) %>%
-    # then replace synonyms in individual components
+    # address as it would be without any synonym replacement (for the synonym audit)
+    unite(full_address_raw, c(city_clean, state_clean, country_clean),
+          sep = ", ", na.rm = TRUE, remove = FALSE) %>%
     mutate(
-      city_clean = str_replace_all(city_clean, fixed(replacements)),
-      state_clean = str_replace_all(state_clean, fixed(replacements)),
-      country_clean = str_replace_all(country_clean, fixed(replacements))
-    ) %>%
+      full_address_raw = str_replace_all(full_address_raw, ", ?, ?", ", "),
+      full_address_raw = str_replace_all(full_address_raw, ", $", "")
+    )
+  # then replace synonyms in individual components
+  component_hits <- list()
+  partial_hit <- rep(FALSE, nrow(df))
+  for (col in c("city_clean", "state_clean", "country_clean")) {
+    res <- replace_synonyms_logged(df[[col]], replacements)
+    df[[col]] <- res$value
+    component_hits[[col]] <- if_else(is.na(res$hits), NA_character_,
+                                     paste0(str_remove(col, "_clean"), ": ", res$hits))
+    partial_hit <- partial_hit | res$partial
+  }
+  df %>%
+    mutate(synonyms_component = pmap_chr(component_hits, \(...) {
+      h <- na.omit(c(...))
+      if (length(h) == 0) NA_character_ else paste(h, collapse = "; ")
+    })) %>%
     # 2. Combine into a full address
     unite(full_address, c(city_clean, state_clean, country_clean), 
           sep = ", ", na.rm = TRUE, remove = FALSE) %>%
@@ -41,10 +77,14 @@ clean_locations <- function(df, replacements) {
     mutate(
       full_address = str_replace_all(full_address, ", ?, ?", ", "),
       full_address = str_replace_all(full_address, ", $", "")
-    ) %>%
-    # 3. apply all replacements to the full_address string
+    ) -> df
+  # 3. apply all replacements to the full_address string
+  res <- replace_synonyms_logged(df$full_address, replacements)
+  df %>%
     mutate(
-      full_address = str_replace_all(full_address, fixed(replacements)),
+      full_address = res$value,
+      synonyms_full_address = res$hits,
+      synonym_partial_match = partial_hit | res$partial,
       # after cleaning, reparse to city, state, country
       # if only one component, assume it's the country
       # if two components, assume city and country
@@ -68,6 +108,53 @@ clean_locations <- function(df, replacements) {
 }
 
 cleaned_attendees <- clean_locations(all_attendees, synonym_vec)
+
+# --- 2b. Synonym audit: how many entries were modified, and which ones are ambiguous ---
+# Ambiguous = the result depends on the order of rows in location_synonyms.csv:
+#  - conflicting: a synonym that fired has several different canonical names in the table
+#    (only the first listed is effectively used);
+#  - chained: several synonyms fired one after the other on the same string (A -> B -> C).
+# Partial matches (a synonym replaced only part of a string, e.g. "Wales" in "New South Wales")
+# are reported separately: often intended ("Pq, Canada"), but worth checking.
+synonym_audit_file <- "output/synonym_changes_for_review.csv"
+conflicting_synonyms <- if (exists("synonyms")) {
+  synonyms %>% distinct() %>% count(synonym) %>% filter(n > 1) %>% pull(synonym)
+} else character(0)
+
+fired_synonyms <- function(hits) str_split(str_remove_all(hits, "(city|state|country): "), " >> |; ")
+synonym_audit <- cleaned_attendees %>%
+  mutate(
+    synonym_applied = !is.na(synonyms_component) | !is.na(synonyms_full_address),
+    modified = full_address != full_address_raw,
+    conflicting = map_lgl(fired_synonyms(paste(synonyms_component, synonyms_full_address, sep = "; ")),
+                          \(s) any(s %in% conflicting_synonyms)),
+    chained = str_detect(coalesce(synonyms_component, ""), " >> ") |
+      str_detect(coalesce(synonyms_full_address, ""), " >> "),
+    ambiguous = conflicting | chained
+  )
+
+print("--- Synonym replacement summary ---")
+print(paste("Synonym table:", length(synonym_vec), "rows,",
+            n_distinct(names(synonym_vec)), "distinct synonyms,",
+            length(conflicting_synonyms), "with conflicting canonical names"))
+print(paste("Entries with at least one synonym applied:", sum(synonym_audit$synonym_applied),
+            "of", nrow(synonym_audit)))
+print(paste("  in city/state/country components:", sum(!is.na(synonym_audit$synonyms_component)),
+            "| in full address:", sum(!is.na(synonym_audit$synonyms_full_address))))
+print(paste("Entries whose full address was modified:", sum(synonym_audit$modified),
+            "(", n_distinct(synonym_audit$full_address_raw[synonym_audit$modified]), "distinct raw addresses )"))
+print(paste("Ambiguous entries:", sum(synonym_audit$ambiguous),
+            "| conflicting synonym:", sum(synonym_audit$conflicting),
+            "| chained replacements:", sum(synonym_audit$chained)))
+print(paste("Entries with a partial-string match:", sum(synonym_audit$synonym_partial_match)))
+
+synonym_changes <- synonym_audit %>%
+  filter(synonym_applied) %>%
+  count(full_address_raw, full_address, synonyms_component, synonyms_full_address,
+        conflicting, chained, partial = synonym_partial_match, name = "n_entries") %>%
+  arrange(desc(conflicting | chained), desc(partial), desc(n_entries))
+write.csv(synonym_changes, synonym_audit_file, row.names = FALSE)
+print(paste("Per-address synonym changes saved to", synonym_audit_file))
 
 # --- 3. Save Cleaned Data and Review File ---
 # Save the full dataframe with the cleaned 'full_address' column

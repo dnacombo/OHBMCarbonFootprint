@@ -98,10 +98,7 @@ Beijing City, China
 Beijing, Ab, China
 Beijing, Al, China
 Beijing, Ca, China
-Beijing, USA
-Beijing,China, USA
-Bejing, China
-Bejing, China, China
+Beijing, China
 Belconnen, Australia
 Belgrade, Serbia And Montenegro
 Belleville, Wi, USA
@@ -305,7 +302,6 @@ Dandenong, Australia
 Darlington, Australia
 Dartmouth, Canada
 Davis, Ca, USA
-Deagu, South Korea
 Decatur, Ga, USA
 Den Haag, Netherlands
 Denmark Hill, United Kingdom
@@ -373,6 +369,7 @@ Frankfurt, Germany
 Freemont, Ca, USA
 Freiburg Im Breisgau, Germany
 Freiburg, Germany
+Fremont, Ca, USA
 Fribourg, Switzerland
 Fujisawa, Japan
 Fukui, Japan
@@ -464,6 +461,7 @@ Hamburg, Germany
 Hamden, Ct, USA
 Hamilton, Australia
 Hamilton, On, Canada
+Hangzhou, China
 Hangzhou, Zhejiang, China
 Hanover, Nh, USA
 Hanover,Nh, Nh, USA
@@ -530,6 +528,7 @@ Jericho, Ny, USA
 Jersey City, Nj, USA
 Jerusalem, Israel
 Jhongli City, Taiwan
+Jinan, China
 Jinan, Shandong, China
 Jingzhou, China
 Jinhua, China
@@ -710,7 +709,6 @@ Mont-Saint-Hilaire, Quebec, Canada
 Monterrey, Mexico
 Montevideo, Uruguay
 Montpellier, France
-Montreal, Canada
 Montreal, Qc., Canada
 Montreal, Québec, Canada
 Montreal, USA
@@ -721,7 +719,7 @@ Montvale, Nj, USA
 Morges, Switzerland
 Morrisville, Pa, USA
 Moscow, Russian Federation
-Mount Waverley, Co, Australia
+Mount Waverley, Vic, Australia
 Mountain Creek, Australia
 Mountain View, Ca, USA
 Msida, Malta
@@ -760,6 +758,7 @@ New Lambton Heights, Australia
 New Lambton, Australia
 New Lambton, Nsw, Australia
 New Orleans, La, USA
+New Taipei City, Taiwan
 New Taipei City, Tpe, Taiwan
 New Taipei, Taiwan
 New Taipei, Tpe, Taiwan
@@ -991,11 +990,10 @@ Setagaya, Japan
 Seul, South Korea
 Seville, Spain
 Shanghai City, China
-Shanghai, USA
+Shanghai, China
 Sharpsburg, Pa, USA
 Shatin, Hong Kong
 Sheffield, United Kingdom
-Shenghai, China
 Shenyang, China
 Shenzhen, China
 Shenzhen, Hong Kong
@@ -1017,6 +1015,7 @@ Sion, Switzerland
 Solihull, United Kingdom
 Solna, Sweden
 Somerset, Nj, USA
+Somerville, Ma, USA
 Sommerville, Ma, USA
 Sonipat, India
 Soraku-Gun, Kyoto, Japan
@@ -1074,7 +1073,7 @@ Sydney Olympic Park, Australia
 Sydney, Australia
 Sydney, Nsw, Australia
 Szeged, Hungary
-São Paulo, Sp, Brazil
+São Paulo, Sp, Brazil
 Søborg, Denmark
 Taichung, Taiwan
 Tainan City, Taiwan
