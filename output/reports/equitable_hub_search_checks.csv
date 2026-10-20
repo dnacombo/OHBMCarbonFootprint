@@ -1,0 +1,19 @@
+"scenario","check","lambda","heuristic_score","exhaustive_score","match","n_hubs","searches","restarts","restarts_reaching_best","restarts_finding_better"
+"primary","k = 2: heuristic vs exhaustive",0,0.75203138885696,0.75203138885696,TRUE,NA,NA,NA,NA,NA
+"primary","k = 2: heuristic vs exhaustive",0.5,0.572794779314569,0.572794779314569,TRUE,NA,NA,NA,NA,NA
+"primary","k = 2: heuristic vs exhaustive",2,0.0291382413622581,0.0291382413622581,TRUE,NA,NA,NA,NA,NA
+"sensitivity","k = 2: heuristic vs exhaustive",0,0.826818427854413,0.826818427854413,TRUE,NA,NA,NA,NA,NA
+"sensitivity","k = 2: heuristic vs exhaustive",0.5,0.647581818312022,0.647581818312022,TRUE,NA,NA,NA,NA,NA
+"sensitivity","k = 2: heuristic vs exhaustive",2,0.10987198968485,0.10987198968485,TRUE,NA,NA,NA,NA,NA
+"primary","random restarts",NA,NA,NA,NA,1,12,60,60,0
+"primary","random restarts",NA,NA,NA,NA,2,12,60,60,0
+"primary","random restarts",NA,NA,NA,NA,3,12,60,60,0
+"primary","random restarts",NA,NA,NA,NA,4,12,60,60,0
+"primary","random restarts",NA,NA,NA,NA,5,12,60,60,0
+"primary","random restarts",NA,NA,NA,NA,6,12,60,45,0
+"sensitivity","random restarts",NA,NA,NA,NA,1,12,60,60,0
+"sensitivity","random restarts",NA,NA,NA,NA,2,12,60,60,0
+"sensitivity","random restarts",NA,NA,NA,NA,3,12,60,60,0
+"sensitivity","random restarts",NA,NA,NA,NA,4,12,60,59,0
+"sensitivity","random restarts",NA,NA,NA,NA,5,12,60,60,0
+"sensitivity","random restarts",NA,NA,NA,NA,6,12,60,58,0

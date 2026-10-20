@@ -52,6 +52,26 @@ numerical order** on a clean run, and later scripts assume earlier scripts' outp
    not with `calculate_multicentric_footprint()`, which would be too slow for ~2000 cities.
    → `output/reports/greedy_hub_candidates_<all_years|year>.csv`, `output/reports/greedy_hub_sequence.csv`,
    `output/figures/greedy_hub_maps/greedy_<sample>_hub<k>_map.png`, `output/figures/greedy_hub_sequence.png`.
+11. `R/11_openalex_community.R` — maps the neuroimaging community: research articles 2020–2024 in 9 core
+   journals (by ISSN-L) counted per institution via the OpenAlex API (needs `OPENALEX_API_KEY` in
+   `~/.Renviron` for cursor paging), cached in `data/openalex_neuroimaging_institutions.csv` (delete it to
+   re-fetch). Assigns countries/UN regions with `countrycode` → `output/community_institutions.rds`,
+   `output/attendees_with_regions.rds`, community-vs-attendee shares by subregion.
+12. `R/12_participation_model.R` — fits how attendance per article decays with distance to the host,
+   using country × year counts for 2023–25 (expected count = year level × Σ_i C_i·exp(β·g(d_iy))). Compares
+   offset vs. country-fixed-effects models, power vs. exponential decay, quasi-Poisson vs. NB, and a
+   leave-one-year-out check → `output/participation_model.rds` (primary β from fixed effects, sensitivity β
+   from the offset model).
+13. `R/13_equitable_hub_selection.R` — for k = 1..6 hubs among cities ≥ 1M inhabitants, searches hub sets
+   (greedy + Teitz–Bart swaps, vectorized over candidates) trading expected footprint (with induced demand)
+   against mean regional coverage (each of 6 world regions' community share within 3,500 km, regions weighted
+   equally), with min-catchment (150, or 50 in under-represented regions) and attendance-floor constraints;
+   ε-dominance (0.5 pt) on the front;
+   Pareto front, knee solutions, benchmarks, exhaustive k = 2 check, bootstrap stability. Slow (~1 h+).
+   → `output/reports/equitable_hub_*.csv`, `output/figures/equitable_hub_*.png`, `output/equitable_hub_results.rds`.
+
+Methods, formulas, decisions and references for 11–13 are in `docs/methods_hub_selection.md` — keep it in
+sync when changing those scripts.
 
 `R/utils.R` is sourced (`source("R/utils.R")`) by every downstream script and holds all shared state and
 logic — **read it first** when touching more than one script:
@@ -70,6 +90,8 @@ logic — **read it first** when touching more than one script:
 - `add_hub_distances()` — for a *fixed* hub list, adds `distance_to_<city>` and `within_<city>` boolean
   columns for every hub (not just the nearest), plus a `closest_hub` column. Used by `04_` and `08_` when
   the question is "which/how many hubs is this attendee near," not just "which hub are they assigned to."
+- `distance_decay_g()` — distance transform of the participation model (power: log(1 + d/1000);
+  exponential: d/1000), shared by `12_` and `13_`.
 
 ## Data flow and conventions
 
