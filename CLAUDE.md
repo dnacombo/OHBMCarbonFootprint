@@ -16,7 +16,10 @@ There is no build system, package structure, or test suite — this is a pipelin
 under `R/` meant to be run in order, either from the R console (`source("R/01_data_loading.R")`, etc.)
 or via `Rscript R/01_data_loading.R` from the project root. Each script reads its inputs from `output/*.rds`
 (or `data/`) and writes new `.rds`/`.csv`/`.png` files back into `output/`, so **scripts must be run in
-numerical order** on a clean run, and later scripts assume earlier scripts' output files already exist:
+numerical order** on a clean run, and later scripts assume earlier scripts' output files already exist.
+`run_all.R` (project root) runs the whole pipeline, each script in its own `Rscript` process, in parallel
+(fork, `--jobs N`) following a dependency list declared at its top — update that list when a script starts
+reading another script's output. Logs go to `output/logs/`.
 
 1. `R/01_data_loading.R` — reads `data/12182025 3 Year Attendee.xlsx` (one sheet per year: "2025", "2024",
    "2023"), tags each row with `year`/`conference_city`, assigns a row `ID` → `output/raw_attendee_data.rds`.
@@ -24,7 +27,11 @@ numerical order** on a clean run, and later scripts assume earlier scripts' outp
    `data/location_synonyms.csv` (synonym → canonical name map), builds a single `full_address` string per
    attendee → `output/cleaned_attendee_data.rds`. Also emits `output/unique_locations_for_review.txt` and,
    via Levenshtein-distance matching, `output/suspicious_pairs_for_review.csv` — a human reviews these and
-   adds confirmed synonyms to `data/location_synonyms.csv` before re-running.
+   adds confirmed synonyms to `data/location_synonyms.csv` before re-running. Synonyms are fixed-string
+   replacements applied in table order (components, then `full_address`); the script logs which fired
+   (`synonyms_component`, `synonyms_full_address`, `full_address_raw` columns), prints how many entries
+   were modified / ambiguous (synonym with several canonical names, or chained replacements) and writes
+   `output/synonym_changes_for_review.csv`.
 3. `R/03_geocode.R` — geocodes each unique `full_address` via `tidygeocoder` (OSM/Nominatim), caching
    results in `output/geocoding_cache.rds` keyed by `full_address` so re-runs only geocode new addresses
    → `output/geocoded_attendee_data.rds`.

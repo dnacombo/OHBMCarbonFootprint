@@ -24,7 +24,7 @@ Run the scripts in `R/` in numerical order. Each script reads the outputs of the
 | Script | What it does | Main outputs |
 |---|---|---|
 | `01_data_loading.R` | Reads the attendee spreadsheet (one sheet per year) | `output/raw_attendee_data.rds` |
-| `02_collect_synonyms.R` | Cleans and standardises locations using `data/location_synonyms.csv`; lists suspicious names for manual review | `output/cleaned_attendee_data.rds` |
+| `02_collect_synonyms.R` | Cleans and standardises locations using `data/location_synonyms.csv`; counts the entries changed by synonyms and the ambiguous ones; lists suspicious names for manual review | `output/cleaned_attendee_data.rds`, `output/synonym_changes_for_review.csv` |
 | `03_geocode.R` | Geocodes locations with OpenStreetMap, with a cache so only new addresses are queried | `output/geocoded_attendee_data.rds` |
 | `04_all_attendees_maps.R` | Maps of where attendees come from, per year | `output/figures/attendee_world_*` |
 | `05_monocentric_footprint.R` | Footprint of each real meeting (everyone travels to the host) | `output/reports/monocentric_footprint_summary.csv` |
@@ -50,8 +50,11 @@ Shared settings and functions are in `R/utils.R`: the emission factors, hub list
    `data/openalex_neuroimaging_institutions.csv`, so `11_` works offline as long as that file exists. To
    re-download it, get a free key at <https://openalex.org/settings/api> and add the line
    `OPENALEX_API_KEY=<your key>` to `~/.Renviron`. Never commit the key.
-3. **Run the scripts in order**, e.g. `source("R/01_data_loading.R")`, or `Rscript R/01_data_loading.R`
-   from the project folder.
+3. **Run everything** with `Rscript run_all.R` from the project folder. It runs scripts in parallel
+   once the scripts they depend on are done (all cores but one by default; `--jobs N` to limit, `--jobs 1`
+   for sequential), writes each script's output to `output/logs/<script>.log`, and skips the scripts that
+   depend on a failed one. Single scripts can be run in order with `source("R/01_data_loading.R")` or
+   `Rscript R/01_data_loading.R`.
    - `03_` contacts OpenStreetMap only for addresses not yet in `output/geocoding_cache.rds`. Keep that file.
    - `13_` takes about 50 minutes, because it searches hub sets for two decay-model variants and runs a
      100-replicate bootstrap.

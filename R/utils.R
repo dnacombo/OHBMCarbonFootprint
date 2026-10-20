@@ -179,9 +179,14 @@ get_geocoding_cache <- function() {
 #' @param new_data A tibble of newly geocoded data to add to the cache.
 update_geocoding_cache <- function(new_data) {
   if (nrow(new_data) > 0) {
+    # re-read just before writing, and write to a temp file then rename (atomic), so that
+    # scripts run in parallel by run_all.R never leave a half-written or duplicated cache
     geocoding_cache <- get_geocoding_cache()
-    geocoding_cache <- bind_rows(geocoding_cache, new_data)
-    saveRDS(geocoding_cache, file = geocoding_cache_path)
+    geocoding_cache <- bind_rows(geocoding_cache, new_data) %>%
+      distinct(full_address, .keep_all = TRUE)
+    tmp_path <- tempfile(tmpdir = dirname(geocoding_cache_path), fileext = ".rds")
+    saveRDS(geocoding_cache, file = tmp_path)
+    file.rename(tmp_path, geocoding_cache_path)
     print("Main geocoding cache updated.")
   }
 }
