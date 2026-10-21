@@ -88,6 +88,13 @@ reading another script's output. Logs go to `output/logs/`.
      `get0()` and names every output with `output_path()`, so outputs get the `_pop250k` suffix. Several hours.
      Any new output in `13_` must go through `output_path()` so 13b doesn't overwrite it.
 
+Cluster runs: `jobs/send2cluster.sh` (see `jobs/README.md`) syncs the project to a copy on the shared
+storage (`CLUSTER_DIR` in `jobs/cluster_config.sh`; the workstation's disk is invisible to compute nodes),
+submits `jobs/_task.sh <R script>` to SLURM on `sphpc-login02` over ssh, and `fetch` copies outputs back
+(`rsync --update`, never deletes). The cluster copy has its own renv library, built by `setup` with the
+Spack R 4.5.0 and only the packages listed in `jobs/setup_cluster.R` (those `13_`/`13b_` need): extend that
+list before sending other scripts.
+
 Methods, formulas, decisions and references for 11–13 are in `docs/methods_hub_selection.md` — keep it in
 sync when changing those scripts. `README.md` has the user-facing pipeline table and headline results; update
 it when adding a script or when results change.
