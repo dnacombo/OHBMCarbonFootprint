@@ -259,14 +259,17 @@ observed_rates <- tibble(
   rate = as.vector(rate)
 ) %>% filter(attendees > 0)
 
+# points filled by meeting (fill scale), curve by colour scale; the band has a fixed fill
+meeting_labels <- set_names(paste(model_years, c("Montreal", "Seoul", "Brisbane")), model_years)
+meeting_fills <- set_names(c("#E69F00", "#009E73", "#CC79A7"), meeting_labels)
 ggplot() +
-  geom_point(data = observed_rates, aes(dbar, rate, size = C),
-             color = "gray50", alpha = 0.35, shape = 16) +
-  geom_ribbon(data = curves, aes(d, ymin = low, ymax = high, fill = model), alpha = 0.2) +
+  geom_point(data = observed_rates, aes(dbar, rate, size = C, fill = meeting_labels[as.character(year)]),
+             color = "transparent", alpha = 0.5, shape = 21) + # not NA: geom_point drops NA-colour rows
+  geom_ribbon(data = curves, aes(d, ymin = low, ymax = high), fill = curve_colors, alpha = 0.2) +
   geom_line(data = curves, aes(d, fit, color = model), linewidth = 1) +
   scale_y_log10() +
   scale_color_manual(values = curve_colors, name = NULL) +
-  scale_fill_manual(values = curve_colors, name = NULL) +
+  scale_fill_manual(values = meeting_fills, name = "Meeting") +
   scale_size_area(max_size = 6, name = "Country\narticles") +
   labs(title = "Participation in OHBM decays with distance to the meeting",
        subtitle = paste0("Attendees per article ~ (1 + d/1000)^beta; bands: 95% CI.\n",
@@ -274,7 +277,9 @@ ggplot() +
                          "relative to that year's level"),
        x = "Distance to the meeting (km)", y = "Relative participation (1 = at the venue)") +
   theme_minimal() +
-  guides(color = guide_legend(order = 1), fill = guide_legend(order = 1)) +
+  guides(color = guide_legend(order = 1),
+         fill = guide_legend(order = 2, override.aes = list(size = 4, alpha = 1)),
+         size = guide_legend(order = 3, override.aes = list(fill = "gray50"))) +
   theme(legend.position = "right",
         plot.title = element_text(face = "bold"), panel.grid.minor = element_blank())
 ggsave("output/figures/participation_decay.png", width = 12, height = 6, dpi = 200)
