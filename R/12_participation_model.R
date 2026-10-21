@@ -243,13 +243,10 @@ decay_curve <- function(beta, se, label) {
          low = map_dbl(d_grid, \(d) quantile(exp(draws * distance_decay_g(d, chosen_form)), 0.025)),
          high = map_dbl(d_grid, \(d) quantile(exp(draws * distance_decay_g(d, chosen_form)), 0.975)))
 }
-curves <- bind_rows(
-  decay_curve(beta_primary, se_primary,
-              sprintf("Fixed effects (primary): beta = %.2f", beta_primary)),
-  decay_curve(beta_sensitivity, fits_pois[[chosen_form]]$se_beta_quasi,
-              sprintf("Offset model (sensitivity): beta = %.2f", beta_sensitivity))
-)
-curve_colors <- set_names(c("#2171b5", "#d94801"), unique(curves$model))
+# primary (fixed-effects) slope only: this is Figure 4 of the paper
+curves <- decay_curve(beta_primary, se_primary,
+                      sprintf("Country fixed effects: beta = %.2f", beta_primary))
+curve_colors <- set_names("#2171b5", unique(curves$model))
 
 dbar <- sapply(seq_along(model_years), \(y) rowsum(community$n_works * d_km[, y],
                                                   country_of_inst, reorder = TRUE)[, 1]) /
