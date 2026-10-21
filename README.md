@@ -38,6 +38,7 @@ Run the scripts in `R/` in numerical order. Each script reads the outputs of the
 | `11_openalex_community.R` | Maps the neuroimaging community: articles 2020–2024 in 9 core journals per institution (OpenAlex) | `data/openalex_neuroimaging_institutions.csv`, `output/figures/community_*` |
 | `12_participation_model.R` | Fits how attendance per article decays with distance to the meeting | `output/participation_model.rds`, `output/figures/participation_*` |
 | `13_equitable_hub_selection.R` | Searches 1–6 hub sets trading footprint against regional coverage; Pareto fronts, robustness checks | `output/reports/equitable_hub_*`, `output/figures/equitable_hub_*` |
+| `13b_equitable_hub_selection_pop250k.R` | Sensitivity of `13_` to city size: hubs can be any city of ≥ 250,000 inhabitants instead of ≥ 1 million (several hours) | `output/reports/equitable_hub_*_pop250k.csv`, `output/figures/equitable_hub_*_pop250k.png` |
 
 Shared settings and functions are in `R/utils.R`: the emission factors, hub list and distance functions.
 

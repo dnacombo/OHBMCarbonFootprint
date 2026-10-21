@@ -210,7 +210,7 @@ $$Q(H) = \frac{1}{|R|}\sum_{r \in R} Q_r(H)$$
 
 ## M4. Rules every hub set must satisfy (city size)
 
-1. **Eligibility:** hubs are cities with ≥ 1 million inhabitants, as a proxy for venue capacity and air connections (313 cities).
+1. **Eligibility:** hubs are cities with ≥ 1 million inhabitants, as a proxy for venue capacity and air connections (313 cities). Sensitivity (`13b_`): ≥ 250,000 inhabitants (1,565 cities), everything else unchanged.
 2. **Minimum catchment:** each hub must expect ≥ 150 attendees to be worth running. **Exception:** hubs in under-represented regions (Africa, Latin America & Caribbean, Southern Asia, South-eastern Asia) need only ≥ 50. Below that, a hub cannot be justified even as a deliberate investment in inclusion. Formally, the floor $m_j$ depends on the hub's region, and each hub needs $\sum_{i \to j} E_i \ge m_j$.
 3. **No shrinking:** total expected attendance ≥ today's mean (2,687 per year). This blocks "low footprint by exclusion" outright.
 

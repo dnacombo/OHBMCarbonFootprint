@@ -1,5 +1,5 @@
 # run_all.R
-# Runs the whole pipeline (R/01_ ... R/13_), each script in its own Rscript process, running
+# Runs the whole pipeline (R/01_ ... R/13b_), each script in its own Rscript process, running
 # scripts in parallel as soon as the scripts they depend on have finished.
 #
 # Usage, from the project root:
@@ -29,9 +29,11 @@ pipeline <- list(
   "11_openalex_community"            = "03_geocode",
   "12_participation_model"           = "11_openalex_community",
   "13_equitable_hub_selection"       = c("10_greedy_hub_selection", "11_openalex_community",
-                                         "12_participation_model")
+                                         "12_participation_model"),
+  "13b_equitable_hub_selection_pop250k" = c("10_greedy_hub_selection", "11_openalex_community",
+                                            "12_participation_model")
 )
-# 13_ is by far the slowest (~1 h+): start the scripts leading to it first
+# 13b_ (several hours) and 13_ (~1 h) are by far the slowest: start the scripts leading to them first
 critical_path <- c("10_greedy_hub_selection", "11_openalex_community", "12_participation_model")
 
 # --- 2. Settings ---

@@ -13,7 +13,15 @@ library(geosphere)
 library(countrycode)
 source("R/utils.R")
 
-eligible_min_pop <- 1e6    # host cities must have at least this population
+# Sensitivity scripts (13b_) source this one with `hub_selection_overrides` set, a list that can
+# change `eligible_min_pop` and add `output_tag` to every output file name; unset, nothing changes.
+overrides <- get0("hub_selection_overrides", ifnotfound = list())
+eligible_min_pop <- overrides$eligible_min_pop %||% 1e6 # host cities must have at least this population
+output_tag <- overrides$output_tag %||% ""
+output_path <- function(dir, name, ext) file.path(dir, paste0("equitable_hub_", name, output_tag, ".", ext))
+# note added to figure titles when the population threshold is not the default
+pop_note <- if (eligible_min_pop == 1e6) "" else
+  sprintf(" [host cities >= %s inhabitants]", format(eligible_min_pop, big.mark = ",", scientific = FALSE))
 min_hub_attendees <- 150   # each hub must attract at least this many expected attendees...
 min_hub_attendees_low <- 50 # ...except hubs in these under-represented regions/subregions:
 low_floor_regions <- c("Africa", "Latin America & Caribbean", "Southern Asia", "South-eastern Asia")
@@ -395,11 +403,11 @@ boot_frequency <- boot_selection %>%
   arrange(n_hubs, desc(frequency))
 
 # --- 9. Save Results ---
-write.csv(pareto %>% select(-key), "output/reports/equitable_hub_pareto.csv", row.names = FALSE)
-write.csv(benchmarks, "output/reports/equitable_hub_benchmarks.csv", row.names = FALSE)
+write.csv(pareto %>% select(-key), output_path("output/reports", "pareto", "csv"), row.names = FALSE)
+write.csv(benchmarks, output_path("output/reports", "benchmarks", "csv"), row.names = FALSE)
 write.csv(bind_rows(search_checks, restart_checks %>% mutate(check = "random restarts")),
-          "output/reports/equitable_hub_search_checks.csv", row.names = FALSE)
-write.csv(boot_frequency, "output/reports/equitable_hub_bootstrap.csv", row.names = FALSE)
+          output_path("output/reports", "search_checks", "csv"), row.names = FALSE)
+write.csv(boot_frequency, output_path("output/reports", "bootstrap", "csv"), row.names = FALSE)
 
 # --- 10. Figures ---
 short_hubs <- function(h) str_replace_all(h, " \\([^)]*\\)", "")
@@ -420,7 +428,7 @@ plot_front <- function(scen, title) {
     scale_x_continuous(labels = scales::percent, limits = c(0, 1.02)) +
     scale_y_continuous(expand = expansion(mult = 0.12)) +
     coord_cartesian(clip = "off") +
-    labs(title = title,
+    labs(title = paste0(title, pop_note),
          subtitle = sprintf(paste0("Blue: Pareto-optimal hub sets (ringed: knee). Orange: past hosts and 07_ scenarios. ",
                                    "Coverage = mean over 6 world regions of the community share within %s km of a hub"),
                             format(coverage_km, big.mark = ",")),
@@ -430,9 +438,9 @@ plot_front <- function(scen, title) {
           strip.text = element_text(face = "bold"))
 }
 plot_front("primary", "Footprint vs. coverage of the neuroimaging community (decay slope from fixed effects)")
-ggsave("output/figures/equitable_hub_pareto.png", width = 15, height = 9, dpi = 200)
+ggsave(output_path("output/figures", "pareto", "png"), width = 15, height = 9, dpi = 200)
 plot_front("sensitivity", "Footprint vs. coverage, sensitivity case (steeper decay slope from the offset model)")
-ggsave("output/figures/equitable_hub_pareto_sensitivity.png", width = 15, height = 9, dpi = 200)
+ggsave(output_path("output/figures", "pareto_sensitivity", "png"), width = 15, height = 9, dpi = 200)
 
 # Knee solutions on maps: institutions shaded by distance to their nearest hub
 world_map <- map_data("world")
@@ -466,13 +474,13 @@ ggplot() +
   scale_size_area(max_size = 3, guide = "none") +
   facet_wrap(~n_hubs, ncol = 2, labeller = labeller(n_hubs = set_names(facet_titles$title, facet_titles$n_hubs))) +
   coord_quickmap(xlim = c(-170, 180), ylim = c(-50, 72), expand = FALSE) +
-  labs(title = "Knee solutions: hub sets with the best footprint/coverage compromise for each number of hubs",
+  labs(title = paste0("Knee solutions: hub sets with the best footprint/coverage compromise for each number of hubs", pop_note),
        subtitle = "Institutions sized by neuroimaging articles and shaded by distance to their nearest hub") +
   theme_void() +
   theme(plot.title = element_text(face = "bold"), legend.position = "top",
         plot.background = element_rect(fill = "white", color = NA),
         strip.text = element_text(face = "bold", margin = margin(b = 3)))
-ggsave("output/figures/equitable_hub_knee_maps.png", width = 15, height = 10.5, dpi = 200)
+ggsave(output_path("output/figures", "knee_maps", "png"), width = 15, height = 10.5, dpi = 200)
 
 # Bootstrap selection frequency
 boot_frequency %>%
@@ -487,24 +495,24 @@ boot_frequency %>%
   scale_y_discrete(labels = \(x) sub("___.*", "", x)) +
   scale_x_continuous(labels = scales::percent, limits = c(0, 1)) +
   facet_wrap(~n_hubs, scales = "free_y", nrow = 2, labeller = labeller(n_hubs = \(x) paste(x, "hub(s)"))) +
-  labs(title = "How robust are the knee solutions? Selection frequency over bootstrap replicates",
+  labs(title = paste0("How robust are the knee solutions? Selection frequency over bootstrap replicates", pop_note),
        subtitle = sprintf("%d replicates resampling institutions and the decay slope; dashed line: 80%%", n_boot),
        x = "Share of replicates in which the city is a hub", y = NULL) +
   theme_minimal() +
   theme(plot.title = element_text(face = "bold"), panel.grid.minor = element_blank(),
         strip.text = element_text(face = "bold"))
-ggsave("output/figures/equitable_hub_bootstrap.png", width = 14, height = 8, dpi = 200)
+ggsave(output_path("output/figures", "bootstrap", "png"), width = 14, height = 8, dpi = 200)
 
 # Results kept for the methods document and further exploration
 saveRDS(list(pareto = pareto, benchmarks = benchmarks, runs = bind_rows(purrr::map(results, "runs")),
              search_checks = search_checks, restart_checks = restart_checks,
              knee_lambda = knee_lambda, boot_frequency = boot_frequency,
-             parameters = list(eligible_min_pop = eligible_min_pop, min_hub_attendees = min_hub_attendees,
+             parameters = list(eligible_min_pop = eligible_min_pop, output_tag = output_tag, min_hub_attendees = min_hub_attendees,
                                min_hub_attendees_low = min_hub_attendees_low, low_floor_regions = low_floor_regions,
                                coverage_tolerance = coverage_tolerance,
                                coverage_km = coverage_km, lambdas = lambdas, epsilons = epsilons,
                                n_random_starts = n_random_starts, n_boot = n_boot)),
-        "output/equitable_hub_results.rds")
+        output_path("output", "results", "rds"))
 
 # ============================================================
 # --- Exploration (not part of the saved pipeline outputs) ---

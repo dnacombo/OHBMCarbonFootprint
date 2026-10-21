@@ -82,6 +82,11 @@ reading another script's output. Logs go to `output/logs/`.
    ε-dominance (0.5 pt) on the front;
    Pareto front, knee solutions, benchmarks, exhaustive k = 2 check, bootstrap stability. Slow (~1 h+).
    → `output/reports/equitable_hub_*.csv`, `output/figures/equitable_hub_*.png`, `output/equitable_hub_results.rds`.
+   - `R/13b_equitable_hub_selection_pop250k.R` — city-size sensitivity of `13_`: hosts ≥ 250k inhabitants
+     (1,565 cities instead of 313). It does not copy `13_`: it sets `hub_selection_overrides`
+     (`eligible_min_pop`, `output_tag`) and sources `13_` inside `local()`; `13_` reads those through
+     `get0()` and names every output with `output_path()`, so outputs get the `_pop250k` suffix. Several hours.
+     Any new output in `13_` must go through `output_path()` so 13b doesn't overwrite it.
 
 Methods, formulas, decisions and references for 11–13 are in `docs/methods_hub_selection.md` — keep it in
 sync when changing those scripts. `README.md` has the user-facing pipeline table and headline results; update
