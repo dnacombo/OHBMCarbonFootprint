@@ -1,0 +1,168 @@
+"n_hubs","hub","times_selected","frequency"
+1,"Bonn (Germany)",50,0.5
+1,"Aachen (Germany)",22,0.22
+1,"Antwerp (Belgium)",14,0.14
+1,"Monchengladbach (Germany)",10,0.1
+1,"Rotterdam (Netherlands)",2,0.02
+1,"Wahran (Algeria)",2,0.02
+2,"Atlanta (USA)",76,0.76
+2,"Bonn (Germany)",50,0.5
+2,"Aachen (Germany)",35,0.35
+2,"Monchengladbach (Germany)",14,0.14
+2,"Cleveland (USA)",11,0.11
+2,"Columbus (USA)",8,0.08
+2,"Cincinnati (USA)",3,0.03
+2,"Milwaukee (USA)",2,0.02
+2,"Brussels (Belgium)",1,0.01
+3,"Atlanta (USA)",92,0.92
+3,"Jingdezhen (China)",62,0.62
+3,"Bonn (Germany)",50,0.5
+3,"Aachen (Germany)",36,0.36
+3,"Langfang (China)",29,0.29
+3,"Cleveland (USA)",5,0.05
+3,"Monchengladbach (Germany)",5,0.05
+3,"Wahran (Algeria)",5,0.05
+3,"Hangzhou (China)",3,0.03
+3,"Brussels (Belgium)",2,0.02
+3,"Columbus (USA)",2,0.02
+3,"Jiaxing (China)",2,0.02
+3,"Suzhou (China)",2,0.02
+3,"Algiers (Algeria)",1,0.01
+3,"Antwerp (Belgium)",1,0.01
+3,"Huangshi (China)",1,0.01
+3,"Mianyang (China)",1,0.01
+3,"Milwaukee (USA)",1,0.01
+4,"Atlanta (USA)",84,0.84
+4,"Melbourne (Australia)",76,0.76
+4,"Jingdezhen (China)",53,0.53
+4,"Bonn (Germany)",50,0.5
+4,"Langfang (China)",37,0.37
+4,"Aachen (Germany)",36,0.36
+4,"Cleveland (USA)",9,0.09
+4,"Sydney (Australia)",6,0.06
+4,"Columbus (USA)",5,0.05
+4,"Monchengladbach (Germany)",5,0.05
+4,"Wahran (Algeria)",5,0.05
+4,"Wollongong (Australia)",5,0.05
+4,"Hangzhou (China)",3,0.03
+4,"Brussels (Belgium)",2,0.02
+4,"Puente Alto (Chile)",2,0.02
+4,"Suzhou (China)",2,0.02
+4,"Varzea Grande (Brazil)",2,0.02
+4,"Algiers (Algeria)",1,0.01
+4,"Antwerp (Belgium)",1,0.01
+4,"Campo Grande (Brazil)",1,0.01
+4,"Cape Town (South Africa)",1,0.01
+4,"Chongqing (China)",1,0.01
+4,"Cincinnati (USA)",1,0.01
+4,"Durban (South Africa)",1,0.01
+4,"Guarulhos (Brazil)",1,0.01
+4,"Huangshi (China)",1,0.01
+4,"Irkutsk (Russia)",1,0.01
+4,"Jiaxing (China)",1,0.01
+4,"Jujuy (Argentina)",1,0.01
+4,"Juliaca (Peru)",1,0.01
+4,"Mianyang (China)",1,0.01
+4,"Milwaukee (USA)",1,0.01
+4,"Pelotas (Brazil)",1,0.01
+4,"Salta (Argentina)",1,0.01
+4,"Santa Cruz (Bolivia)",1,0.01
+5,"Melbourne (Australia)",76,0.76
+5,"Langfang (China)",71,0.71
+5,"Aachen (Germany)",60,0.6
+5,"Newark (USA)",39,0.39
+5,"Varzea Grande (Brazil)",30,0.3
+5,"Bonn (Germany)",22,0.22
+5,"Suzhou (China)",15,0.15
+5,"Cleveland (USA)",13,0.13
+5,"Santa Cruz (Bolivia)",13,0.13
+5,"Atlanta (USA)",10,0.1
+5,"Monchengladbach (Germany)",10,0.1
+5,"Toronto (Canada)",10,0.1
+5,"Stockton (USA)",9,0.09
+5,"Columbus (USA)",8,0.08
+5,"Hangzhou (China)",8,0.08
+5,"Los Angeles (USA)",8,0.08
+5,"Boston (USA)",6,0.06
+5,"Cincinnati (USA)",6,0.06
+5,"Jiaxing (China)",6,0.06
+5,"Jujuy (Argentina)",6,0.06
+5,"Sydney (Australia)",6,0.06
+5,"Brussels (Belgium)",5,0.05
+5,"Buenos Aires (Argentina)",5,0.05
+5,"Wollongong (Australia)",5,0.05
+5,"Salta (Argentina)",4,0.04
+5,"Sorocaba (Brazil)",4,0.04
+5,"Hamilton (Canada)",3,0.03
+5,"Milwaukee (USA)",3,0.03
+5,"Puente Alto (Chile)",3,0.03
+5,"Anaheim (USA)",2,0.02
+5,"Antwerp (Belgium)",2,0.02
+5,"Asuncion (Paraguay)",2,0.02
+5,"Cape Town (South Africa)",2,0.02
+5,"London (UK)",2,0.02
+5,"Pelotas (Brazil)",2,0.02
+5,"Philadelphia (USA)",2,0.02
+5,"Saint Catharines-Niagara (Canada)",2,0.02
+5,"San Jose (USA)",2,0.02
+5,"Tucuman (Argentina)",2,0.02
+5,"Algiers (Algeria)",1,0.01
+5,"Antofagasta (Chile)",1,0.01
+5,"Aparecida de Goiania (Brazil)",1,0.01
+5,"Campo Grande (Brazil)",1,0.01
+5,"Cochabamba (Bolivia)",1,0.01
+5,"Corrientes (Argentina)",1,0.01
+5,"Guaruja (Brazil)",1,0.01
+5,"Indianapolis (USA)",1,0.01
+5,"La Plata (Argentina)",1,0.01
+5,"Osasco (Brazil)",1,0.01
+5,"Rosario (Argentina)",1,0.01
+5,"Rotterdam (Netherlands)",1,0.01
+5,"Sao Paulo (Brazil)",1,0.01
+5,"Toledo (USA)",1,0.01
+5,"Victoria (Mexico)",1,0.01
+5,"Winnipeg (Canada)",1,0.01
+6,"Newark (USA)",85,0.85
+6,"Melbourne (Australia)",76,0.76
+6,"Langfang (China)",73,0.73
+6,"Aachen (Germany)",54,0.54
+6,"Stockton (USA)",37,0.37
+6,"London (UK)",31,0.31
+6,"Los Angeles (USA)",26,0.26
+6,"Buenos Aires (Argentina)",22,0.22
+6,"Jiaxing (China)",16,0.16
+6,"La Plata (Argentina)",16,0.16
+6,"Bonn (Germany)",14,0.14
+6,"Suzhou (China)",14,0.14
+6,"Monchengladbach (Germany)",12,0.12
+6,"San Jose (USA)",12,0.12
+6,"Sorocaba (Brazil)",11,0.11
+6,"Boston (USA)",10,0.1
+6,"Anaheim (USA)",8,0.08
+6,"Frankfurt (Germany)",8,0.08
+6,"Varzea Grande (Brazil)",7,0.07
+6,"Salta (Argentina)",6,0.06
+6,"Santa Cruz (Bolivia)",6,0.06
+6,"Sydney (Australia)",6,0.06
+6,"Rotterdam (Netherlands)",5,0.05
+6,"Saint Catharines-Niagara (Canada)",5,0.05
+6,"Wollongong (Australia)",5,0.05
+6,"Zurich (Switzerland)",4,0.04
+6,"Hangzhou (China)",3,0.03
+6,"Jujuy (Argentina)",3,0.03
+6,"Paris (France)",3,0.03
+6,"Puente Alto (Chile)",3,0.03
+6,"Antofagasta (Chile)",2,0.02
+6,"Gelsenkirchen (Germany)",2,0.02
+6,"Guaruja (Brazil)",2,0.02
+6,"Mannheim (Germany)",2,0.02
+6,"Philadelphia (USA)",2,0.02
+6,"Atlanta (USA)",1,0.01
+6,"Augsburg (Germany)",1,0.01
+6,"Brussels (Belgium)",1,0.01
+6,"Diadema (Brazil)",1,0.01
+6,"Duisburg (Germany)",1,0.01
+6,"Guarulhos (Brazil)",1,0.01
+6,"Milan (Italy)",1,0.01
+6,"Osasco (Brazil)",1,0.01
+6,"Turin (Italy)",1,0.01

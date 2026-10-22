@@ -75,7 +75,8 @@ sites <- cities %>%
   filter(population >= eligible_min_pop | label %in% unlist(benchmark_sets)) %>%
   distinct(label, .keep_all = TRUE) %>%
   mutate(eligible = population >= eligible_min_pop,
-         iso2 = countrycode(country, "country.name", "iso2c"),
+         iso2 = countrycode(country, "country.name", "iso2c",
+                            custom_match = c("Canary Islands" = "ES", Kosovo = "XK")),
          region = countrycode(iso2, "iso2c", "un.region.name", custom_match = c(TW = "Asia", XK = "Europe")),
          subregion = countrycode(iso2, "iso2c", "un.regionsub.name",
                                  custom_match = c(TW = "Eastern Asia", XK = "Southern Europe")),
